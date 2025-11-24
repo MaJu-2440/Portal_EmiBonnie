@@ -1,0 +1,125 @@
+{
+  "id": "us-series",
+  "titulo": "US THE SERIES",
+  "descricao_curta": "Drama romântico GL focado em relacionamentos saudáveis.",
+  "descricao_completa": "Anunciada durante o evento GMMTV2024, Us é uma série tailandesa de drama romântico entre mulheres (GL) com ênfase no desenvolvimento de um relacionamento realista e saudável, estrelada por Thasorn Klinnium (Emi) e Pattraphus Borattasuwan (Bonnie).",
+  "ficha_tecnica": "Lançada pela produtora GMMTV e adaptada da novel 'Us' (US : รักของเรา) escrita por Chao Pla Noy, dirigida por Fon Kanittha Kwunyoo.",
+  "sinopse": "Dokrak (Bonnie Pattraphus), de vinte anos, decide tirar um ano sabático. Ela tem um emprego de meio período em uma cafeteria na galeria Art & Us, onde cruza caminhos com Pam (Emi Thasorn). À medida que Dokrak conhece Pam, desenvolve uma paixão. No entanto, seu irmão Kawi se apaixona por Pam à primeira vista e pede ajuda a Dokrak para conquistá-la.",
+  "imagem_capa": "/img/Us_Poster_1.jpg",
+  "info_tecnica": {
+      "numero_episodios": 12,
+      "exibicao": "Youtube GMMTV",
+      "duracao_media": "45min",
+      "ano_lancamento": "2025",
+      "classificacao": "+13",
+      "lingua_original": "Tailandês",
+      "genero": ["Romance", "Drama"]
+  },
+  "episodios": [
+    {
+      "numero": 1,
+      "titulo": "Eu amo, logo minto",
+      "sinopse": "Depois que Dokrak conhece a estudante de odontologia Pam, ela mal pode esperar para vê-la novamente. Seus sentimentos ficam fortes, mas seu irmão confessa que gosta de Pam. Deixando seus sentimentos de lado, Dokrak tenta ajudá-lo.",
+      "data_exibicao": "18/01/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 2,
+      "titulo": "Sexta-feira à Noite Azul",
+      "sinopse": "Pam é convidada a se juntar ao clube Blue Friday Night da Art & Us. Nene entra na órbita de Dokrak com intenções misteriosas.",
+      "data_exibicao": "25/01/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 3,
+      "titulo": "Me Desculpe por ter Confessado",
+      "sinopse": "Entre olhares persistentes e encontros não tão casuais, uma conexão parece se formar entre Dokrak e Pam. Pam começa a questionar os planos de Nene.",
+      "data_exibicao": "01/02/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 4,
+      "titulo": "Enterrei Bem Fundo",
+      "sinopse": "As emoções entre Pam e Dokrak ficam mais complicadas e agora Dokrak se vê em um dilema entre apoiar o irmão e esconder o que sente.",
+      "data_exibicao": "08/02/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 5,
+      "titulo": "Amor em meio a Segredos",
+      "sinopse": "O passado de Pam começa a surgir, levantando tensões sutis entre Pam e Nene, abrindo espaço para conflitos internos.",
+      "data_exibicao": "15/02/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 6,
+      "titulo": "Quem é culpado: Amor ou Nós?",
+      "sinopse": "Enquanto cada um enfrenta seus próprios desafios, a amizade verdadeira pode ser uma força transformadora. Em meio ao caos emocional, Pam encontra coragem para se abrir.",
+      "data_exibicao": "22/02/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 7,
+      "titulo": "Lar Doce Lar",
+      "sinopse": "Pam e Dokrak vivem momentos mais íntimos, mas Dokrak ainda não se sente pronta para assumir publicamente. Nene continua a fazer planos.",
+      "data_exibicao": "01/03/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 8,
+      "titulo": "Casa Sem Família",
+      "sinopse": "Dokrak enfrenta o peso de confessar sua verdade para Kawi e lidar com a expectativa de resposta.",
+      "data_exibicao": "08/03/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 9,
+      "titulo": "O Pedido de Desculpas",
+      "sinopse": "Escolhas difíceis, revelações e pontes emocionais sendo testadas.",
+      "data_exibicao": "15/03/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 10,
+      "titulo": "A Bandagem",
+      "sinopse": "Pam e Dokrak confrontam os limites da sua nova intimidade enquanto lidam com as urgências familiares.",
+      "data_exibicao": "22/03/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 11,
+      "titulo": "O Amor de Nós",
+      "sinopse": "Pam enfrenta seu passado e Dokrak reflete seu próprio valor. O apoio emocional entre elas se torna fundamental.",
+      "data_exibicao": "29/03/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    },
+    {
+      "numero": 12,
+      "titulo": "Diga Adeus e Comece do Zero",
+      "sinopse": "Dokrak e Pam se unem em uma nova fase para a vida delas, com suavidade e esperança por dias melhores.",
+      "data_exibicao": "05/04/2025",
+      "imagem": "/img/Us_Poster_EP1.jpg"
+    }
+  ],
+  "elenco": [
+    { "ator": "Thasorn Klinnium (Emi)", "personagem": "Pam" },
+    { "ator": "Pattraphus Borattasuwan (Bonnie)", "personagem": "Dokrak" },
+    { "ator": "Harit Cheewagaroon (Sing)", "personagem": "Kawi" },
+    { "ator": "Benyapa Jeenprasom (View)", "personagem": "Oat" },
+    { "ator": "Rattanawadee Wongthong (Mim)", "personagem": "Nene" },
+    { "ator": "Penpetch Benyakul (Jab)", "personagem": "Khem" },
+    { "ator": "Ramavadee Kanchudtree (Pupae)", "personagem": "Orn" },
+    { "ator": "Sansanee Wattananukul (Nid)", "personagem": "Vovó Bua" },
+    { "ator": "Pumpkin", "personagem": "Titang" },
+    { "ator": "Leo Saussay", "personagem": "Aek" },
+    { "ator": "Patsit Permpoonsavat (Soodyacht)", "personagem": "Peem" },
+    { "ator": "Samantha Melanie Coates (Sammy)", "personagem": "Natcha" },
+    { "ator": "Singha Luangsuntorn", "personagem": "Koi - EP9" }
+  ],
+  "trilha_sonora": [
+    { "titulo": "Kissin' Out of Dream", "artista": "SIN", "ref": "https://youtu.be/CEAd0AHeqfc" },
+    { "titulo": "Between Us", "artista": "Bonnie Pattraphus", "ref": "https://youtu.be/BG_yN4HCr44" },
+    { "titulo": "More Than Words", "artista": "Emi Thasorn", "ref": "https://youtu.be/ID_pd9Ni3nk" },
+    { "titulo": "Kissin' Out of Dream", "artista": "Emi Thasorn, Bonnie Pattraphus", "ref": "https://youtu.be/YF30_ksQ8qg" }
+  ]
+}
