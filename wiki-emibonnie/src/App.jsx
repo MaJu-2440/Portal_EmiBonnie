@@ -109,6 +109,25 @@ function App() {
                 />
               ))}
             </div>
+            <hr />
+          </section>
+
+          <section id="elenco">
+            <h2>
+              Elenco<i className="fa-solid fa-angle-up"></i>
+            </h2>
+
+            <div className="toggle-div">
+              <ul className="lista">
+                {usData.elenco.map((item, index) => (
+                  <li key={index}>
+                    {item.ator} como {item.personagem}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <hr />
           </section>
         </section>
       </main>
