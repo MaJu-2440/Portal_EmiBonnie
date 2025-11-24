@@ -129,6 +129,42 @@ function App() {
 
             <hr />
           </section>
+
+          <section id="trilha">
+            <h2>
+              Trilha Sonora<i className="fa-solid fa-angle-up"></i>
+            </h2>
+
+            <div className="toggle-div">
+              <table className="tabela_trilha">
+                <thead>
+                  <tr>
+                    <th>Título</th>
+                    <th>Artista(s)</th>
+                    <th>Referência</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {usData.trilha_sonora.map((item, index) => (
+                    <tr key={index}>
+                      <td>{item.titulo}</td>
+                      <td>{item.artista}</td>
+                      <td>
+                        <a
+                          href={item.ref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          YouTube
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <hr />
+          </section>
         </section>
       </main>
       <Footer />
