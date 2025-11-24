@@ -73,6 +73,25 @@ function App() {
             <hr />
           </section>
 
+          <section id="sinopse">
+            <h2>
+              Sinópse<i className="fa-solid fa-angle-up"></i>
+            </h2>
+            <div className="toggle-div">
+              <p dangerouslySetInnerHTML={{ __html: usData.sinopse }} />
+            </div>
+            <div className="btn">
+              <a
+                href="https://www.youtube.com/watch?v=E2KFC2etiWc&list=PLszepnkojZI7mOWtISfvxWVPikIM6yiXE&index=66&pp=iAQB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Assista ao trailer
+              </a>
+            </div>
+            <hr />
+          </section>
+
           <section id="episodios">
             <h2>
               Episódios<i className="fa-solid fa-angle-up"></i>
