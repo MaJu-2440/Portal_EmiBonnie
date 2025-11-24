@@ -1,0 +1,6 @@
+.footer {
+    background: linear-gradient(var(--background-dark) 0%, var(--background-dark-transparente) 100%);
+    text-align: center;
+    padding: 1rem;
+    font-size: .6rem;
+}

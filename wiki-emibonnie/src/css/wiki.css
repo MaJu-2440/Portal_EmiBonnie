@@ -1,0 +1,259 @@
+header {
+    background: var(--destaque-bonnie);
+}
+
+header a, header details summary {
+    color: var(--texto);
+    font-weight: 500;
+}
+
+header a:hover, header details summary:hover {
+    color: var(--destaque-emi);
+    text-decoration: none;
+}
+
+header .logo a:hover {
+    color: var(--texto);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.details_content {
+    border: 2px solid var(--destaque-bonnie);
+    border-radius: 8px;
+    background-color: var(--background-dark);
+}
+
+#principal {
+    position: relative;
+}
+
+.content_container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.details_content .poster_series {
+    max-width: 60%;
+    transform: translateY(-15px);
+    margin: 0 auto;
+}
+
+.poster_series img {
+    width: 100%;
+}
+
+.details_content h2 {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    background: var(--destaque-bonnie);
+}
+
+.info_series {
+    border: 1px solid var(--destaque-bonnie);
+    font-size: .8rem;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info_series tr {
+    border-bottom: 1px solid var(--destaque-bonnie);
+}
+
+.info_series td, .info_series th {
+    padding: .8rem;
+}
+
+a {
+    color: var(--destaque-emi);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--destaque-bonnie);
+}
+
+.indice-btn {
+    background: var(--background-sombra);
+    color: var(--destaque-emi);
+    padding: .6rem .8rem;
+    border-radius: 50% 0 0 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    
+    position: fixed;
+    top: 30%;
+    right: 0;
+    transform: translateX(15%);
+    z-index: 1;
+}
+
+.indice-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    
+    i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+    }
+
+    .fa-list {
+        opacity: 1;
+    }
+
+    .fa-xmark {
+        opacity: 0;
+    }
+}
+
+.indice-icons.toggle {
+    .fa-list {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    .fa-xmark {
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+}
+
+.indice {
+    position: fixed;
+    top: 30%;
+    right: 3.5rem;
+    background: var(--background-sombra);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    width: 75%;
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #a5a5a5;
+        margin: .5rem 0;
+    }
+
+    ol {
+        padding-left: 1rem;
+        color: #a5a5a5;
+    }
+
+    ol li {
+        margin-bottom: .5rem;
+    }
+
+    ol a {
+        color: var(--texto);
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    i {
+        transition: transform .3s ease-in-out;
+    }
+
+    i.selected {
+        transform: rotate(180deg);
+    }
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--destaque-bonnie);
+}
+
+.btn {
+    background: var(--destaque-bonnie);
+    padding: .8rem 1.2rem;
+    width: fit-content;
+    border-radius: 36px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+
+    a {
+        color: var(--texto);
+        font-weight: 600;
+    }
+}
+
+.btn:hover {
+    background: var(--destaque-emi);
+    
+    a {
+        color: var(--background-dark);
+        text-decoration: none;
+    }
+}
+
+.episodio_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.episodio_container .episodio_poster {
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+        max-width: 375px;
+        width: 100%;
+    }
+}
+
+#episodios details {
+    margin: .8rem 0;
+}
+
+.lista {
+    padding-left: 1rem;
+    line-height: 1.6;
+}
+
+#trilha .tabela_trilha {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .8rem;
+}
+
+.tabela_trilha thead {
+    background: var(--destaque-bonnie);
+}
+
+.tabela_trilha th, .tabela_trilha td {
+    border: 1px solid var(--destaque-bonnie);
+    padding: .5rem;
+    text-align: left;
+}

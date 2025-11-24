@@ -1,0 +1,159 @@
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+header .logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-mobile {
+  color: var(--texto);
+  cursor: pointer;
+  padding: 0 1rem;
+  width: 24px;
+  height: 24px;
+}
+
+.nav-icons {
+  position: relative;
+
+  i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .fa-bars {
+    opacity: 1;
+  }
+
+  .fa-xmark {
+    opacity: 0;
+  }
+}
+
+.nav-icons.toggle {
+  .fa-bars {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+
+  .fa-xmark {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+}
+
+.nav-mobile_lista {
+  position: absolute;
+  top: 100%;
+  left: 1rem;
+  right: 0;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--background-sombra);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  list-style: none;
+}
+
+.nav-mobile_lista .decoration {
+  color: var(--background-sombra);
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+.nav-mobile_lista li {
+  margin: 0.5rem 0;
+}
+
+.nav-mobile_lista li a {
+  color: var(--texto);
+  font-weight: 500;
+  transition: color 0.3s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+.nav-desktop_lista {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav-desktop_lista details summary::marker {
+    content: "";
+}
+
+.nav-desktop_lista details summary::after {
+    content: " ▼";
+    font-size: 0.8rem;
+}
+
+.nav-desktop_lista details:open summary::after {
+    content: " ▲";
+    font-size: 0.8rem;
+}
+
+.nav-desktop_lista details {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-desktop_lista details ul {
+    position: absolute;
+    top: 150%;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 0.5rem 1rem;
+    min-width: 150px;
+
+    background-color: var(--background-sombra);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    z-index: 3;
+}
+
+.nav-desktop_lista details ul .decoration {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: var(--background-sombra);
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 1rem 3rem;
+    }
+}
