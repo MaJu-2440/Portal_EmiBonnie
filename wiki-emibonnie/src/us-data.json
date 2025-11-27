@@ -122,5 +122,10 @@
     { "titulo": "Between Us", "artista": "Bonnie Pattraphus", "ref": "https://youtu.be/BG_yN4HCr44" },
     { "titulo": "More Than Words", "artista": "Emi Thasorn", "ref": "https://youtu.be/ID_pd9Ni3nk" },
     { "titulo": "Kissin' Out of Dream", "artista": "Emi Thasorn, Bonnie Pattraphus", "ref": "https://youtu.be/YF30_ksQ8qg" }
+  ],
+    "galeria": [
+    { "id": 1, "url": "/img/Us_miniPoster_EP1_1-480.jpeg", "legenda": "Poster da Pam no EP1" },
+    { "id": 2, "url": "/img/Us_miniPoster_EP1_2-480.jpeg", "legenda": "Poster da Rak no EP1" },
+    { "id": 3, "url": "/img/Us_Poster_EP1.jpg", "legenda": "Poster EP1" }
   ]
 }
