@@ -1,10 +1,10 @@
 {
   "slug": "us-series",
   "titulo_da_pagina": "US The Series",
-  "descricao_completa": "Anunciada durante o evento <em>GMMTV2024: UP&ABOVE Parte 2</em>, <strong>Us</strong> é uma série tailandesa de drama romântico entre mulheres (GL) com ênfase no desenvolvimento de um relacionamento realista e saudável, estrelada por <a href='#emi'> Thasorn Klinnium (Emi)</a> e <a href='#bonnie'>Pattraphus Borattasuwan (Bonnie)</a>.",
-  "descricao_tecnica": "Lançada pela produtora GMMTV e adaptada da novel <em>'Us' (US : รักของเรา)</em> escrita por Chao Pla Noy <em>(เจ้าปลาน้อย)</em>, a série é dirigida por Fon Kanittha Kwunyoo e roteirizada por Lalil Kittitanaphan, Naphat Chitveerapat e Nichaphat Buranadilok.",
+  "desc_completa": "Anunciada durante o evento <em>GMMTV2024: UP&ABOVE Parte 2</em>, <strong>Us</strong> é uma série tailandesa de drama romântico entre mulheres (GL) com ênfase no desenvolvimento de um relacionamento realista e saudável, estrelada por <a href='#emi'> Thasorn Klinnium (Emi)</a> e <a href='#bonnie'>Pattraphus Borattasuwan (Bonnie)</a>.",
+  "desc_tecnica": "Lançada pela produtora GMMTV e adaptada da novel <em>'Us' (US : รักของเรา)</em> escrita por Chao Pla Noy <em>(เจ้าปลาน้อย)</em>, a série é dirigida por Fon Kanittha Kwunyoo e roteirizada por Lalil Kittitanaphan, Naphat Chitveerapat e Nichaphat Buranadilok.",
   "imagem_capa": "/img/Us_Poster_1.jpg",
-  "detalhes": [
+  "details": [
     { "title": "Nº de episódios", "desc": "12" },
     { "title": "Duração média", "desc": "45min" },
     { "title": "Exibição", "desc": "Youtube GMMTV" },
