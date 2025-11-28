@@ -23,28 +23,44 @@ export default function SectionRenderer(section) {
       );
 
     case "lista_de_episodios":
-      return (
-        <section>
-          <h2>
-            {section.title}
-            <i className="fa-solid fa-angle-up"></i>
-          </h2>
+      if (section.episodios.length > 0 && section.episodios[0] !== "") {
+        return (
+          <section>
+            <h2>
+              {section.title}
+              <i className="fa-solid fa-angle-up"></i>
+            </h2>
 
-          <div className="toggle-div">
-            {section.episodios.map((episodio) => (
-              <CardEpisodes
-                key={episodio.numero}
-                numero={episodio.numero}
-                titulo={episodio.titulo}
-                sinopse={episodio.sinopse}
-                data_exibicao={episodio.data_exibicao}
-                imagem={episodio.imagem}
-              />
-            ))}
-          </div>
-          <hr />
-        </section>
-      );
+            <div className="toggle-div">
+              {section.episodios.map((episodio) => (
+                <CardEpisodes
+                  key={episodio.numero}
+                  numero={episodio.numero}
+                  titulo={episodio.titulo}
+                  sinopse={episodio.sinopse}
+                  data_exibicao={episodio.data_exibicao}
+                  imagem={episodio.imagem}
+                />
+              ))}
+            </div>
+            <hr />
+          </section>
+        );
+      } else {
+        return (
+          <section>
+            <h2>
+              {section.title}
+              <i className="fa-solid fa-angle-up"></i>
+            </h2>
+
+            <div className="toggle-div">
+              <p>Ainda não há nada aqui...</p>
+            </div>
+            <hr />
+          </section>
+        );
+      }
 
     case "lista_de_elenco":
       return (
@@ -69,44 +85,60 @@ export default function SectionRenderer(section) {
       );
 
     case "tabela_de_trilha_sonora":
-      return (
-        <section>
-          <h2>
-            {section.title}
-            <i className="fa-solid fa-angle-up"></i>
-          </h2>
+      if (section.trilha_sonora.length > 0) {
+        return (
+          <section>
+            <h2>
+              {section.title}
+              <i className="fa-solid fa-angle-up"></i>
+            </h2>
 
-          <div className="toggle-div">
-            <table className="tabela_trilha">
-              <thead>
-                <tr>
-                  <th>Título</th>
-                  <th>Artista(s)</th>
-                  <th>Referência</th>
-                </tr>
-              </thead>
-              <tbody>
-                {section.trilha_sonora.map((item, index) => (
-                  <tr key={index}>
-                    <td>{item.titulo}</td>
-                    <td>{item.artista}</td>
-                    <td>
-                      <a
-                        href={item.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        YouTube
-                      </a>
-                    </td>
+            <div className="toggle-div">
+              <table className="tabela_trilha">
+                <thead>
+                  <tr>
+                    <th>Título</th>
+                    <th>Artista(s)</th>
+                    <th>Referência</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <hr />
-        </section>
-      );
+                </thead>
+                <tbody>
+                  {section.trilha_sonora.map((item, index) => (
+                    <tr key={index}>
+                      <td>{item.titulo}</td>
+                      <td>{item.artista}</td>
+                      <td>
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          YouTube
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <hr />
+          </section>
+        );
+      } else {
+        return (
+          <section>
+            <h2>
+              {section.title}
+              <i className="fa-solid fa-angle-up"></i>
+            </h2>
+
+            <div className="toggle-div">
+              <p>Ainda não há nada aqui...</p>
+            </div>
+            <hr />
+          </section>
+        );
+      }
 
     case "lista_de_links":
       return (
