@@ -1,4 +1,5 @@
 import React from "react";
+import CardEpisodes from "./CardEpisodes";
 
 export default function SectionRenderer(section) {
   switch (section.type) {
@@ -112,17 +113,23 @@ export default function SectionRenderer(section) {
         <section>
           <h2>
             {section.title}
-            <i class="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up"></i>
           </h2>
 
-          <div class="toggle-div">
-            <ul class="lista">
-              {section.links.map((link) => {
-                <li>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    {link.nome}
-                  </a>
-                </li>;
+          <div className="toggle-div">
+            <ul className="lista">
+              {section.links.map((link, index) => {
+                return (
+                  <li key={index}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.nome}
+                    </a>
+                  </li>
+                );
               })}
             </ul>
           </div>
