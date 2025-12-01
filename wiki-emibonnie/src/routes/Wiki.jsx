@@ -3,28 +3,27 @@ import { ErrorBoundary } from "react-error-boundary";
 import usData from "../us-data.json";
 import moonshadowData from "../moonshadow-data.json";
 import SectionRenderer from "../components/SectionRenderer";
+import { useParams } from "react-router-dom";
 
-// const data = {
-//   usData: "us-series",
-//   moonshadowData: "moonshadow-series",
-//   emiData: "emi-thasorn",
-//   bonnieData: "bonnie-pattraphus",
-// };
+const bancoDeDados = [usData, moonshadowData];
 
 export default function Wiki() {
+  const { slug } = useParams();
+  const pageData = bancoDeDados.find((dados) => dados.slug === slug);
+
   return (
     <section className="content_container">
       <section id="principal">
-        <h1>{usData.titulo_da_pagina}</h1>
+        <h1>{pageData.titulo_da_pagina}</h1>
 
         <aside className="details_content">
           <figure className="poster_series">
-            <img src={usData.imagem_capa} alt="Poster da Série Us" />
+            <img src={pageData.imagem_capa} alt="Poster da Série Us" />
           </figure>
 
           <table className="info_series">
             <tbody>
-              {usData.details.map((linha) => {
+              {pageData.details.map((linha) => {
                 return (
                   <tr>
                     <th>{linha.title}</th>
@@ -36,12 +35,12 @@ export default function Wiki() {
           </table>
         </aside>
 
-        <p dangerouslySetInnerHTML={{ __html: usData.desc_completa }} />
-        <p dangerouslySetInnerHTML={{ __html: usData.desc_tecnica }} />
+        <p dangerouslySetInnerHTML={{ __html: pageData.desc_completa }} />
+        <p dangerouslySetInnerHTML={{ __html: pageData.desc_tecnica }} />
         <hr />
       </section>
       <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
-        {usData.sections.map((section, index) => {
+        {pageData.sections.map((section, index) => {
           return <SectionRenderer key={index} {...section} />;
         })}
       </ErrorBoundary>
@@ -52,7 +51,7 @@ export default function Wiki() {
             </h2>
 
             <div className="toggle-div">
-              <Galeria fotos={usData.galeria} />
+              <Galeria fotos={pageData.galeria} />
             </div>
           </section> */}
     </section>

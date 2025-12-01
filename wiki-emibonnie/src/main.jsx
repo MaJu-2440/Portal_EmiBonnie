@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Galeria />,
       },
       {
-        path: "wiki",
+        path: "wiki/:slug",
         element: <Wiki />,
       },
     ],
