@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Wiki from "./routes/Wiki.jsx";
 import Home from "./routes/Home.jsx";
 import Galeria from "./routes/Galeria.jsx";

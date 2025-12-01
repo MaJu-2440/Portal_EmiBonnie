@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="app-container">
       <Header />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );
