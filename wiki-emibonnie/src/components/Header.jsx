@@ -1,10 +1,11 @@
 import React from "react"; // (Opcional nas versões novas, mas bom pra garantir)
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="logo">
-        <a href="#">Portal EmiBonnie</a>
+        <Link to={"/"}>Portal EmiBonnie</Link>
       </div>
 
       <nav className="nav-mobile">
