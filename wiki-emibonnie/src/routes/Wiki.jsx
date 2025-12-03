@@ -1,9 +1,9 @@
 import React from "react";
 import { ErrorBoundary } from "react-error-boundary";
-import usData from "../us-data.json";
-import moonshadowData from "../moonshadow-data.json";
-import SectionRenderer from "../components/SectionRenderer";
 import { useParams } from "react-router-dom";
+import usData from "../data/us-data.json";
+import moonshadowData from "../data/moonshadow-data.json";
+import SectionRenderer from "../components/SectionRenderer";
 
 const bancoDeDados = [usData, moonshadowData];
 

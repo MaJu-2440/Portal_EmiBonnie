@@ -1,0 +1,202 @@
+{
+  "slug": "us-series",
+  "titulo_da_pagina": "US The Series",
+  "desc_completa": "Anunciada durante o evento <em>GMMTV2024: UP&ABOVE Parte 2</em>, <strong>Us</strong> é uma série tailandesa de drama romântico entre mulheres (GL) com ênfase no desenvolvimento de um relacionamento realista e saudável, estrelada por <a href='#emi'> Thasorn Klinnium (Emi)</a> e <a href='#bonnie'>Pattraphus Borattasuwan (Bonnie)</a>.",
+  "desc_tecnica": "Lançada pela produtora GMMTV e adaptada da novel <em>'Us' (US : รักของเรา)</em> escrita por Chao Pla Noy <em>(เจ้าปลาน้อย)</em>, a série é dirigida por Fon Kanittha Kwunyoo e roteirizada por Lalil Kittitanaphan, Naphat Chitveerapat e Nichaphat Buranadilok.",
+  "imagem_capa": "/img/us_posters/Us_Poster_1.jpg",
+  "details": [
+    { "title": "Nº de episódios", "desc": "12" },
+    { "title": "Duração média", "desc": "45min" },
+    { "title": "Exibição", "desc": "Youtube GMMTV" },
+    { "title": "Primeira exibição", "desc": "18 janeiro, 2025" },
+    { "title": "Última exibição", "desc": "5 abril, 2025" },
+    { "title": "Classificação", "desc": "+13" },
+    { "title": "Idioma original", "desc": "Tailandês" }
+  ],
+  "sections": [
+    {
+      "type": "texto_e_url",
+      "title": "Sinopse",
+      "desc": "Dokrak (<a href='#bonnie'>Bonnie Pattraphus</a>), de vinte anos, decide tirar um ano sabático para se encontrar após terminar o ensino médio. Ela tem um emprego de meio período em uma cafeteria na galeria Art & Us. É lá que ela cruza caminhos com Pam (<a href='#emi'>Emi Thasorn</a>), de vinte e dois anos, estudante de odontologia, que é uma frequentadora assídua do café para estudar. À medida que Dokrak conhece Pam, ela desenvolve uma paixão. No entanto, quando seu irmão conhece Pam, ele se apaixona por ela à primeira vista. Kawi (Sing Harit) recorre a Dokrak, pedindo-lhe para ser a casamenteira. Porque ela o ama e quer vê-lo feliz, Dokrak começa a orientá-lo. Com o passar do tempo, no entanto, ela não consegue ignorar seus crescentes sentimentos por Pam. Antes que perceba, está completamente apaixonada, e Pam é namorada de Kawi.",
+      "url": "https://www.youtube.com/watch?v=E2KFC2etiWc&list=PLszepnkojZI7mOWtISfvxWVPikIM6yiXE&index=66&pp=iAQB"
+    },
+    {
+      "type": "lista_de_episodios",
+      "title": "Episódios",
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "Eu amo, logo minto",
+          "sinopse": "Depois que Dokrak conhece a estudante de odontologia Pam, ela mal pode esperar para vê-la novamente. Seus sentimentos ficam fortes, mas seu irmão confessa que gosta de Pam. Deixando seus sentimentos de lado, Dokrak tenta ajudá-lo.",
+          "data_exibicao": "18/01/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP1.jpg"
+        },
+        {
+          "numero": 2,
+          "titulo": "Sexta-feira à Noite Azul",
+          "sinopse": "Pam é convidada a se juntar ao clube Blue Friday Night da Art & Us. Nene entra na órbita de Dokrak com intenções misteriosas.",
+          "data_exibicao": "25/01/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP2.jpg"
+        },
+        {
+          "numero": 3,
+          "titulo": "Me Desculpe por ter Confessado",
+          "sinopse": "Entre olhares persistentes e encontros não tão casuais, uma conexão parece se formar entre Dokrak e Pam. Pam começa a questionar os planos de Nene.",
+          "data_exibicao": "01/02/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP3.jpg"
+        },
+        {
+          "numero": 4,
+          "titulo": "Enterrei Bem Fundo",
+          "sinopse": "As emoções entre Pam e Dokrak ficam mais complicadas e agora Dokrak se vê em um dilema entre apoiar o irmão e esconder o que sente.",
+          "data_exibicao": "08/02/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP4.jpg"
+        },
+        {
+          "numero": 5,
+          "titulo": "Amor em meio a Segredos",
+          "sinopse": "O passado de Pam começa a surgir, levantando tensões sutis entre Pam e Nene, abrindo espaço para conflitos internos.",
+          "data_exibicao": "15/02/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP5.jpg"
+        },
+        {
+          "numero": 6,
+          "titulo": "Quem é culpado: Amor ou Nós?",
+          "sinopse": "Enquanto cada um enfrenta seus próprios desafios, a amizade verdadeira pode ser uma força transformadora. Em meio ao caos emocional, Pam encontra coragem para se abrir.",
+          "data_exibicao": "22/02/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP6.jpg"
+        },
+        {
+          "numero": 7,
+          "titulo": "Lar Doce Lar",
+          "sinopse": "Pam e Dokrak vivem momentos mais íntimos, mas Dokrak ainda não se sente pronta para assumir publicamente. Nene continua a fazer planos.",
+          "data_exibicao": "01/03/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP7.jpg"
+        },
+        {
+          "numero": 8,
+          "titulo": "Casa Sem Família",
+          "sinopse": "Dokrak enfrenta o peso de confessar sua verdade para Kawi e lidar com a expectativa de resposta.",
+          "data_exibicao": "08/03/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP8.jpg"
+        },
+        {
+          "numero": 9,
+          "titulo": "O Pedido de Desculpas",
+          "sinopse": "Escolhas difíceis, revelações e pontes emocionais sendo testadas.",
+          "data_exibicao": "15/03/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP9.jpg"
+        },
+        {
+          "numero": 10,
+          "titulo": "A Bandagem",
+          "sinopse": "Pam e Dokrak confrontam os limites da sua nova intimidade enquanto lidam com as urgências familiares.",
+          "data_exibicao": "22/03/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP10.jpg"
+        },
+        {
+          "numero": 11,
+          "titulo": "O Amor de Nós",
+          "sinopse": "Pam enfrenta seu passado e Dokrak reflete seu próprio valor. O apoio emocional entre elas se torna fundamental.",
+          "data_exibicao": "29/03/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP11.jpg"
+        },
+        {
+          "numero": 12,
+          "titulo": "Diga Adeus e Comece do Zero",
+          "sinopse": "Dokrak e Pam se unem em uma nova fase para a vida delas, com suavidade e esperança por dias melhores.",
+          "data_exibicao": "05/04/2025",
+          "imagem": "/img/us_posters/Us_miniPoster_EP12.jpg"
+        }
+      ]
+    },
+    {
+      "type": "lista_de_elenco",
+      "title": "Elenco",
+      "elenco": [
+        { "ator": "Thasorn Klinnium (Emi)", "personagem": "Pam" },
+        { "ator": "Pattraphus Borattasuwan (Bonnie)", "personagem": "Dokrak" },
+        { "ator": "Harit Cheewagaroon (Sing)", "personagem": "Kawi" },
+        { "ator": "Benyapa Jeenprasom (View)", "personagem": "Oat" },
+        { "ator": "Rattanawadee Wongthong (Mim)", "personagem": "Nene" },
+        { "ator": "Penpetch Benyakul (Jab)", "personagem": "Khem" },
+        { "ator": "Ramavadee Kanchudtree (Pupae)", "personagem": "Orn" },
+        { "ator": "Sansanee Wattananukul (Nid)", "personagem": "Vovó Bua" },
+        { "ator": "Pumpkin", "personagem": "Titang" },
+        { "ator": "Leo Saussay", "personagem": "Aek" },
+        { "ator": "Patsit Permpoonsavat (Soodyacht)", "personagem": "Peem" },
+        { "ator": "Samantha Melanie Coates (Sammy)", "personagem": "Natcha" },
+        { "ator": "Singha Luangsuntorn", "personagem": "Koi - EP9" }
+      ]
+    },
+    {
+      "type": "tabela_de_trilha_sonora",
+      "title": "Trilha Sonora",
+      "trilha_sonora": [
+        {
+          "titulo": "Kissin' Out of Dream",
+          "artista": "SIN",
+          "url": "https://youtu.be/CEAd0AHeqfc"
+        },
+        {
+          "titulo": "Between Us",
+          "artista": "Bonnie Pattraphus",
+          "url": "https://youtu.be/BG_yN4HCr44"
+        },
+        {
+          "titulo": "More Than Words",
+          "artista": "Emi Thasorn",
+          "url": "https://youtu.be/ID_pd9Ni3nk"
+        },
+        {
+          "titulo": "Kissin' Out of Dream",
+          "artista": "Emi Thasorn, Bonnie Pattraphus",
+          "url": "https://youtu.be/YF30_ksQ8qg"
+        }
+      ]
+    },
+    {
+      "type": "lista_de_links",
+      "title": "Links Externos",
+      "links": [
+        {
+          "nome": "Playlist Us - Youtube",
+          "url": "https://youtube.com/playlist?list=PLszepnkojZI7mOWtISfvxWVPikIM6yiXE&si=uDHMLdIM42ButtcN"
+        },
+        {
+          "nome": "Trailer Us - Youtube",
+          "url": "https://youtu.be/E2KFC2etiWc?si=5UT3BVA-3Wa98n_E"
+        },
+        {
+          "nome": "The Story of Us - Youtube",
+          "url": "https://youtube.com/playlist?list=PLbxRNsUNzp7lWbh52gpXEIjuW_8SHBjPy&si=BOfkh0h5lPNoUgY-"
+        },
+        {
+          "nome": "Bastidores Us - Youtube",
+          "url": "https://youtube.com/playlist?list=PLbxRNsUNzp7nHxQTEOcnU6nJn7IO7XGMa&si=6XSnbJ4o6i82vcOj"
+        },
+        { "nome": "Us - Twitter", "url": "http://x.com/USseriesth" },
+        { "nome": "GMMTV - Twitter", "url": "http://x.com/GMMTV" },
+        { "nome": "GMMTV - Youtube", "url": "http://youtube.com/GMMTV" }
+      ]
+    },
+    {
+      "type": "lista_de_links",
+      "title": "Fontes e Referências",
+      "links": [
+        {
+          "nome": "UsTheSeries - Wikipedia",
+          "url": "https://www.youtube.com/watch?v=1EauB0mRMGo&list=PLszepnkojZI7mOWtISfvxWVPikIM6yiXE"
+        },
+        {
+          "nome": "Entrevista com EmiBonnie - Lesbocine",
+          "url": "https://lesbocine.com/emi-e-bonnie-falam-sobre-o-amor-a-atuacao-e-o-futuro-alem-de-us-o-seu-gl-de-estreia/"
+        },
+        {
+          "nome": "Us - MyDramaList",
+          "url": "https://mydramalist.com/738599-us/"
+        }
+      ]
+    }
+  ]
+}
