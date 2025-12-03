@@ -1,0 +1,79 @@
+/* Container principal - define o tamanho máximo */
+.carousel-container {
+  position: relative; /* Importante para os botões absolutos funcionarem */
+  width: 100%;
+  max-width: 600px; /* Tamanho máximo do carrossel */
+  margin: 0 auto;   /* Centraliza na tela */
+  border-radius: 12px;
+  overflow: hidden; /* Corta o que passar da borda */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Área da imagem */
+.carousel-display {
+  width: 100%;
+  height: 350px; /* Altura fixa para não pular layout */
+  background-color: #000;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem preencher sem esticar/deformar */
+  transition: opacity 0.3s;
+}
+
+/* Legenda flutuante */
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Fundo preto transparente */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Botões de Navegação */
+.btn-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Centraliza verticalmente exato */
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btn-nav:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.btn-left { left: 0; }
+.btn-right { right: 0; }
+
+/* Bolinhas indicadoras */
+.indicadores {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.bolinha {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bolinha.ativa {
+  background-color: #ff69b4; /* Cor de destaque (Rosa) */
+  transform: scale(1.2);
+}
