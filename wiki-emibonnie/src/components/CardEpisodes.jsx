@@ -8,7 +8,7 @@ export default function SerieEpisodes({
   imagem,
 }) {
   return (
-    <details key={numero}>
+    <details className="episodio_toggle" key={numero}>
       <summary>
         <strong>
           EP{String(numero).padStart(2, "0")}: {titulo}

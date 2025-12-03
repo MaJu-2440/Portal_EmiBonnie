@@ -30,7 +30,3 @@ body {
 main {
     background: linear-gradient(var(--background-dark-transparente) 0%, var(--background-dark) 100vh);
 }
-
-.display-none {
-    display: none;
-}
