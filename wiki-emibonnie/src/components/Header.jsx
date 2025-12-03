@@ -1,6 +1,7 @@
 import React from "react"; // (Opcional nas versões novas, mas bom pra garantir)
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import icon from "../assets/icon-emibonnie__white.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,9 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <Link to={"/"}>Portal EmiBonnie</Link>
+        <Link to={"/"}>
+          <img src={icon} alt="Logo Portal EmiBonnie" />
+        </Link>
       </div>
 
       <nav onClick={handleMenuToggle} className="nav-mobile">
