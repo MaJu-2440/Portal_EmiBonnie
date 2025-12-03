@@ -2,21 +2,28 @@ import React from "react";
 import CardEpisodes from "./CardEpisodes";
 
 export default function SectionRenderer(section) {
+  const divToggle = (event) => {
+    const icon = event.currentTarget;
+    const contentDiv = icon.parentElement.nextElementSibling;
+    icon.classList.toggle("selected");
+    contentDiv.toggleAttribute("hidden");
+  };
+
   switch (section.type) {
     case "texto_e_url":
       return (
         <section>
           <h2>
             {section.title}
-            <i className="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
           </h2>
           <div className="toggle-div">
             <p dangerouslySetInnerHTML={{ __html: section.desc }} />
-          </div>
-          <div className="btn">
-            <a href={section.url} target="_blank" rel="noopener noreferrer">
-              Assista ao trailer
-            </a>
+            <div className="btn">
+              <a href={section.url} target="_blank" rel="noopener noreferrer">
+                Assista ao trailer
+              </a>
+            </div>
           </div>
           <hr />
         </section>
@@ -28,7 +35,7 @@ export default function SectionRenderer(section) {
           <section>
             <h2>
               {section.title}
-              <i className="fa-solid fa-angle-up"></i>
+              <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
             </h2>
 
             <div className="toggle-div">
@@ -51,10 +58,10 @@ export default function SectionRenderer(section) {
           <section>
             <h2>
               {section.title}
-              <i className="fa-solid fa-angle-up"></i>
+              <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
             </h2>
 
-            <div className="toggle-div">
+            <div>
               <p>Ainda não há nada aqui...</p>
             </div>
             <hr />
@@ -67,7 +74,7 @@ export default function SectionRenderer(section) {
         <section>
           <h2>
             {section.title}
-            <i className="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
           </h2>
 
           <div className="toggle-div">
@@ -90,7 +97,7 @@ export default function SectionRenderer(section) {
           <section>
             <h2>
               {section.title}
-              <i className="fa-solid fa-angle-up"></i>
+              <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
             </h2>
 
             <div className="toggle-div">
@@ -129,10 +136,10 @@ export default function SectionRenderer(section) {
           <section>
             <h2>
               {section.title}
-              <i className="fa-solid fa-angle-up"></i>
+              <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
             </h2>
 
-            <div className="toggle-div">
+            <div>
               <p>Ainda não há nada aqui...</p>
             </div>
             <hr />
@@ -145,7 +152,7 @@ export default function SectionRenderer(section) {
         <section>
           <h2>
             {section.title}
-            <i className="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
           </h2>
 
           <div className="toggle-div">

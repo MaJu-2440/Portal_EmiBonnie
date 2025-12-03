@@ -44,16 +44,6 @@ export default function Wiki() {
           return <SectionRenderer key={index} {...section} />;
         })}
       </ErrorBoundary>
-
-      {/* <section id="galeria">
-            <h2>
-              Galeria<i className="fa-solid fa-angle-up"></i>
-            </h2>
-
-            <div className="toggle-div">
-              <Galeria fotos={pageData.galeria} />
-            </div>
-          </section> */}
     </section>
   );
 }
