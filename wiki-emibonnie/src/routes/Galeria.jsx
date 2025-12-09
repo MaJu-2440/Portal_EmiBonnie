@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import galeriaData from "../data/galeria.json";
+import "../css/Galeria.css";
 
 export default function Galeria() {
   const [filtroProjeto, setFiltroProjeto] = useState("todos");
@@ -29,5 +30,66 @@ export default function Galeria() {
     .filter((ep) => ep !== null)
     .sort((a, b) => a - b);
 
-  return <div>Galeria</div>;
+  return (
+    <div className="pagina-galeria">
+      {/* --- ÁREA DE FILTROS --- */}
+      <div className="filtros-wrapper">
+        {/* Filtro de Projeto */}
+        <select
+          value={filtroProjeto}
+          onChange={(e) => setFiltroProjeto(e.target.value)}
+        >
+          <option value="todos">Todos os Projetos</option>
+          {projetos.map((proj) => (
+            <option key={proj} value={proj}>
+              {proj.toUpperCase()} {/* Deixa bonitinho em maiúsculo */}
+            </option>
+          ))}
+        </select>
+
+        {/* ... AGORA É COM VOCÊ: FAÇA OS SELECTS DE TIPO E EPISÓDIO ... */}
+        {/* Filtro de Tipo */}
+        <select
+          value={filtroTipo}
+          onChange={(e) => setFiltroTipo(e.target.value)}
+        >
+          <option value="todos">Todos os Tipos</option>
+          {tipos.map((tipo) => (
+            <option key={tipo} value={tipo}>
+              {tipo.toUpperCase()}
+            </option>
+          ))}
+        </select>
+
+        {/* Filtro de Episódio */}
+        <select
+          value={filtroEpisodio}
+          onChange={(e) => setFiltroEpisodio(e.target.value)}
+        >
+          <option value="todos">Todos os Episódios</option>
+          {episodios.map((ep) => (
+            <option key={ep} value={String(ep)}>
+              Episódio {ep}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* --- GRID DE FOTOS --- */}
+      <div className="galeria-grid">
+        {fotosFiltradas.map((foto) => (
+          <div key={foto.id} className="foto-card">
+            <img src={foto.url} alt={foto.legenda} loading="lazy" />
+            <p>{foto.legenda}</p>
+            <p>{foto.creditos}</p>
+          </div>
+        ))}
+
+        {/* Dica de UX: Se não sobrou nada, avise o usuário */}
+        {fotosFiltradas.length === 0 && (
+          <p>Nenhuma foto encontrada com esses filtros.</p>
+        )}
+      </div>
+    </div>
+  );
 }
