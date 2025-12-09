@@ -1,110 +1,69 @@
+/* Container principal */
+.pagina-galeria {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Área dos Filtros */
+.filtros-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Se não couber, desce pra linha de baixo */
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  background: #f8f9fa; /* Fundo clarinho */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Estilo dos Dropdowns */
+.filtros-wrapper select {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 150px; /* Tamanho mínimo pra não ficar espremido */
+}
+
+.filtros-wrapper select:focus {
+  border-color: #ff69b4; /* Rosa quando clica */
+  outline: none;
+}
+
+/* O Grid Mágico de Fotos */
 .galeria-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  /* Cria colunas automáticas com mínimo de 250px de largura */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
 }
 
 .foto-card {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
   overflow: hidden;
-  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.foto-card:hover {
+  transform: translateY(-5px); /* Efeito de levitar ao passar o mouse */
 }
 
 .foto-card img {
   width: 100%;
-  height: auto;
+  height: 250px; /* Altura fixa para alinhar tudo */
+  object-fit: cover; /* Corta a imagem para preencher sem esticar */
   display: block;
 }
 
 .foto-card p {
-  margin: 10px;
+  padding: 10px;
   font-size: 0.9rem;
-  color: #333;
-}
-
-/* Container principal - define o tamanho máximo */
-.carousel-container {
-  position: relative; /* Importante para os botões absolutos funcionarem */
-  width: 100%;
-  max-width: 600px; /* Tamanho máximo do carrossel */
-  margin: 0 auto; /* Centraliza na tela */
-  border-radius: 12px;
-  overflow: hidden; /* Corta o que passar da borda */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-/* Área da imagem */
-.carousel-display {
-  width: 100%;
-  height: 350px; /* Altura fixa para não pular layout */
-  background-color: #000;
-}
-
-.carousel-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Faz a imagem preencher sem esticar/deformar */
-  transition: opacity 0.3s;
-}
-
-/* Legenda flutuante */
-.carousel-caption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Fundo preto transparente */
-  color: white;
-  padding: 10px;
+  color: #555;
   text-align: center;
-}
-
-/* Botões de Navegação */
-.btn-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%); /* Centraliza verticalmente exato */
-  background: rgba(255, 255, 255, 0.3);
-  border: none;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-  padding: 10px;
-  transition: 0.3s;
-}
-
-.btn-nav:hover {
-  background: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-
-.btn-left {
-  left: 0;
-}
-.btn-right {
-  right: 0;
-}
-
-/* Bolinhas indicadoras */
-.indicadores {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  gap: 5px;
-}
-
-.bolinha {
-  width: 10px;
-  height: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.bolinha.ativa {
-  background-color: #ff69b4; /* Cor de destaque (Rosa) */
-  transform: scale(1.2);
+  margin: 0;
 }
