@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "url": "/img/ms_bastidores/pilot-0-bastidor.jpg",
+    "legenda": "Foto de Emi e Film no piloto de Moonshadow tirada dos bastidores",
+    "creditos": "IG: priimmiii",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 2,
+    "url": "/img/ms_bastidores/pilot-1-bastidor.jpg",
+    "legenda": "Foto de Bonnie e Emi no piloto de Moonshadow tirada dos bastidores",
+    "creditos": "IG: priimmiii",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 3,
+    "url": "/img/ms_bastidores/pilot-2-bastidor.jpg",
+    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: priimmiii",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 4,
+    "url": "/img/ms_posters/pilot-poster-oficial.jpg",
+    "legenda": "Poster Oficial do Piloto de Moonshadow",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "moonshadow",
+    "tipo": "poster",
+    "episodio": null
+  },
+  {
+    "id": 5,
+    "url": "/img/us_posters/Us_Pilot_Poster_1.jpg",
+    "legenda": "Poster Oficial do Piloto de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": null
+  },
+  {
+    "id": 6,
+    "url": "/img/us_posters/Us_Poster_1.jpg",
+    "legenda": "Poster Oficial de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": null
+  },
+  {
+    "id": 7,
+    "url": "/img/us_cenas/ep1-0-cena.jpg",
+    "legenda": "Cena de Pam e Rak caminhando, no episódio 1 [4/4] de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "cena",
+    "episodio": 1
+  },
+  {
+    "id": 8,
+    "url": "/img/us_cenas/ep1-1-cena.jpg",
+    "legenda": "Cena de Pam encontrando Nene no beco, no episódio 1 [4/4] de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "cena",
+    "episodio": 1
+  },
+  {
+    "id": 9,
+    "url": "/img/us_cenas/ep1-3-cena.jpg",
+    "legenda": "Cena de Pam e Rak segurando um secador de cabelo, no episódio 1 [4/4] de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "cena",
+    "episodio": 1
+  }
+]
