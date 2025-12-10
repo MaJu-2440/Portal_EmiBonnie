@@ -18,11 +18,15 @@ export default function Galeria() {
   // Se tiver algo escrito, filtra pela legenda. Se não, passa tudo.
   const fotosDaBusca =
     filtroAtivo === "todos"
-      ? fotosData.filter((foto) =>
-          foto.legenda.toLowerCase().includes(busca.toLowerCase())
+      ? fotosData.filter(
+          (foto) =>
+            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+            foto.tipo.toLowerCase().includes(busca.toLowerCase())
         )
-      : fotosDoProjeto.filter((foto) =>
-          foto.legenda.toLowerCase().includes(busca.toLowerCase())
+      : fotosDoProjeto.filter(
+          (foto) =>
+            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+            foto.tipo.toLowerCase().includes(busca.toLowerCase())
         );
 
   // 3. AGRUPAMENTO (O Pulo do Gato)
