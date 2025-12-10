@@ -33,9 +33,7 @@ export default function Galeria() {
   fotosDaBusca.forEach((foto) => {
     // Define o nome do grupo.
     // Se for episódio, usa "Episódio X". Se não tiver ep, usa o "tipo" (ex: Poster).
-    const nomeGrupo = foto.episodio
-      ? `Episódio ${foto.episodio}`
-      : foto.tipo.toUpperCase();
+    const nomeGrupo = foto.tipo.toUpperCase();
 
     // Se a gaveta não existe, cria ela
     if (!grupos[nomeGrupo]) {
