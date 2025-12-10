@@ -79,5 +79,644 @@
     "projeto": "us",
     "tipo": "cena",
     "episodio": 1
+  },
+  {
+    "id": 10,
+    "url": "/img/ms_bastidores/pilot-3-bastidor.jpg",
+    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: priimmiii",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 11,
+    "url": "/img/ms_bastidores/pilot-4-bastidor.jpg",
+    "legenda": "Bonnie, Emi e Film nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 12,
+    "url": "/img/ms_bastidores/pilot-5-bastidor.jpg",
+    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 13,
+    "url": "/img/ms_bastidores/pilot-6-bastidor.jpg",
+    "legenda": "Emi, Bonnie e diretora Fon nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 14,
+    "url": "/img/ms_bastidores/pilot-7-bastidor.jpg",
+    "legenda": "Emi e Bonnie em foto tirada do monitor durante as gravações do piloto de Moonshadow",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 15,
+    "url": "/img/ms_bastidores/pilot-8-bastidor.jpg",
+    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: delune.film",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 16,
+    "url": "/img/ms_bastidores/pilot-9-bastidor.jpg",
+    "legenda": "Emi e Bonnie nos bastidores do piloto de Moonshadow",
+    "creditos": "IG: delune.film",
+    "projeto": "moonshadow",
+    "tipo": "bastidores",
+    "episodio": null
+  },
+  {
+    "id": 17,
+    "url": "/img/us_bastidores/cast-bastidor-0.jpg",
+    "legenda": "Emi e Bonnie dormindo durante a leitura de roteiro de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 18,
+    "url": "/img/us_bastidores/cast-bastidor-1.jpg",
+    "legenda": "Emi e Bonnie lendo o roteiro de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 19,
+    "url": "/img/us_bastidores/cast-bastidor-2.jpg",
+    "legenda": "Emi e Bonnie na leitura de roteiro de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 20,
+    "url": "/img/us_bastidores/cast-bastidor-3.jpg",
+    "legenda": "Emi e Bonnie no workshop de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 21,
+    "url": "/img/us_bastidores/cast-bastidor-4.jpg",
+    "legenda": "Emi e Bonnie na leitura de roteiro de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 22,
+    "url": "/img/us_bastidores/cast-bastidor-5.jpg",
+    "legenda": "Elenco de Us na leitura/workshop de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 23,
+    "url": "/img/us_bastidores/ep1-2-bastidor.jpg",
+    "legenda": "Emi e Bonnie- bastidores do episódio 1 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 1
+  },
+  {
+    "id": 24,
+    "url": "/img/us_bastidores/ep1-12-bastidor.jpg",
+    "legenda": "Emi e Bonnie no consultório odontológico - bastidores do episódio 1 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 1
+  },
+  {
+    "id": 25,
+    "url": "/img/us_bastidores/ep1-15-bastidor.jpg",
+    "legenda": "Bonnie, Soodyacht, Leo e Sam na cafeteria - bastidores do episódio 1 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 1
+  },
+  {
+    "id": 26,
+    "url": "/img/us_bastidores/ep1-16-bastidor.jpg",
+    "legenda": "Emi e Bonnie no consultório odontológico - bastidores do episódio 1 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 1
+  },
+  {
+    "id": 27,
+    "url": "/img/us_bastidores/ep2-11-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 2
+  },
+  {
+    "id": 28,
+    "url": "/img/us_bastidores/ep3-10-bastidor.jpg",
+    "legenda": "Emi e Bonniena casa da Rak - bastidores do episódio 3 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 3
+  },
+  {
+    "id": 29,
+    "url": "/img/us_bastidores/ep3-24-bastidor.jpg",
+    "legenda": "Emi, Bonnie e View na cafeteria - bastidores do episódio 3 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 3
+  },
+  {
+    "id": 30,
+    "url": "/img/us_bastidores/ep4-16-bastidor.jpg",
+    "legenda": "Emi e Bonnie no ônibus - bastidores do episódio 4 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 4
+  },
+  {
+    "id": 31,
+    "url": "/img/us_bastidores/ep5-0-bastidor.jpg",
+    "legenda": "Emi e Bonnie dentro do carro - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 32,
+    "url": "/img/us_bastidores/ep5-2-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 33,
+    "url": "/img/us_bastidores/ep5-3-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 34,
+    "url": "/img/us_bastidores/ep5-14-bastidor.jpg",
+    "legenda": "Emi se recuperando da cena - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 35,
+    "url": "/img/us_bastidores/ep5-15-bastidor.jpg",
+    "legenda": "Emi e Bonnie tirando uma selfie - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 36,
+    "url": "/img/us_bastidores/ep5-16-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 5
+  },
+  {
+    "id": 37,
+    "url": "/img/us_bastidores/ep6-1-bastidor.jpg",
+    "legenda": "Emi e Bonnie em cena - bastidores do episódio 6 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 6
+  },
+  {
+    "id": 38,
+    "url": "/img/us_bastidores/ep7-1-bastidor.jpg",
+    "legenda": "Emi, Bonnie e Sing nas escadas - bastidores do episódio 7 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 7
+  },
+  {
+    "id": 39,
+    "url": "/img/us_bastidores/ep7-5-bastidor.jpg",
+    "legenda": "Fon demonstrando cena para Emi e Bonnie - bastidores do episódio 7 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 7
+  },
+  {
+    "id": 40,
+    "url": "/img/us_bastidores/ep9-1-bastidor.jpg",
+    "legenda": "Emi e Bonnie com tartaruga - bastidores do episódio 9 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 9
+  },
+  {
+    "id": 41,
+    "url": "/img/us_bastidores/ep10-0-bastidor.jpg",
+    "legenda": "Emi, Bonnie, Nid e Pumpkin na frente da casa da Pam - bastidores do episódio 10 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 10
+  },
+  {
+    "id": 42,
+    "url": "/img/us_bastidores/ep10-7-bastidor.jpg",
+    "legenda": "Fon demonstrando cena para Emi e Bonnie - bastidores do episódio 10 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 10
+  },
+  {
+    "id": 43,
+    "url": "/img/us_bastidores/ep12-11-bastidor.jpg",
+    "legenda": "View, Mim, Sing e Bonnie - bastidores do episódio 12 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 12
+  },
+  {
+    "id": 44,
+    "url": "/img/us_bastidores/cast-bastidor-6.jpg",
+    "legenda": "Sing, Bonnie, Emi e Mim - workshop de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 45,
+    "url": "/img/us_bastidores/cast-bastidor-7.jpg",
+    "legenda": "Sing, Mim, View e Emi - workshop de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 46,
+    "url": "/img/us_bastidores/cast-bastidor-17.jpg",
+    "legenda": "Bonnie, Emi, Pumpkin e Sing - workshop de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "workshop",
+    "episodio": null
+  },
+  {
+    "id": 47,
+    "url": "/img/us_bastidores/ep2-12-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 2
+  },
+  {
+    "id": 48,
+    "url": "/img/us_bastidores/ep2-13-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 2
+  },
+  {
+    "id": 49,
+    "url": "/img/us_bastidores/ep2-16-bastidor.jpg",
+    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 2
+  },
+  {
+    "id": 50,
+    "url": "/img/us_bastidores/ep2-17-bastidor.jpg",
+    "legenda": "Emi e Bonnie descansando em um patinete - bastidores do episódio 2 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 2
+  },
+  {
+    "id": 51,
+    "url": "/img/us_bastidores/ep3-25-bastidor.jpg",
+    "legenda": "Emi, Bonnie e View - bastidores do episódio 3 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 3
+  },
+  {
+    "id": 52,
+    "url": "/img/us_bastidores/ep7-12-bastidor.jpg",
+    "legenda": "Emi e Bonnie se abraçando - bastidores do episódio 7 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 7
+  },
+  {
+    "id": 53,
+    "url": "/img/us_bastidores/ep8-13-bastidor.jpg",
+    "legenda": "Emi e Bonnie pelo monitor de uma câmera - bastidores do episódio 8 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 8
+  },
+  {
+    "id": 54,
+    "url": "/img/us_bastidores/ep8-14-bastidor.jpg",
+    "legenda": "Emi e Sing - bastidores do episódio 8 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 8
+  },
+  {
+    "id": 55,
+    "url": "/img/us_bastidores/ep8-15-bastidor.jpg",
+    "legenda": "Emi e Bonnie em cena - bastidores do episódio 8 de Us",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "bastidores",
+    "episodio": 8
+  },
+  {
+    "id": 56,
+    "url": "/img/us_cast/cast-0.jpg",
+    "legenda": "Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 57,
+    "url": "/img/us_cast/cast-1.jpg",
+    "legenda": "Emi e Bonnie se abraçando no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 58,
+    "url": "/img/us_cast/cast-4.jpg",
+    "legenda": "Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 59,
+    "url": "/img/us_cast/cast-5.jpg",
+    "legenda": "Sing, Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 60,
+    "url": "/img/us_cast/cast-8.jpg",
+    "legenda": "Bonnie e Sing no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 61,
+    "url": "/img/us_cast/cast-9.jpg",
+    "legenda": "Sing e Emi no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 62,
+    "url": "/img/us_cast/cast-10.jpg",
+    "legenda": "Jab, Pupae, Bonnie e Sing no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 63,
+    "url": "/img/us_cast/cast-11.jpg",
+    "legenda": "Emi, Nid e Pumpkin no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 64,
+    "url": "/img/us_cast/cast-12.jpg",
+    "legenda": "View no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 65,
+    "url": "/img/us_cast/cast-13.jpg",
+    "legenda": "Mim no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 66,
+    "url": "/img/us_cast/cast-14.jpg",
+    "legenda": "Samantha no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 67,
+    "url": "/img/us_cast/cast-15.jpg",
+    "legenda": "Soodyacht no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 68,
+    "url": "/img/us_cast/cast-16.jpg",
+    "legenda": "Leo no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "fitting",
+    "episodio": null
+  },
+  {
+    "id": 69,
+    "url": "/img/us_posters/Us_miniPoster_EP1.jpg",
+    "legenda": "Poster Oficial do Episódio 1 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 1
+  },
+  {
+    "id": 70,
+    "url": "/img/us_posters/Us_miniPoster_EP2.jpg",
+    "legenda": "Poster Oficial do Episódio 2 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 2
+  },
+  {
+    "id": 71,
+    "url": "/img/us_posters/Us_miniPoster_EP3.jpg",
+    "legenda": "Poster Oficial do Episódio 3 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 3
+  },
+  {
+    "id": 72,
+    "url": "/img/us_posters/Us_miniPoster_EP4.jpg",
+    "legenda": "Poster Oficial do Episódio 4 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 4
+  },
+  {
+    "id": 73,
+    "url": "/img/us_posters/Us_miniPoster_EP5.jpg",
+    "legenda": "Poster Oficial do Episódio 5 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 5
+  },
+  {
+    "id": 74,
+    "url": "/img/us_posters/Us_miniPoster_EP6.jpg",
+    "legenda": "Poster Oficial do Episódio 6 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 6
+  },
+  {
+    "id": 75,
+    "url": "/img/us_posters/Us_miniPoster_EP7.jpg",
+    "legenda": "Poster Oficial do Episódio 7 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 7
+  },
+  {
+    "id": 76,
+    "url": "/img/us_posters/Us_miniPoster_EP8.jpg",
+    "legenda": "Poster Oficial do Episódio 8 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 8
+  },
+  {
+    "id": 77,
+    "url": "/img/us_posters/Us_miniPoster_EP9.jpg",
+    "legenda": "Poster Oficial do Episódio 9 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 9
+  },
+  {
+    "id": 78,
+    "url": "/img/us_posters/Us_miniPoster_EP10.jpg",
+    "legenda": "Poster Oficial do Episódio 10 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 10
+  },
+  {
+    "id": 79,
+    "url": "/img/us_posters/Us_miniPoster_EP11.jpg",
+    "legenda": "Poster Oficial do Episódio 11 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 11
+  },
+  {
+    "id": 80,
+    "url": "/img/us_posters/Us_miniPoster_EP12.jpg",
+    "legenda": "Poster Oficial do Episódio 12 de Us",
+    "creditos": "X/Twitter: @GMMTV",
+    "projeto": "us",
+    "tipo": "poster",
+    "episodio": 12
   }
 ]
