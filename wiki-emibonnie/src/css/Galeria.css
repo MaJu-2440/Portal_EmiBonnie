@@ -1,5 +1,11 @@
+.lista-secoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .secao-carrossel {
   margin: 1.5rem auto;
+  max-width: 450px;
 }
 
 .secao-carrossel h3 {
