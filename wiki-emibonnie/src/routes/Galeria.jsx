@@ -81,7 +81,7 @@ export default function Galeria() {
 
         <input
           type="text"
-          placeholder="Pesquisar cena..."
+          placeholder="Pesquisar..."
           onChange={(e) => setBusca(e.target.value)}
         />
       </div>

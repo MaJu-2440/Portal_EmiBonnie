@@ -25,7 +25,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 }
 
 .botoes-filtro button {
@@ -38,6 +38,20 @@
 }
 
 .botoes-filtro button[selected] {
-  background-color: var(--background-dark);
+  background-color: var(--background-dark-transparente);
+  border: 2px solid var(--destaque-emi);
+}
+
+.controles input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid var(--destaque-bonnie);
+  background-color: var(--background-dark-transparente);
+  color: var(--texto);
+  font-size: 1rem;
+}
+
+.controle input:focus {
   border: 2px solid var(--destaque-emi);
 }
