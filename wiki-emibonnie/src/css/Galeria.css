@@ -1,69 +1,22 @@
-/* Container principal */
-.pagina-galeria {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+.carrossel-scroll {
+  display: flex; /* Coloca as fotos uma ao lado da outra */
+  gap: 15px; /* Espaço entre elas */
+  overflow-x: auto; /* Permite rolar para o lado */
+  padding-bottom: 20px;
+
+  /* Experiência nativa de app */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* Rolagem suave no iPhone */
 }
 
-/* Área dos Filtros */
-.filtros-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* Se não couber, desce pra linha de baixo */
-  gap: 15px;
-  margin-bottom: 30px;
-  justify-content: center;
-  background: #f8f9fa; /* Fundo clarinho */
-  padding: 15px;
-  border-radius: 10px;
+.carrossel-item {
+  scroll-snap-align: start; /* A foto "trava" no canto ao rolar */
+  flex: 0 0 auto; /* Impede que a foto seja espremida */
 }
 
-/* Estilo dos Dropdowns */
-.filtros-wrapper select {
-  padding: 10px 15px;
-  border: 2px solid #ddd;
+.carrossel-item img {
+  height: 300px; /* ALTURA FIXA: O segredo! */
+  width: auto; /* Largura se adapta à proporção original da foto */
   border-radius: 8px;
-  background-color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  min-width: 150px; /* Tamanho mínimo pra não ficar espremido */
-}
-
-.filtros-wrapper select:focus {
-  border-color: #ff69b4; /* Rosa quando clica */
-  outline: none;
-}
-
-/* O Grid Mágico de Fotos */
-.galeria-grid {
-  display: grid;
-  /* Cria colunas automáticas com mínimo de 250px de largura */
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-}
-
-.foto-card {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  background: white;
-}
-
-.foto-card:hover {
-  transform: translateY(-5px); /* Efeito de levitar ao passar o mouse */
-}
-
-.foto-card img {
-  width: 100%;
-  height: 250px; /* Altura fixa para alinhar tudo */
-  object-fit: cover; /* Corta a imagem para preencher sem esticar */
-  display: block;
-}
-
-.foto-card p {
-  padding: 10px;
-  font-size: 0.9rem;
-  color: #555;
-  text-align: center;
-  margin: 0;
+  object-fit: contain; /* Garante que a foto apareça inteira */
 }
