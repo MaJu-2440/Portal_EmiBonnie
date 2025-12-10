@@ -1,3 +1,13 @@
+.secao-carrossel {
+  margin: 1.5rem auto;
+}
+
+.secao-carrossel h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 .carrossel-scroll {
   display: flex; /* Coloca as fotos uma ao lado da outra */
   gap: 15px; /* Espaço entre elas */
@@ -10,15 +20,17 @@
 }
 
 .carrossel-item {
-  scroll-snap-align: start; /* A foto "trava" no canto ao rolar */
+  scroll-snap-align: center; /* A foto "trava" no canto ao rolar */
   flex: 0 0 auto; /* Impede que a foto seja espremida */
+  width: 100%;
 }
 
 .carrossel-item img {
   height: 300px; /* ALTURA FIXA: O segredo! */
-  width: auto; /* Largura se adapta à proporção original da foto */
+  width: 100%;
   border-radius: 8px;
   object-fit: contain; /* Garante que a foto apareça inteira */
+  background: var(--background-dark-transparente);
 }
 
 .botoes-filtro {
