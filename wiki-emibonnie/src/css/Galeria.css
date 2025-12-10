@@ -5,7 +5,8 @@
 
 .secao-carrossel {
   margin: 1.5rem auto;
-  max-width: 450px;
+  width: 100%;
+  position: relative;
 }
 
 .secao-carrossel h3 {
@@ -37,6 +38,25 @@
   border-radius: 8px;
   object-fit: contain; /* Garante que a foto apareça inteira */
   background: var(--background-dark-transparente);
+}
+
+.carrossel-btn {
+  position: absolute;
+  top: 45%;
+  font-size: 2rem;
+  color: var(--texto);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carrossel-btn-right {
+  right: 12px;
+}
+
+.carrossel-btn-left {
+  left: 12px;
 }
 
 .botoes-filtro {
@@ -72,4 +92,10 @@
 
 .controle input:focus {
   border: 2px solid var(--destaque-emi);
+}
+
+@media screen and (min-width: 512px) {
+  .secao-carrossel {
+    max-width: 450px;
+  }
 }
