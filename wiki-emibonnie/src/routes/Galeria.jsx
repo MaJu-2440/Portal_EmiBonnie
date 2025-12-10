@@ -56,16 +56,27 @@ export default function Galeria() {
     });
   });
 
+  function ativaBotaoFiltro(tipo) {
+    return (e) => {
+      setFiltroAtivo(tipo);
+      const btns = document.querySelectorAll(".botoes-filtro button");
+
+      btns.forEach((btn) => {
+        btn.removeAttribute("selected");
+      });
+
+      e.target.setAttribute("selected", true);
+    };
+  }
+
   return (
-    <div className="galeria">
+    <section key="galeria" className="galeria">
       {/* CONTROLES */}
       <div className="controles">
-        <div className="botoes-topo">
-          <button onClick={() => setFiltroAtivo("todos")}>Todos</button>
-          <button onClick={() => setFiltroAtivo("us")}>Us The Series</button>
-          <button onClick={() => setFiltroAtivo("moonshadow")}>
-            Moonshadow
-          </button>
+        <div className="botoes-filtro">
+          <button onClick={ativaBotaoFiltro("todos")}>Todos</button>
+          <button onClick={ativaBotaoFiltro("us")}>Us The Series</button>
+          <button onClick={ativaBotaoFiltro("moonshadow")}>Moonshadow</button>
         </div>
 
         <input
@@ -91,6 +102,6 @@ export default function Galeria() {
         {/* Feedback se a busca não achar nada */}
         {secoesOrdenadas.length === 0 && <p>Nada encontrado.</p>}
       </div>
-    </div>
+    </section>
   );
 }

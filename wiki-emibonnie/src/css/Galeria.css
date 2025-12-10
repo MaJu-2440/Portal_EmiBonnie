@@ -20,3 +20,24 @@
   border-radius: 8px;
   object-fit: contain; /* Garante que a foto apareça inteira */
 }
+
+.botoes-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.botoes-filtro button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: var(--destaque-bonnie);
+  font-size: 1rem;
+  color: var(--texto);
+}
+
+.botoes-filtro button[selected] {
+  background-color: var(--background-dark);
+  border: 2px solid var(--destaque-emi);
+}
