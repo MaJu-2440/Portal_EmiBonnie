@@ -6,11 +6,13 @@ import App from "./App.jsx";
 import Wiki from "./routes/Wiki.jsx";
 import Home from "./routes/Home.jsx";
 import Galeria from "./routes/Galeria.jsx";
+import ErrorPage from "./routes/ErrorPage.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
