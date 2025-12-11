@@ -38,6 +38,9 @@ export default function Home() {
             Wiki de Moonshadow the Series
           </Link>
         </li>
+        <li>
+          <Link to={"/galeria"}>Galeria</Link>
+        </li>
       </ul>
       <br />
     </div>

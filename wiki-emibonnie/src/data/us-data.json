@@ -3,7 +3,7 @@
   "titulo_da_pagina": "US The Series",
   "desc_completa": "Anunciada durante o evento <em>GMMTV2024: UP&ABOVE Parte 2</em>, <strong>Us</strong> é uma série tailandesa de drama romântico entre mulheres (GL) com ênfase no desenvolvimento de um relacionamento realista e saudável, estrelada por <a href='#emi'> Thasorn Klinnium (Emi)</a> e <a href='#bonnie'>Pattraphus Borattasuwan (Bonnie)</a>.",
   "desc_tecnica": "Lançada pela produtora GMMTV e adaptada da novel <em>'Us' (US : รักของเรา)</em> escrita por Chao Pla Noy <em>(เจ้าปลาน้อย)</em>, a série é dirigida por Fon Kanittha Kwunyoo e roteirizada por Lalil Kittitanaphan, Naphat Chitveerapat e Nichaphat Buranadilok.",
-  "imagem_capa": "/img/us_posters/Us_Poster_1.jpg",
+  "imagem_capa": "/img/us_posters/us-poster-oficial.jpg",
   "details": [
     { "title": "Nº de episódios", "desc": "12" },
     { "title": "Duração média", "desc": "45min" },
@@ -29,84 +29,84 @@
           "titulo": "Eu amo, logo minto",
           "sinopse": "Depois que Dokrak conhece a estudante de odontologia Pam, ela mal pode esperar para vê-la novamente. Seus sentimentos ficam fortes, mas seu irmão confessa que gosta de Pam. Deixando seus sentimentos de lado, Dokrak tenta ajudá-lo.",
           "data_exibicao": "18/01/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP1.jpg"
+          "imagem": "/img/us_posters/us-ep1-poster.jpg"
         },
         {
           "numero": 2,
           "titulo": "Sexta-feira à Noite Azul",
           "sinopse": "Pam é convidada a se juntar ao clube Blue Friday Night da Art & Us. Nene entra na órbita de Dokrak com intenções misteriosas.",
           "data_exibicao": "25/01/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP2.jpg"
+          "imagem": "/img/us_posters/us-ep2-mini-poster.jpg"
         },
         {
           "numero": 3,
           "titulo": "Me Desculpe por ter Confessado",
           "sinopse": "Entre olhares persistentes e encontros não tão casuais, uma conexão parece se formar entre Dokrak e Pam. Pam começa a questionar os planos de Nene.",
           "data_exibicao": "01/02/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP3.jpg"
+          "imagem": "/img/us_posters/us-ep3-mini-poster.jpg"
         },
         {
           "numero": 4,
           "titulo": "Enterrei Bem Fundo",
           "sinopse": "As emoções entre Pam e Dokrak ficam mais complicadas e agora Dokrak se vê em um dilema entre apoiar o irmão e esconder o que sente.",
           "data_exibicao": "08/02/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP4.jpg"
+          "imagem": "/img/us_posters/us-ep4-mini-poster.jpg"
         },
         {
           "numero": 5,
           "titulo": "Amor em meio a Segredos",
           "sinopse": "O passado de Pam começa a surgir, levantando tensões sutis entre Pam e Nene, abrindo espaço para conflitos internos.",
           "data_exibicao": "15/02/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP5.jpg"
+          "imagem": "/img/us_posters/us-ep5-mini-poster.jpg"
         },
         {
           "numero": 6,
           "titulo": "Quem é culpado: Amor ou Nós?",
           "sinopse": "Enquanto cada um enfrenta seus próprios desafios, a amizade verdadeira pode ser uma força transformadora. Em meio ao caos emocional, Pam encontra coragem para se abrir.",
           "data_exibicao": "22/02/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP6.jpg"
+          "imagem": "/img/us_posters/us-ep6-mini-poster.jpg"
         },
         {
           "numero": 7,
           "titulo": "Lar Doce Lar",
           "sinopse": "Pam e Dokrak vivem momentos mais íntimos, mas Dokrak ainda não se sente pronta para assumir publicamente. Nene continua a fazer planos.",
           "data_exibicao": "01/03/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP7.jpg"
+          "imagem": "/img/us_posters/us-ep7-mini-poster.jpg"
         },
         {
           "numero": 8,
           "titulo": "Casa Sem Família",
           "sinopse": "Dokrak enfrenta o peso de confessar sua verdade para Kawi e lidar com a expectativa de resposta.",
           "data_exibicao": "08/03/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP8.jpg"
+          "imagem": "/img/us_posters/us-ep8-mini-poster.jpg"
         },
         {
           "numero": 9,
           "titulo": "O Pedido de Desculpas",
           "sinopse": "Escolhas difíceis, revelações e pontes emocionais sendo testadas.",
           "data_exibicao": "15/03/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP9.jpg"
+          "imagem": "/img/us_posters/us-ep9-mini-poster.jpg"
         },
         {
           "numero": 10,
           "titulo": "A Bandagem",
           "sinopse": "Pam e Dokrak confrontam os limites da sua nova intimidade enquanto lidam com as urgências familiares.",
           "data_exibicao": "22/03/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP10.jpg"
+          "imagem": "/img/us_posters/us-ep10-mini-poster.jpg"
         },
         {
           "numero": 11,
           "titulo": "O Amor de Nós",
           "sinopse": "Pam enfrenta seu passado e Dokrak reflete seu próprio valor. O apoio emocional entre elas se torna fundamental.",
           "data_exibicao": "29/03/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP11.jpg"
+          "imagem": "/img/us_posters/us-ep11-mini-poster.jpg"
         },
         {
           "numero": 12,
           "titulo": "Diga Adeus e Comece do Zero",
           "sinopse": "Dokrak e Pam se unem em uma nova fase para a vida delas, com suavidade e esperança por dias melhores.",
           "data_exibicao": "05/04/2025",
-          "imagem": "/img/us_posters/Us_miniPoster_EP12.jpg"
+          "imagem": "/img/us_posters/us-ep12-mini-poster.jpg"
         }
       ]
     },
