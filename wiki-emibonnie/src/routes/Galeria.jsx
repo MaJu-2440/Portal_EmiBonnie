@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import fotosData from "../data/galeria.json";
-import "../css/galeria.css";
+import "../css/Galeria.css";
 import Carrossel from "../components/Carrossel.jsx";
 
 export default function Galeria() {
