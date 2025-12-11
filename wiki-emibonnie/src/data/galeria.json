@@ -1,722 +1,2081 @@
 [
   {
     "id": 1,
-    "url": "/img/ms_bastidores/pilot-0-bastidor.jpg",
-    "legenda": "Foto de Emi e Film no piloto de Moonshadow tirada dos bastidores",
-    "creditos": "IG: priimmiii",
+    "url": "/img/ms_posters/pilot-poster-oficial.jpg",
+    "legenda": "Poster do Piloto Oficial de Moonshadow",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "tipo": "moonshadow - poster",
     "episodio": null
   },
   {
     "id": 2,
-    "url": "/img/ms_bastidores/pilot-1-bastidor.jpg",
-    "legenda": "Foto de Bonnie e Emi no piloto de Moonshadow tirada dos bastidores",
-    "creditos": "IG: priimmiii",
+    "url": "/img/ms_pilot/ms-pilot (1).jpg",
+    "legenda": "Emi e Film em cena no trailer piloto de Moonshadow",
+    "creditos": "IG: priimmiii ",
     "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 3,
-    "url": "/img/ms_bastidores/pilot-2-bastidor.jpg",
-    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: priimmiii",
+    "url": "/img/ms_pilot/ms-pilot (2).jpg",
+    "legenda": "Bonnie e Emi pelos bastidores do trailer piloto de Moonshadow",
+    "creditos": "IG: priimmiii ",
     "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 4,
-    "url": "/img/ms_posters/pilot-poster-oficial.jpg",
-    "legenda": "Poster Oficial do Piloto de Moonshadow",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/ms_pilot/ms-pilot (3).jpg",
+    "legenda": "Bonnie e Emi - Moonshadow Pilot",
+    "creditos": "IG: priimmiii ",
     "projeto": "moonshadow",
-    "tipo": "poster",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 5,
-    "url": "/img/us_posters/Us_Pilot_Poster_1.jpg",
-    "legenda": "Poster Oficial do Piloto de Us",
-    "creditos": "X/Twitter: @GMMTV",
-    "projeto": "us",
-    "tipo": "poster",
+    "url": "/img/ms_pilot/ms-pilot (4).jpg",
+    "legenda": "Bonnie e Emi - Moonshadow Pilot",
+    "creditos": "IG: priimmiii ",
+    "projeto": "moonshadow",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 6,
-    "url": "/img/us_posters/Us_Poster_1.jpg",
-    "legenda": "Poster Oficial de Us",
-    "creditos": "X/Twitter: @GMMTV",
-    "projeto": "us",
-    "tipo": "poster",
+    "url": "/img/ms_pilot/ms-pilot (5).jpg",
+    "legenda": "Bonnie, Emi e Film - Moonshadow Pilot",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 7,
-    "url": "/img/us_cenas/ep1-0-cena.jpg",
-    "legenda": "Cena de Pam e Rak caminhando, no episódio 1 [4/4] de Us",
-    "creditos": "X/Twitter: @USseriesth",
-    "projeto": "us",
-    "tipo": "cena",
-    "episodio": 1
+    "url": "/img/ms_pilot/ms-pilot (6).jpg",
+    "legenda": "Emi e Bonnie - Moonshadow Pilot",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "moonshadow - pilot",
+    "episodio": null
   },
   {
     "id": 8,
-    "url": "/img/us_cenas/ep1-1-cena.jpg",
-    "legenda": "Cena de Pam encontrando Nene no beco, no episódio 1 [4/4] de Us",
-    "creditos": "X/Twitter: @USseriesth",
-    "projeto": "us",
-    "tipo": "cena",
-    "episodio": 1
+    "url": "/img/ms_pilot/ms-pilot (7).jpg",
+    "legenda": "Emi, diretora Fon e Bonnie - Moonshadow Pilot",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "moonshadow - pilot",
+    "episodio": null
   },
   {
     "id": 9,
-    "url": "/img/us_cenas/ep1-3-cena.jpg",
-    "legenda": "Cena de Pam e Rak segurando um secador de cabelo, no episódio 1 [4/4] de Us",
-    "creditos": "X/Twitter: @USseriesth",
-    "projeto": "us",
-    "tipo": "cena",
-    "episodio": 1
+    "url": "/img/ms_pilot/ms-pilot (8).jpg",
+    "legenda": "Emi e Bonnie em cena pelo monitor de câmera - Moonshadow Pilot",
+    "creditos": "IG: Fonkhanitha.K",
+    "projeto": "moonshadow",
+    "tipo": "moonshadow - pilot",
+    "episodio": null
   },
   {
     "id": 10,
-    "url": "/img/ms_bastidores/pilot-3-bastidor.jpg",
-    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: priimmiii",
+    "url": "/img/ms_pilot/ms-pilot (9).jpg",
+    "legenda": "Bonnie e Emi - Moonshadow Pilot",
+    "creditos": "IG: delune.film",
     "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 11,
-    "url": "/img/ms_bastidores/pilot-4-bastidor.jpg",
-    "legenda": "Bonnie, Emi e Film nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: Fonkhanitha.K",
+    "url": "/img/ms_pilot/ms-pilot (10).jpg",
+    "legenda": "Emi e Bonnie em um piano - Moonshadow Pilot",
+    "creditos": "IG: delune.film",
     "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "tipo": "moonshadow - pilot",
     "episodio": null
   },
   {
     "id": 12,
-    "url": "/img/ms_bastidores/pilot-5-bastidor.jpg",
-    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: Fonkhanitha.K",
-    "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "url": "/img/us_fitting-workshop/fitting (1).jpg",
+    "legenda": "Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 13,
-    "url": "/img/ms_bastidores/pilot-6-bastidor.jpg",
-    "legenda": "Emi, Bonnie e diretora Fon nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: Fonkhanitha.K",
-    "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "url": "/img/us_fitting-workshop/fitting (2).jpg",
+    "legenda": "Emi e Bonnie se abraçando no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 14,
-    "url": "/img/ms_bastidores/pilot-7-bastidor.jpg",
-    "legenda": "Emi e Bonnie em foto tirada do monitor durante as gravações do piloto de Moonshadow",
-    "creditos": "IG: Fonkhanitha.K",
-    "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "url": "/img/us_fitting-workshop/fitting (3).jpg",
+    "legenda": "Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 15,
-    "url": "/img/ms_bastidores/pilot-8-bastidor.jpg",
-    "legenda": "Bonnie e Emi nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: delune.film",
-    "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "url": "/img/us_fitting-workshop/fitting (4).jpg",
+    "legenda": "Sing, Emi e Bonnie no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 16,
-    "url": "/img/ms_bastidores/pilot-9-bastidor.jpg",
-    "legenda": "Emi e Bonnie nos bastidores do piloto de Moonshadow",
-    "creditos": "IG: delune.film",
-    "projeto": "moonshadow",
-    "tipo": "bastidores",
+    "url": "/img/us_fitting-workshop/fitting (5).jpg",
+    "legenda": "Bonnie e Sing no fit check",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 17,
-    "url": "/img/us_bastidores/cast-bastidor-0.jpg",
-    "legenda": "Emi e Bonnie dormindo durante a leitura de roteiro de Us",
+    "url": "/img/us_fitting-workshop/fitting (6).jpg",
+    "legenda": "Sing e Emi no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 18,
-    "url": "/img/us_bastidores/cast-bastidor-1.jpg",
-    "legenda": "Emi e Bonnie lendo o roteiro de Us",
+    "url": "/img/us_fitting-workshop/fitting (7).jpg",
+    "legenda": "Jab, Pupae, Bonnie e Sing no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 19,
-    "url": "/img/us_bastidores/cast-bastidor-2.jpg",
-    "legenda": "Emi e Bonnie na leitura de roteiro de Us",
+    "url": "/img/us_fitting-workshop/fitting (8).jpg",
+    "legenda": "Emi, Nid e Pumpkin se abraçando no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 20,
-    "url": "/img/us_bastidores/cast-bastidor-3.jpg",
-    "legenda": "Emi e Bonnie no workshop de Us",
+    "url": "/img/us_fitting-workshop/fitting (9).jpg",
+    "legenda": "View no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 21,
-    "url": "/img/us_bastidores/cast-bastidor-4.jpg",
-    "legenda": "Emi e Bonnie na leitura de roteiro de Us",
+    "url": "/img/us_fitting-workshop/fitting (10).jpg",
+    "legenda": "Mim no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 22,
-    "url": "/img/us_bastidores/cast-bastidor-5.jpg",
-    "legenda": "Elenco de Us na leitura/workshop de Us",
+    "url": "/img/us_fitting-workshop/fitting (11).jpg",
+    "legenda": "Samantha no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - fitting",
     "episodio": null
   },
   {
     "id": 23,
-    "url": "/img/us_bastidores/ep1-2-bastidor.jpg",
-    "legenda": "Emi e Bonnie- bastidores do episódio 1 de Us",
+    "url": "/img/us_fitting-workshop/fitting (12).jpg",
+    "legenda": "Soodyacht no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 1
+    "tipo": "us - fitting",
+    "episodio": null
   },
   {
     "id": 24,
-    "url": "/img/us_bastidores/ep1-12-bastidor.jpg",
-    "legenda": "Emi e Bonnie no consultório odontológico - bastidores do episódio 1 de Us",
+    "url": "/img/us_fitting-workshop/fitting (13).jpg",
+    "legenda": "Leo no fit check",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 1
+    "tipo": "us - fitting",
+    "episodio": null
   },
   {
     "id": 25,
-    "url": "/img/us_bastidores/ep1-15-bastidor.jpg",
-    "legenda": "Bonnie, Soodyacht, Leo e Sam na cafeteria - bastidores do episódio 1 de Us",
+    "url": "/img/us_fitting-workshop/workshop (1).jpg",
+    "legenda": "Emi e Bonnie dormindo no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 1
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 26,
-    "url": "/img/us_bastidores/ep1-16-bastidor.jpg",
-    "legenda": "Emi e Bonnie no consultório odontológico - bastidores do episódio 1 de Us",
+    "url": "/img/us_fitting-workshop/workshop (2).jpg",
+    "legenda": "Bonnie deitada no colo da Emi no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 1
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 27,
-    "url": "/img/us_bastidores/ep2-11-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
+    "url": "/img/us_fitting-workshop/workshop (3).jpg",
+    "legenda": "Emi e Bonnie no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 2
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 28,
-    "url": "/img/us_bastidores/ep3-10-bastidor.jpg",
-    "legenda": "Emi e Bonniena casa da Rak - bastidores do episódio 3 de Us",
+    "url": "/img/us_fitting-workshop/workshop (4).jpg",
+    "legenda": "Emi e Bonnie no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 3
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 29,
-    "url": "/img/us_bastidores/ep3-24-bastidor.jpg",
-    "legenda": "Emi, Bonnie e View na cafeteria - bastidores do episódio 3 de Us",
+    "url": "/img/us_fitting-workshop/workshop (5).jpg",
+    "legenda": "Emi e Bonnie com o roteiro no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 3
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 30,
-    "url": "/img/us_bastidores/ep4-16-bastidor.jpg",
-    "legenda": "Emi e Bonnie no ônibus - bastidores do episódio 4 de Us",
+    "url": "/img/us_fitting-workshop/workshop (6).jpg",
+    "legenda": "Elenco de Us com roteiro",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 4
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 31,
-    "url": "/img/us_bastidores/ep5-0-bastidor.jpg",
-    "legenda": "Emi e Bonnie dentro do carro - bastidores do episódio 5 de Us",
+    "url": "/img/us_fitting-workshop/workshop (7).jpg",
+    "legenda": "Sing, Bonnie, Emi e Mim no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 32,
-    "url": "/img/us_bastidores/ep5-2-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
+    "url": "/img/us_fitting-workshop/workshop (8).jpg",
+    "legenda": "Sing, Mim, View e Emi no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 33,
-    "url": "/img/us_bastidores/ep5-3-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
+    "url": "/img/us_fitting-workshop/workshop (9).jpg",
+    "legenda": "Bonnie, Emi, Pumpkin e Sing no workshop",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - workshop",
+    "episodio": null
   },
   {
     "id": 34,
-    "url": "/img/us_bastidores/ep5-14-bastidor.jpg",
-    "legenda": "Emi se recuperando da cena - bastidores do episódio 5 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep1-poster.jpg",
+    "legenda": "Poster do Episódio 1 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 35,
-    "url": "/img/us_bastidores/ep5-15-bastidor.jpg",
-    "legenda": "Emi e Bonnie tirando uma selfie - bastidores do episódio 5 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep2-mini-poster.jpg",
+    "legenda": "Poster do Episódio 2 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 36,
-    "url": "/img/us_bastidores/ep5-16-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 5 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep2-poster.jpg",
+    "legenda": "Poster do Episódio 2 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 5
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 37,
-    "url": "/img/us_bastidores/ep6-1-bastidor.jpg",
-    "legenda": "Emi e Bonnie em cena - bastidores do episódio 6 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep3-mini-poster.jpg",
+    "legenda": "Poster do Episódio 3 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 6
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 38,
-    "url": "/img/us_bastidores/ep7-1-bastidor.jpg",
-    "legenda": "Emi, Bonnie e Sing nas escadas - bastidores do episódio 7 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep3-poster.jpg",
+    "legenda": "Poster do Episódio 3 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 7
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 39,
-    "url": "/img/us_bastidores/ep7-5-bastidor.jpg",
-    "legenda": "Fon demonstrando cena para Emi e Bonnie - bastidores do episódio 7 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep4-mini-poster.jpg",
+    "legenda": "Poster do Episódio 4 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 7
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 40,
-    "url": "/img/us_bastidores/ep9-1-bastidor.jpg",
-    "legenda": "Emi e Bonnie com tartaruga - bastidores do episódio 9 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep4-poster.jpg",
+    "legenda": "Poster do Episódio 4 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 9
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 41,
-    "url": "/img/us_bastidores/ep10-0-bastidor.jpg",
-    "legenda": "Emi, Bonnie, Nid e Pumpkin na frente da casa da Pam - bastidores do episódio 10 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep5-mini-poster.jpg",
+    "legenda": "Poster do Episódio 5 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 10
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 42,
-    "url": "/img/us_bastidores/ep10-7-bastidor.jpg",
-    "legenda": "Fon demonstrando cena para Emi e Bonnie - bastidores do episódio 10 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep5-poster.jpg",
+    "legenda": "Poster do Episódio 5 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 10
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 43,
-    "url": "/img/us_bastidores/ep12-11-bastidor.jpg",
-    "legenda": "View, Mim, Sing e Bonnie - bastidores do episódio 12 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep6-mini-poster.jpg",
+    "legenda": "Poster do Episódio 6 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 12
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 44,
-    "url": "/img/us_bastidores/cast-bastidor-6.jpg",
-    "legenda": "Sing, Bonnie, Emi e Mim - workshop de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep6-poster.jpg",
+    "legenda": "Poster do Episódio 6 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 45,
-    "url": "/img/us_bastidores/cast-bastidor-7.jpg",
-    "legenda": "Sing, Mim, View e Emi - workshop de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep7-mini-poster.jpg",
+    "legenda": "Poster do Episódio 7 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 46,
-    "url": "/img/us_bastidores/cast-bastidor-17.jpg",
-    "legenda": "Bonnie, Emi, Pumpkin e Sing - workshop de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep7-poster.jpg",
+    "legenda": "Poster do Episódio 7 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "workshop",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 47,
-    "url": "/img/us_bastidores/ep2-12-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep8-mini-poster.jpg",
+    "legenda": "Poster do Episódio 8 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 2
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 48,
-    "url": "/img/us_bastidores/ep2-13-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep8-poster.jpg",
+    "legenda": "Poster do Episódio 8 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 2
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 49,
-    "url": "/img/us_bastidores/ep2-16-bastidor.jpg",
-    "legenda": "Emi e Bonnie - bastidores do episódio 2 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep9-mini-poster.jpg",
+    "legenda": "Poster do Episódio 9 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 2
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 50,
-    "url": "/img/us_bastidores/ep2-17-bastidor.jpg",
-    "legenda": "Emi e Bonnie descansando em um patinete - bastidores do episódio 2 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep9-poster.jpg",
+    "legenda": "Poster do Episódio 9 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 2
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 51,
-    "url": "/img/us_bastidores/ep3-25-bastidor.jpg",
-    "legenda": "Emi, Bonnie e View - bastidores do episódio 3 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep10-mini-poster.jpg",
+    "legenda": "Poster do Episódio 10 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 3
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 52,
-    "url": "/img/us_bastidores/ep7-12-bastidor.jpg",
-    "legenda": "Emi e Bonnie se abraçando - bastidores do episódio 7 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep10-poster.jpg",
+    "legenda": "Poster do Episódio 10 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 7
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 53,
-    "url": "/img/us_bastidores/ep8-13-bastidor.jpg",
-    "legenda": "Emi e Bonnie pelo monitor de uma câmera - bastidores do episódio 8 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep11-mini-poster.jpg",
+    "legenda": "Poster do Episódio 11 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 8
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 54,
-    "url": "/img/us_bastidores/ep8-14-bastidor.jpg",
-    "legenda": "Emi e Sing - bastidores do episódio 8 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep11-poster.jpg",
+    "legenda": "Poster do Episódio 11 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 8
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 55,
-    "url": "/img/us_bastidores/ep8-15-bastidor.jpg",
-    "legenda": "Emi e Bonnie em cena - bastidores do episódio 8 de Us",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep12-mini-poster.jpg",
+    "legenda": "Poster do Episódio 12 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "bastidores",
-    "episodio": 8
+    "tipo": "us - posters",
+    "episodio": null
   },
   {
     "id": 56,
-    "url": "/img/us_cast/cast-0.jpg",
-    "legenda": "Emi e Bonnie no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-ep12-poster.jpg",
+    "legenda": "Poster do Episódio 12 de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 57,
-    "url": "/img/us_cast/cast-1.jpg",
-    "legenda": "Emi e Bonnie se abraçando no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-pilot-poster (1).jpg",
+    "legenda": "Poster do Piloto de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 58,
-    "url": "/img/us_cast/cast-4.jpg",
-    "legenda": "Emi e Bonnie no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-pilot-poster (2).jpg",
+    "legenda": "Poster do Piloto de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 59,
-    "url": "/img/us_cast/cast-5.jpg",
-    "legenda": "Sing, Emi e Bonnie no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-pilot-poster (3).jpg",
+    "legenda": "Poster do Piloto de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 60,
-    "url": "/img/us_cast/cast-8.jpg",
-    "legenda": "Bonnie e Sing no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-poster-oficial (2).jpg",
+    "legenda": "Poster alternativo de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 61,
-    "url": "/img/us_cast/cast-9.jpg",
-    "legenda": "Sing e Emi no fit check",
-    "creditos": "X/Twitter: @USseriesth",
+    "url": "/img/us_posters/us-poster-oficial.jpg",
+    "legenda": "Poster do Oficial de Us",
+    "creditos": "X/Twitter: @GMMTV",
     "projeto": "us",
-    "tipo": "fitting",
+    "tipo": "us - posters",
     "episodio": null
   },
   {
     "id": 62,
-    "url": "/img/us_cast/cast-10.jpg",
-    "legenda": "Jab, Pupae, Bonnie e Sing no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (1).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 63,
-    "url": "/img/us_cast/cast-11.jpg",
-    "legenda": "Emi, Nid e Pumpkin no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (2).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 64,
-    "url": "/img/us_cast/cast-12.jpg",
-    "legenda": "View no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (3).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 65,
-    "url": "/img/us_cast/cast-13.jpg",
-    "legenda": "Mim no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (4).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 66,
-    "url": "/img/us_cast/cast-14.jpg",
-    "legenda": "Samantha no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (5).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 67,
-    "url": "/img/us_cast/cast-15.jpg",
-    "legenda": "Soodyacht no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (6).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 68,
-    "url": "/img/us_cast/cast-16.jpg",
-    "legenda": "Leo no fit check",
+    "url": "/img/us_episodios/us_ep1/ep1 (7).jpg",
+    "legenda": "",
     "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "fitting",
-    "episodio": null
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 69,
-    "url": "/img/us_posters/Us_miniPoster_EP1.jpg",
-    "legenda": "Poster Oficial do Episódio 1 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
+    "tipo": "us - episódio 1",
     "episodio": 1
   },
   {
     "id": 70,
-    "url": "/img/us_posters/Us_miniPoster_EP2.jpg",
-    "legenda": "Poster Oficial do Episódio 2 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 2
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 71,
-    "url": "/img/us_posters/Us_miniPoster_EP3.jpg",
-    "legenda": "Poster Oficial do Episódio 3 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 3
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 72,
-    "url": "/img/us_posters/Us_miniPoster_EP4.jpg",
-    "legenda": "Poster Oficial do Episódio 4 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 4
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 73,
-    "url": "/img/us_posters/Us_miniPoster_EP5.jpg",
-    "legenda": "Poster Oficial do Episódio 5 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 5
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 74,
-    "url": "/img/us_posters/Us_miniPoster_EP6.jpg",
-    "legenda": "Poster Oficial do Episódio 6 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 6
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 75,
-    "url": "/img/us_posters/Us_miniPoster_EP7.jpg",
-    "legenda": "Poster Oficial do Episódio 7 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (14).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 7
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 76,
-    "url": "/img/us_posters/Us_miniPoster_EP8.jpg",
-    "legenda": "Poster Oficial do Episódio 8 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (15).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 8
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 77,
-    "url": "/img/us_posters/Us_miniPoster_EP9.jpg",
-    "legenda": "Poster Oficial do Episódio 9 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (16).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 9
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 78,
-    "url": "/img/us_posters/Us_miniPoster_EP10.jpg",
-    "legenda": "Poster Oficial do Episódio 10 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep1/ep1 (17).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 10
+    "tipo": "us - episódio 1",
+    "episodio": 1
   },
   {
     "id": 79,
-    "url": "/img/us_posters/Us_miniPoster_EP11.jpg",
-    "legenda": "Poster Oficial do Episódio 11 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep2/ep2 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
-    "episodio": 11
+    "tipo": "us - episódio 2",
+    "episodio": 2
   },
   {
     "id": 80,
-    "url": "/img/us_posters/Us_miniPoster_EP12.jpg",
-    "legenda": "Poster Oficial do Episódio 12 de Us",
-    "creditos": "X/Twitter: @GMMTV",
+    "url": "/img/us_episodios/us_ep2/ep2 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
     "projeto": "us",
-    "tipo": "poster",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 81,
+    "url": "/img/us_episodios/us_ep2/ep2 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 82,
+    "url": "/img/us_episodios/us_ep2/ep2 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 83,
+    "url": "/img/us_episodios/us_ep2/ep2 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 84,
+    "url": "/img/us_episodios/us_ep2/ep2 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 85,
+    "url": "/img/us_episodios/us_ep2/ep2 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 86,
+    "url": "/img/us_episodios/us_ep2/ep2 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 87,
+    "url": "/img/us_episodios/us_ep2/ep2 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 88,
+    "url": "/img/us_episodios/us_ep2/ep2 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 89,
+    "url": "/img/us_episodios/us_ep2/ep2 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 90,
+    "url": "/img/us_episodios/us_ep2/ep2 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 91,
+    "url": "/img/us_episodios/us_ep2/ep2 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 92,
+    "url": "/img/us_episodios/us_ep2/ep2 (14).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 93,
+    "url": "/img/us_episodios/us_ep2/ep2 (15).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 94,
+    "url": "/img/us_episodios/us_ep2/ep2 (16).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 95,
+    "url": "/img/us_episodios/us_ep2/ep2 (17).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 96,
+    "url": "/img/us_episodios/us_ep2/ep2 (18).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 2",
+    "episodio": 2
+  },
+  {
+    "id": 97,
+    "url": "/img/us_episodios/us_ep3/ep3 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 98,
+    "url": "/img/us_episodios/us_ep3/ep3 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 99,
+    "url": "/img/us_episodios/us_ep3/ep3 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 100,
+    "url": "/img/us_episodios/us_ep3/ep3 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 101,
+    "url": "/img/us_episodios/us_ep3/ep3 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 102,
+    "url": "/img/us_episodios/us_ep3/ep3 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 103,
+    "url": "/img/us_episodios/us_ep3/ep3 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 104,
+    "url": "/img/us_episodios/us_ep3/ep3 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 105,
+    "url": "/img/us_episodios/us_ep3/ep3 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 106,
+    "url": "/img/us_episodios/us_ep3/ep3 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 107,
+    "url": "/img/us_episodios/us_ep3/ep3 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 108,
+    "url": "/img/us_episodios/us_ep3/ep3 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 109,
+    "url": "/img/us_episodios/us_ep3/ep3 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 110,
+    "url": "/img/us_episodios/us_ep3/ep3 (14).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 111,
+    "url": "/img/us_episodios/us_ep3/ep3 (15).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 112,
+    "url": "/img/us_episodios/us_ep3/ep3 (16).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 113,
+    "url": "/img/us_episodios/us_ep3/ep3 (17).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 114,
+    "url": "/img/us_episodios/us_ep3/ep3 (18).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 115,
+    "url": "/img/us_episodios/us_ep3/ep3 (19).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 116,
+    "url": "/img/us_episodios/us_ep3/ep3 (20).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 117,
+    "url": "/img/us_episodios/us_ep3/ep3 (21).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 118,
+    "url": "/img/us_episodios/us_ep3/ep3 (22).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 119,
+    "url": "/img/us_episodios/us_ep3/ep3 (23).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 120,
+    "url": "/img/us_episodios/us_ep3/ep3 (24).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 121,
+    "url": "/img/us_episodios/us_ep3/ep3 (25).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 122,
+    "url": "/img/us_episodios/us_ep3/ep3 (26).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 3",
+    "episodio": 3
+  },
+  {
+    "id": 123,
+    "url": "/img/us_episodios/us_ep4/ep4 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 124,
+    "url": "/img/us_episodios/us_ep4/ep4 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 125,
+    "url": "/img/us_episodios/us_ep4/ep4 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 126,
+    "url": "/img/us_episodios/us_ep4/ep4 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 127,
+    "url": "/img/us_episodios/us_ep4/ep4 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 128,
+    "url": "/img/us_episodios/us_ep4/ep4 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 129,
+    "url": "/img/us_episodios/us_ep4/ep4 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 130,
+    "url": "/img/us_episodios/us_ep4/ep4 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 131,
+    "url": "/img/us_episodios/us_ep4/ep4 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 132,
+    "url": "/img/us_episodios/us_ep4/ep4 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 133,
+    "url": "/img/us_episodios/us_ep4/ep4 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 134,
+    "url": "/img/us_episodios/us_ep4/ep4 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 135,
+    "url": "/img/us_episodios/us_ep4/ep4 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 136,
+    "url": "/img/us_episodios/us_ep4/ep4 (14).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 137,
+    "url": "/img/us_episodios/us_ep4/ep4 (15).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 138,
+    "url": "/img/us_episodios/us_ep4/ep4 (16).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 139,
+    "url": "/img/us_episodios/us_ep4/ep4 (17).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 4",
+    "episodio": 4
+  },
+  {
+    "id": 140,
+    "url": "/img/us_episodios/us_ep5/ep5 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 141,
+    "url": "/img/us_episodios/us_ep5/ep5 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 142,
+    "url": "/img/us_episodios/us_ep5/ep5 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 143,
+    "url": "/img/us_episodios/us_ep5/ep5 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 144,
+    "url": "/img/us_episodios/us_ep5/ep5 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 145,
+    "url": "/img/us_episodios/us_ep5/ep5 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 146,
+    "url": "/img/us_episodios/us_ep5/ep5 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 147,
+    "url": "/img/us_episodios/us_ep5/ep5 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 148,
+    "url": "/img/us_episodios/us_ep5/ep5 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 149,
+    "url": "/img/us_episodios/us_ep5/ep5 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 150,
+    "url": "/img/us_episodios/us_ep5/ep5 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 151,
+    "url": "/img/us_episodios/us_ep5/ep5 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 152,
+    "url": "/img/us_episodios/us_ep5/ep5 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 153,
+    "url": "/img/us_episodios/us_ep5/ep5 (14).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 154,
+    "url": "/img/us_episodios/us_ep5/ep5 (15).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 155,
+    "url": "/img/us_episodios/us_ep5/ep5 (16).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 156,
+    "url": "/img/us_episodios/us_ep5/ep5 (17).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 5",
+    "episodio": 5
+  },
+  {
+    "id": 157,
+    "url": "/img/us_episodios/us_ep6/ep6 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 158,
+    "url": "/img/us_episodios/us_ep6/ep6 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 159,
+    "url": "/img/us_episodios/us_ep6/ep6 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 160,
+    "url": "/img/us_episodios/us_ep6/ep6 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 161,
+    "url": "/img/us_episodios/us_ep6/ep6 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 162,
+    "url": "/img/us_episodios/us_ep6/ep6 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 163,
+    "url": "/img/us_episodios/us_ep6/ep6 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 164,
+    "url": "/img/us_episodios/us_ep6/ep6 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 165,
+    "url": "/img/us_episodios/us_ep6/ep6 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 166,
+    "url": "/img/us_episodios/us_ep6/ep6 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 6",
+    "episodio": 6
+  },
+  {
+    "id": 167,
+    "url": "/img/us_episodios/us_ep7/ep7 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 168,
+    "url": "/img/us_episodios/us_ep7/ep7 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 169,
+    "url": "/img/us_episodios/us_ep7/ep7 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 170,
+    "url": "/img/us_episodios/us_ep7/ep7 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 171,
+    "url": "/img/us_episodios/us_ep7/ep7 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 172,
+    "url": "/img/us_episodios/us_ep7/ep7 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 173,
+    "url": "/img/us_episodios/us_ep7/ep7 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 174,
+    "url": "/img/us_episodios/us_ep7/ep7 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 175,
+    "url": "/img/us_episodios/us_ep7/ep7 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 176,
+    "url": "/img/us_episodios/us_ep7/ep7 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 177,
+    "url": "/img/us_episodios/us_ep7/ep7 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 178,
+    "url": "/img/us_episodios/us_ep7/ep7 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 7",
+    "episodio": 7
+  },
+  {
+    "id": 179,
+    "url": "/img/us_episodios/us_ep8/ep8 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 180,
+    "url": "/img/us_episodios/us_ep8/ep8 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 181,
+    "url": "/img/us_episodios/us_ep8/ep8 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 182,
+    "url": "/img/us_episodios/us_ep8/ep8 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 183,
+    "url": "/img/us_episodios/us_ep8/ep8 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 184,
+    "url": "/img/us_episodios/us_ep8/ep8 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 185,
+    "url": "/img/us_episodios/us_ep8/ep8 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 186,
+    "url": "/img/us_episodios/us_ep8/ep8 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 187,
+    "url": "/img/us_episodios/us_ep8/ep8 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 188,
+    "url": "/img/us_episodios/us_ep8/ep8 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 189,
+    "url": "/img/us_episodios/us_ep8/ep8 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 190,
+    "url": "/img/us_episodios/us_ep8/ep8 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 191,
+    "url": "/img/us_episodios/us_ep8/ep8 (13).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 8",
+    "episodio": 8
+  },
+  {
+    "id": 192,
+    "url": "/img/us_episodios/us_ep9/ep9 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 193,
+    "url": "/img/us_episodios/us_ep9/ep9 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 194,
+    "url": "/img/us_episodios/us_ep9/ep9 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 195,
+    "url": "/img/us_episodios/us_ep9/ep9 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 196,
+    "url": "/img/us_episodios/us_ep9/ep9 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 197,
+    "url": "/img/us_episodios/us_ep9/ep9 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 198,
+    "url": "/img/us_episodios/us_ep9/ep9 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 199,
+    "url": "/img/us_episodios/us_ep9/ep9 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 9",
+    "episodio": 9
+  },
+  {
+    "id": 200,
+    "url": "/img/us_episodios/us_ep10/ep10 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 201,
+    "url": "/img/us_episodios/us_ep10/ep10 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 202,
+    "url": "/img/us_episodios/us_ep10/ep10 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 203,
+    "url": "/img/us_episodios/us_ep10/ep10 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 204,
+    "url": "/img/us_episodios/us_ep10/ep10 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 205,
+    "url": "/img/us_episodios/us_ep10/ep10 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 206,
+    "url": "/img/us_episodios/us_ep10/ep10 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 207,
+    "url": "/img/us_episodios/us_ep10/ep10 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 208,
+    "url": "/img/us_episodios/us_ep10/ep10 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 209,
+    "url": "/img/us_episodios/us_ep10/ep10 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 210,
+    "url": "/img/us_episodios/us_ep10/ep10 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 211,
+    "url": "/img/us_episodios/us_ep10/ep10 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 10",
+    "episodio": 10
+  },
+  {
+    "id": 212,
+    "url": "/img/us_episodios/us_ep11/ep11 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 213,
+    "url": "/img/us_episodios/us_ep11/ep11 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 214,
+    "url": "/img/us_episodios/us_ep11/ep11 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 215,
+    "url": "/img/us_episodios/us_ep11/ep11 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 216,
+    "url": "/img/us_episodios/us_ep11/ep11 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 217,
+    "url": "/img/us_episodios/us_ep11/ep11 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 218,
+    "url": "/img/us_episodios/us_ep11/ep11 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 219,
+    "url": "/img/us_episodios/us_ep11/ep11 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 11",
+    "episodio": 11
+  },
+  {
+    "id": 220,
+    "url": "/img/us_episodios/us_ep12/ep12 (1).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 221,
+    "url": "/img/us_episodios/us_ep12/ep12 (2).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 222,
+    "url": "/img/us_episodios/us_ep12/ep12 (3).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 223,
+    "url": "/img/us_episodios/us_ep12/ep12 (4).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 224,
+    "url": "/img/us_episodios/us_ep12/ep12 (5).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 225,
+    "url": "/img/us_episodios/us_ep12/ep12 (6).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 226,
+    "url": "/img/us_episodios/us_ep12/ep12 (7).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 227,
+    "url": "/img/us_episodios/us_ep12/ep12 (8).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 228,
+    "url": "/img/us_episodios/us_ep12/ep12 (9).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 229,
+    "url": "/img/us_episodios/us_ep12/ep12 (10).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 230,
+    "url": "/img/us_episodios/us_ep12/ep12 (11).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
+    "episodio": 12
+  },
+  {
+    "id": 231,
+    "url": "/img/us_episodios/us_ep12/ep12 (12).jpg",
+    "legenda": "",
+    "creditos": "X/Twitter: @USseriesth",
+    "projeto": "us",
+    "tipo": "us - episódio 12",
     "episodio": 12
   }
 ]

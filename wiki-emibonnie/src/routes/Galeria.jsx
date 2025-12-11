@@ -1,113 +1,109 @@
-import React, { useState } from "react";
-import { useSearchParams } from "react-router-dom";
-import FiltroSelect from "../components/FiltroSelect"; // Importe o componente acima
-import fotosData from "../data/galeria.json"; // Seu JSON plano
-import "../css/Galeria.css";
+import React from "react";
+import { useState } from "react";
+import fotosData from "../data/galeria.json";
+import "../css/galeria.css";
+import Carrossel from "../components/Carrossel.jsx";
 
-function GaleriaPage() {
-  const [searchParams, setSearchParams] = useSearchParams();
+export default function Galeria() {
+  const [filtroAtivo, setFiltroAtivo] = useState("todos"); // 'us', 'moonshadow', 'revistas', 'entrevistas'
+  const [busca, setBusca] = useState(""); // O que digitar na barra
 
-  // 1. CONFIGURAÇÃO DOS FILTROS (O "Mapa")
-  // Se quiser adicionar um filtro novo (ex: Ano), basta adicionar uma linha aqui!
-  // 'key': tem que ser IGUAL ao nome no JSON.
-  // 'label': é o que aparece escrito na tela.
-  const configsFiltros = [
-    { key: "projeto", label: "Projeto" },
-    { key: "tipo", label: "Tipo de Conteúdo" },
-    { key: "episodio", label: "Episódio" },
-  ];
+  // 1. PRIMEIRO FILTRO: O Projeto (Aba Superior)
+  // Pega só o que é de "Us", ou só "Revistas"
+  const fotosDoProjeto = fotosData.filter(
+    (foto) => foto.projeto === filtroAtivo
+  );
 
-  // 2. ESTADO ÚNICO (O "Saco" de filtros)
-  // Inicializamos lendo a URL. Se não tiver nada na URL, usa 'todos'.
-  const [filtrosAtivos, setFiltrosAtivos] = useState(() => {
-    const estadoInicial = {};
-    // Para cada config, olha se tem algo na URL correspondente
-    configsFiltros.forEach((config) => {
-      estadoInicial[config.key] = searchParams.get(config.key) || "todos";
-    });
-    return estadoInicial;
+  // 2. SEGUNDO FILTRO: A Barra de Pesquisa
+  // Se tiver algo escrito, filtra pela legenda. Se não, passa tudo.
+  const fotosDaBusca =
+    filtroAtivo === "todos"
+      ? fotosData.filter(
+          (foto) =>
+            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+            foto.tipo.toLowerCase().includes(busca.toLowerCase())
+        )
+      : fotosDoProjeto.filter(
+          (foto) =>
+            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+            foto.tipo.toLowerCase().includes(busca.toLowerCase())
+        );
+
+  // 3. AGRUPAMENTO (O Pulo do Gato)
+  // Vamos transformar a lista solta em um Objeto de Grupos
+  // Resultado esperado: { "Episódio 1": [...fotos], "Episódio 2": [...fotos] }
+  const grupos = {};
+
+  fotosDaBusca.forEach((foto) => {
+    // Define o nome do grupo.
+    // Se for episódio, usa "Episódio X". Se não tiver ep, usa o "tipo" (ex: Poster).
+    const nomeGrupo = foto.tipo.toUpperCase();
+
+    // Se a gaveta não existe, cria ela
+    if (!grupos[nomeGrupo]) {
+      grupos[nomeGrupo] = [];
+    }
+
+    // Joga a foto na gaveta certa
+    grupos[nomeGrupo].push(foto);
   });
 
-  // 3. FUNÇÃO GERENTE DE MUDANÇA
-  // Atualiza o estado E a URL quando o usuário mexe no select
-  const handleMudancaFiltro = (chave, novoValor) => {
-    // Atualiza o estado visual
-    const novosFiltros = { ...filtrosAtivos, [chave]: novoValor };
-    setFiltrosAtivos(novosFiltros);
-
-    // Atualiza a URL (para poder copiar o link)
-    const paramsParaUrl = {};
-    Object.keys(novosFiltros).forEach((key) => {
-      if (novosFiltros[key] !== "todos") {
-        paramsParaUrl[key] = novosFiltros[key];
-      }
-    });
-    setSearchParams(paramsParaUrl);
-  };
-
-  // 4. LÓGICA DE FILTRAGEM (A Engine)
-  const fotosFiltradas = fotosData.filter((foto) => {
-    // Verifica todas as configs. Se falhar em uma, a foto é reprovada.
-    return configsFiltros.every((config) => {
-      const valorFiltro = filtrosAtivos[config.key]; // O que o usuário escolheu
-      const valorFoto = foto[config.key]; // O que a foto tem no JSON
-
-      if (valorFiltro === "todos") return true;
-
-      // Conversão para String para garantir que "1" (string) seja igual a 1 (number)
-      // E verificamos se o valor da foto não é null (importante para posters)
-      return valorFoto !== null && String(valorFoto) === String(valorFiltro);
+  // 2. Crie a lista de chaves ordenada
+  const secoesOrdenadas = Object.keys(grupos).sort((a, b) => {
+    // Passo B: Ordenação Natural (O segredo para Ep 1, Ep 2, Ep 10)
+    // O 'numeric: true' faz o computador entender que 10 é maior que 2
+    return a.localeCompare(b, undefined, {
+      numeric: true,
+      sensitivity: "base",
     });
   });
+
+  function ativaBotaoFiltro(tipo) {
+    return (e) => {
+      setFiltroAtivo(tipo);
+      const btns = document.querySelectorAll(".botoes-filtro button");
+
+      btns.forEach((btn) => {
+        btn.removeAttribute("selected");
+      });
+
+      e.target.setAttribute("selected", true);
+    };
+  }
 
   return (
     <section key="galeria" className="galeria">
-      <h1>Galeria</h1>
+      {/* CONTROLES */}
+      <div className="controles">
+        <div className="botoes-filtro">
+          <button onClick={ativaBotaoFiltro("todos")}>Todos</button>
+          <button onClick={ativaBotaoFiltro("us")}>Us The Series</button>
+          <button onClick={ativaBotaoFiltro("moonshadow")}>Moonshadow</button>
+        </div>
 
-      {/* --- ÁREA AUTOMÁTICA DE FILTROS --- */}
-      <div className="filtros-wrapper">
-        {configsFiltros.map((config) => {
-          // Lógica Dinâmica: Pega todas as opções possíveis para ESSA chave específica
-          // Ex: Se a chave é "projeto", pega todos os projetos do JSON.
-          const opcoesUnicas = [...new Set(fotosData.map((f) => f[config.key]))]
-            .filter((val) => val !== null) // Tira nulos
-            .sort((a, b) =>
-              typeof a === "number" ? a - b : a.localeCompare(b)
-            ); // Ordena bonitinho
-
-          return (
-            <FiltroSelect
-              key={config.key}
-              label={config.label}
-              valor={filtrosAtivos[config.key]}
-              opcoes={opcoesUnicas}
-              // Passamos uma função que já sabe QUAL chave está mudando
-              aoMudar={(novoValor) =>
-                handleMudancaFiltro(config.key, novoValor)
-              }
-            />
-          );
-        })}
+        <input
+          type="text"
+          placeholder="Pesquisar..."
+          onChange={(e) => setBusca(e.target.value)}
+        />
       </div>
 
-      {/* --- GRID DE RESULTADOS --- */}
-      <div className="galeria-grid">
-        {fotosFiltradas.length > 0 ? (
-          fotosFiltradas.map((foto) => (
-            <div key={foto.id} className="foto-card">
-              <img src={foto.url} alt={foto.legenda} loading="lazy" />
-              <p>{foto.legenda}</p>
-              <p>{foto.creditos}</p>
-            </div>
-          ))
-        ) : (
-          <p className="aviso-vazio">
-            Nenhuma foto encontrada com esses filtros.
-          </p>
-        )}
+      {/* LISTA DE CARROSSÉIS */}
+      <div className="lista-secoes">
+        {/* Object.keys pega ["Episódio 1", "Episódio 2"...] */}
+        {secoesOrdenadas.map((tituloDoGrupo) => (
+          <div key={tituloDoGrupo} className="secao-carrossel">
+            <h3>{tituloDoGrupo}</h3>
+
+            {/* Aqui entra aquele componente Carrossel.jsx com CSS Scroll Snap */}
+            {/* Passamos apenas as fotos DESSA gaveta específica */}
+            <Carrossel fotos={grupos[tituloDoGrupo]} />
+          </div>
+        ))}
+
+        {/* Feedback se a busca não achar nada */}
+        {secoesOrdenadas.length === 0 && <p>Nada encontrado.</p>}
       </div>
     </section>
   );
 }
-
-export default GaleriaPage;

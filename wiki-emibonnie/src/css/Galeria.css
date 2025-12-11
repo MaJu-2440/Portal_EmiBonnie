@@ -1,69 +1,101 @@
-/* Container principal */
-.pagina-galeria {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Área dos Filtros */
-.filtros-wrapper {
+.lista-secoes {
   display: flex;
-  flex-wrap: wrap; /* Se não couber, desce pra linha de baixo */
-  gap: 15px;
-  margin-bottom: 30px;
-  justify-content: center;
-  background: #f8f9fa; /* Fundo clarinho */
-  padding: 15px;
-  border-radius: 10px;
+  flex-wrap: wrap;
 }
 
-/* Estilo dos Dropdowns */
-.filtros-wrapper select {
-  padding: 10px 15px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background-color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  min-width: 150px; /* Tamanho mínimo pra não ficar espremido */
-}
-
-.filtros-wrapper select:focus {
-  border-color: #ff69b4; /* Rosa quando clica */
-  outline: none;
-}
-
-/* O Grid Mágico de Fotos */
-.galeria-grid {
-  display: grid;
-  /* Cria colunas automáticas com mínimo de 250px de largura */
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-}
-
-.foto-card {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  background: white;
-}
-
-.foto-card:hover {
-  transform: translateY(-5px); /* Efeito de levitar ao passar o mouse */
-}
-
-.foto-card img {
+.secao-carrossel {
+  margin: 1.5rem auto;
   width: 100%;
-  height: 250px; /* Altura fixa para alinhar tudo */
-  object-fit: cover; /* Corta a imagem para preencher sem esticar */
-  display: block;
+  position: relative;
 }
 
-.foto-card p {
-  padding: 10px;
-  font-size: 0.9rem;
-  color: #555;
+.secao-carrossel h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
-  margin: 0;
+}
+
+.carrossel-scroll {
+  display: flex; /* Coloca as fotos uma ao lado da outra */
+  gap: 15px; /* Espaço entre elas */
+  overflow-x: auto; /* Permite rolar para o lado */
+  padding-bottom: 20px;
+
+  /* Experiência nativa de app */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* Rolagem suave no iPhone */
+}
+
+.carrossel-item {
+  scroll-snap-align: center; /* A foto "trava" no canto ao rolar */
+  flex: 0 0 auto; /* Impede que a foto seja espremida */
+  width: 100%;
+}
+
+.carrossel-item img {
+  height: 300px; /* ALTURA FIXA: O segredo! */
+  width: 100%;
+  border-radius: 8px;
+  object-fit: contain; /* Garante que a foto apareça inteira */
+  background: var(--background-dark-transparente);
+}
+
+.carrossel-btn {
+  position: absolute;
+  top: 45%;
+  font-size: 2rem;
+  color: var(--texto);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carrossel-btn-right {
+  right: 12px;
+}
+
+.carrossel-btn-left {
+  left: 12px;
+}
+
+.botoes-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.botoes-filtro button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: var(--destaque-bonnie);
+  font-size: 1rem;
+  color: var(--texto);
+}
+
+.botoes-filtro button[selected] {
+  background-color: var(--background-dark-transparente);
+  border: 2px solid var(--destaque-emi);
+}
+
+.controles input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid var(--destaque-bonnie);
+  background-color: var(--background-dark-transparente);
+  color: var(--texto);
+  font-size: 1rem;
+}
+
+.controle input:focus {
+  border: 2px solid var(--destaque-emi);
+}
+
+@media screen and (min-width: 512px) {
+  .secao-carrossel {
+    max-width: 450px;
+  }
 }
