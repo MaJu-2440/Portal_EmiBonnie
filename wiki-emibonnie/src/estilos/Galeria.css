@@ -6,7 +6,6 @@
 .secao-carrossel {
   margin: 1.5rem auto;
   width: 100%;
-  position: relative;
 }
 
 .secao-carrossel h3 {
@@ -20,42 +19,45 @@
   gap: 15px; /* Espaço entre elas */
   overflow-x: auto; /* Permite rolar para o lado */
   padding-bottom: 20px;
+  scroll-behavior: smooth;
+  width: 100%;
 
   /* Experiência nativa de app */
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; /* Rolagem suave no iPhone */
 }
 
-.carrossel-item {
-  scroll-snap-align: center; /* A foto "trava" no canto ao rolar */
-  flex: 0 0 auto; /* Impede que a foto seja espremida */
-  width: 100%;
+.carrossel-scroll::-webkit-scrollbar {
+  display: none;
 }
 
-.carrossel-item img {
-  height: 300px; /* ALTURA FIXA: O segredo! */
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  width: 28px;
+  height: 28px;
+  color: var(--texto);
+}
+
+.carrossel-item .img {
+  /* ALTURA FIXA: O segredo! */
+  height: 320px;
   width: 100%;
   border-radius: 8px;
   object-fit: contain; /* Garante que a foto apareça inteira */
+}
+
+.swiper {
   background: var(--background-dark-transparente);
+  border-radius: 8px;
 }
 
-.carrossel-btn {
-  position: absolute;
-  top: 45%;
-  font-size: 2rem;
-  color: var(--texto);
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+.carrossel-item .legenda {
+  padding-left: 1rem;
 }
 
-.carrossel-btn-right {
-  right: 12px;
-}
-
-.carrossel-btn-left {
-  left: 12px;
+.carrossel-item .creditos {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .botoes-filtro {
@@ -72,6 +74,7 @@
   background-color: var(--destaque-bonnie);
   font-size: 1rem;
   color: var(--texto);
+  cursor: pointer;
 }
 
 .botoes-filtro button[selected] {
@@ -95,6 +98,6 @@
 
 @media screen and (min-width: 512px) {
   .secao-carrossel {
-    max-width: 450px;
+    max-width: 350px;
   }
 }
