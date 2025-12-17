@@ -4,13 +4,14 @@ import { useParams } from "react-router-dom";
 import usData from "../data/us-data.json";
 import moonshadowData from "../data/moonshadow-data.json";
 import SectionRenderer from "../components/SectionRenderer";
+import Indice from "../components/Indice";
 
 const bancoDeDados = [usData, moonshadowData];
 
 export default function Wiki() {
   const { slug } = useParams();
   const pageData = bancoDeDados.find((dados) => dados.slug === slug);
-
+  const indiceList = [];
   return (
     <section className="content_container">
       <section id="principal">
@@ -18,7 +19,10 @@ export default function Wiki() {
 
         <aside className="details_content">
           <figure className="poster_series">
-            <img src={pageData.imagem_capa} alt="Poster da Série Us" />
+            <img
+              src={pageData.imagem_capa}
+              alt={"Capa de " + pageData.titulo_da_pagina}
+            />
           </figure>
 
           <table className="info_series">
@@ -41,9 +45,11 @@ export default function Wiki() {
       </section>
       <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
         {pageData.sections.map((section, index) => {
+          indiceList.push({ title: section.title, id: section.id });
           return <SectionRenderer key={index} {...section} />;
         })}
       </ErrorBoundary>
+      <Indice indiceList={indiceList} />
     </section>
   );
 }

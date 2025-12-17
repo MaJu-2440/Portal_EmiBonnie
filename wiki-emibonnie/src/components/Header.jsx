@@ -36,7 +36,10 @@ function Header() {
           </div>
         )}
 
-        <ul className="nav-mobile_lista" hidden={!isOpen}>
+        <ul
+          className={isOpen ? "nav-mobile_lista open" : "nav-mobile_lista"}
+          hidden={!isOpen}
+        >
           <li className="decoration">
             <i className="fa-solid fa-caret-up"></i>
           </li>

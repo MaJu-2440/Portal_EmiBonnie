@@ -61,14 +61,42 @@ header .logo img {
 .nav-mobile_lista {
   position: absolute;
   top: 100%;
-  left: 1rem;
-  right: 0;
+  right: 0.5rem;
   padding: 0.5rem 1rem;
+  width: 300px;
 
   background-color: var(--background-sombra);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 3;
   list-style: none;
+  animation: fadeOutScale 0.3s ease-in forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animação de Fechamento (Fade & Scale Out) */
+@keyframes fadeOutScale {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.nav-mobile_lista.open {
+  animation: fadeInScale 0.3s ease-out forwards; /* 'forwards' mantém o estado final */
 }
 
 .nav-mobile_lista .decoration {
