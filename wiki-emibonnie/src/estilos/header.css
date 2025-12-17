@@ -61,14 +61,42 @@ header .logo img {
 .nav-mobile_lista {
   position: absolute;
   top: 100%;
-  left: 1rem;
-  right: 0;
+  right: 0.5rem;
   padding: 0.5rem 1rem;
+  width: 300px;
 
   background-color: var(--background-sombra);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 3;
   list-style: none;
+  animation: fadeOutScale 0.3s ease-in forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animação de Fechamento (Fade & Scale Out) */
+@keyframes fadeOutScale {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.nav-mobile_lista.open {
+  animation: fadeInScale 0.3s ease-out forwards; /* 'forwards' mantém o estado final */
 }
 
 .nav-mobile_lista .decoration {
@@ -98,51 +126,51 @@ header .logo img {
 }
 
 .nav-desktop_lista {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
 }
 
 .nav-desktop_lista details summary::marker {
-    content: "";
+  content: "";
 }
 
 .nav-desktop_lista details summary::after {
-    content: " ▼";
-    font-size: 0.8rem;
+  content: " ▼";
+  font-size: 0.8rem;
 }
 
 .nav-desktop_lista details:open summary::after {
-    content: " ▲";
-    font-size: 0.8rem;
+  content: " ▲";
+  font-size: 0.8rem;
 }
 
 .nav-desktop_lista details {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 .nav-desktop_lista details ul {
-    position: absolute;
-    top: 150%;
-    right: 50%;
-    transform: translateX(50%);
-    padding: 0.5rem 1rem;
-    min-width: 150px;
+  position: absolute;
+  top: 150%;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 0.5rem 1rem;
+  min-width: 150px;
 
-    background-color: var(--background-sombra);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    list-style: none;
-    z-index: 3;
+  background-color: var(--background-sombra);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  z-index: 3;
 }
 
 .nav-desktop_lista details ul .decoration {
-    position: absolute;
-    top: 0;
-    right: 50%;
-    transform: translate(50%, -50%);
-    color: var(--background-sombra);
-    font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: var(--background-sombra);
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -156,7 +184,7 @@ header .logo img {
 }
 
 @media screen and (min-width: 1024px) {
-    header {
-        padding: 1rem 3rem;
-    }
+  header {
+    padding: 1rem 3rem;
+  }
 }

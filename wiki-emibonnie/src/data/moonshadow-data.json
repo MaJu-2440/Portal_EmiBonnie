@@ -16,17 +16,20 @@
   "sections": [
     {
       "type": "texto_e_url",
+      "id": "sinopse",
       "title": "Sinopse",
       "desc": "Após enfrentar um término, uma moça fechou seu coração para o amor. Depois de um caso de uma noite com uma jovem que deseja ser sua sugar baby, ela começa a redescobrir novos sentimentos.",
       "url": "https://youtu.be/LMKBoo8bvaw?si=WlVBVV9QPtf4jSxR"
     },
     {
       "type": "lista_de_episodios",
+      "id": "episodios",
       "title": "Episódios",
       "episodios": []
     },
     {
       "type": "lista_de_elenco",
+      "id": "elenco",
       "title": "Elenco",
       "elenco": [
         { "ator": "Emi Thasorn Klinnium", "personagem": "Chan" },
@@ -36,11 +39,13 @@
     },
     {
       "type": "tabela_de_trilha_sonora",
+      "id": "trilhaSonora",
       "title": "Trilha Sonora",
       "trilha_sonora": []
     },
     {
       "type": "lista_de_links",
+      "id": "linksExternos",
       "title": "Links Externos",
       "links": [
         {
@@ -63,6 +68,7 @@
     },
     {
       "type": "lista_de_links",
+      "id": "fontesReferencias",
       "title": "Fontes e Referências",
       "links": [
         {
