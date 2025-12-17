@@ -12,7 +12,7 @@ export default function SectionRenderer(section) {
   switch (section.type) {
     case "texto_e_url":
       return (
-        <section>
+        <section id={section.id}>
           <h2>
             {section.title}
             <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -32,7 +32,7 @@ export default function SectionRenderer(section) {
     case "lista_de_episodios":
       if (section.episodios.length > 0 && section.episodios[0] !== "") {
         return (
-          <section>
+          <section id={section.id}>
             <h2>
               {section.title}
               <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -41,7 +41,7 @@ export default function SectionRenderer(section) {
             <div className="toggle-div">
               {section.episodios.map((episodio) => (
                 <CardEpisodes
-                  key={episodio.numero}
+                  key={episodio.numero + 100}
                   numero={episodio.numero}
                   titulo={episodio.titulo}
                   sinopse={episodio.sinopse}
@@ -55,7 +55,7 @@ export default function SectionRenderer(section) {
         );
       } else {
         return (
-          <section>
+          <section id={section.id}>
             <h2>
               {section.title}
               <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -71,7 +71,7 @@ export default function SectionRenderer(section) {
 
     case "lista_de_elenco":
       return (
-        <section>
+        <section id={section.id}>
           <h2>
             {section.title}
             <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -94,7 +94,7 @@ export default function SectionRenderer(section) {
     case "tabela_de_trilha_sonora":
       if (section.trilha_sonora.length > 0) {
         return (
-          <section>
+          <section id={section.id}>
             <h2>
               {section.title}
               <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -133,7 +133,7 @@ export default function SectionRenderer(section) {
         );
       } else {
         return (
-          <section>
+          <section id={section.id}>
             <h2>
               {section.title}
               <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
@@ -149,7 +149,7 @@ export default function SectionRenderer(section) {
 
     case "lista_de_links":
       return (
-        <section>
+        <section id={section.id}>
           <h2>
             {section.title}
             <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
