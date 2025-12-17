@@ -18,7 +18,10 @@ export default function Wiki() {
 
         <aside className="details_content">
           <figure className="poster_series">
-            <img src={pageData.imagem_capa} alt="Poster da Série Us" />
+            <img
+              src={pageData.imagem_capa}
+              alt={"Capa de " + pageData.titulo_da_pagina}
+            />
           </figure>
 
           <table className="info_series">
