@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { useParams } from "react-router-dom";
 import usData from "../data/us-data.json";
@@ -11,47 +11,35 @@ const bancoDeDados = [usData, moonshadowData];
 export default function Wiki() {
   const { slug } = useParams();
   const pageData = bancoDeDados.find((dados) => dados.slug === slug);
-  const indiceList = [];
+
+  const indiceList = pageData.sections.map((section) => ({
+    title: section.title,
+    id: section.id,
+  }));
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <section className="content_container">
-      <section id="principal">
-        <h1>{pageData.titulo_da_pagina}</h1>
-
-        <aside className="details_content">
-          <figure className="poster_series">
-            <img
-              src={pageData.imagem_capa}
-              alt={"Capa de " + pageData.titulo_da_pagina}
-            />
-          </figure>
-
-          <table className="info_series">
-            <tbody>
-              {pageData.details.map((linha) => {
-                return (
-                  <tr>
-                    <th>{linha.title}</th>
-                    <td>{linha.desc}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </aside>
-
-        <div className="text-content">
-          <p dangerouslySetInnerHTML={{ __html: pageData.desc_completa }} />
-          <p dangerouslySetInnerHTML={{ __html: pageData.desc_tecnica }} />
-        </div>
-        <hr />
-      </section>
       <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
         {pageData.sections.map((section, index) => {
-          indiceList.push({ title: section.title, id: section.id });
-          return <SectionRenderer key={index} {...section} />;
+          return (
+            <SectionRenderer
+              key={index}
+              indiceList={indiceList}
+              section={section}
+            />
+          );
         })}
       </ErrorBoundary>
-      <Indice indiceList={indiceList} />
+      {isMobile && <Indice indiceList={indiceList} />}
     </section>
   );
 }

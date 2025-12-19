@@ -29,9 +29,10 @@ h1 {
   border-radius: 8px;
   background-color: var(--background-dark);
   width: 350px;
+  margin: 0 auto;
 }
 
-#principal {
+#hero {
   position: relative;
 }
 
@@ -282,34 +283,38 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-  #principal {
+  #hero {
+    position: relative;
+
     display: grid;
     grid-template-columns: 1fr 250px;
     grid-template-areas:
       "title title"
       "text details"
-      "text details"
+      "indice details"
       "hr hr";
   }
-  #principal h1 {
+  #hero h1 {
     grid-area: title;
     text-align: left;
   }
 
-  #principal .details_content {
+  #hero .details_content {
     grid-area: details;
   }
 
-  #principal .text-content {
+  #hero .text-content {
     grid-area: text;
   }
 
-  #principal hr {
+  #hero hr {
     grid-area: hr;
   }
 
   .details_content {
     width: 250px;
+    align-self: start;
+    margin: 0;
   }
 
   section {
@@ -330,5 +335,35 @@ hr {
   .episodio_container .episodio_poster img {
     height: 100%;
     width: auto;
+  }
+
+  .indice-btn {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .indice {
+    display: block;
+    animation: none;
+
+    position: static;
+    transform: none;
+
+    grid-area: indice;
+    align-self: self-end;
+    background-color: var(--background-dark-transparente);
+    border-left: 2px solid var(--destaque-bonnie);
+  }
+
+  .indice-btn {
+    padding: 0;
+  }
+
+  .indice .indice-title {
+    color: var(--destaque-emi);
+  }
+
+  .indice hr {
+    border: 1px solid var(--destaque-bonnie);
   }
 }

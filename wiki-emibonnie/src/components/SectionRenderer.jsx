@@ -1,7 +1,8 @@
 import React from "react";
 import CardEpisodes from "./CardEpisodes";
+import Indice from "../components/Indice";
 
-export default function SectionRenderer(section) {
+export default function SectionRenderer({ section, indiceList }) {
   const divToggle = (event) => {
     const icon = event.currentTarget;
     const contentDiv = icon.parentElement.nextElementSibling;
@@ -10,6 +11,44 @@ export default function SectionRenderer(section) {
   };
 
   switch (section.type) {
+    case "hero":
+      return (
+        <section id="hero">
+          <h1>{section.title}</h1>
+
+          <aside className="details_content">
+            <figure className="poster_series">
+              <img
+                src={section.imagem_capa}
+                alt={"Capa de " + section.titulo_da_pagina}
+              />
+            </figure>
+
+            <table className="info_series">
+              <tbody>
+                {section.details.map((linha) => {
+                  return (
+                    <tr>
+                      <th>{linha.title}</th>
+                      <td>{linha.desc}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </aside>
+
+          <div className="text-content">
+            <p dangerouslySetInnerHTML={{ __html: section.desc_completa }} />
+            <p dangerouslySetInnerHTML={{ __html: section.desc_tecnica }} />
+          </div>
+
+          <Indice indiceList={indiceList} />
+
+          <hr />
+        </section>
+      );
+
     case "texto_e_url":
       return (
         <section id={section.id}>
