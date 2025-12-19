@@ -1,10 +1,24 @@
 import React from "react"; // (Opcional nas versões novas, mas bom pra garantir)
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import icon from "../assets/icon-emibonnie__white.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+      if (window.innerWidth >= 768) {
+        setIsOpen(true);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleMenuToggle = () => {
     setIsOpen(!isOpen);
@@ -25,121 +39,163 @@ function Header() {
         </Link>
       </div>
 
-      <nav className="nav-mobile">
-        {isOpen ? (
-          <div className="nav-icons toggle" onClick={handleMenuToggle}>
-            <i className="fa-solid fa-xmark"></i>
-          </div>
-        ) : (
-          <div className="nav-icons" onClick={handleMenuToggle}>
-            <i className="fa-solid fa-bars"></i>
+      <nav className="nav">
+        {isMobile && (
+          <div
+            className={isOpen ? "nav-icons toggle" : "nav-icons"}
+            onClick={handleMenuToggle}
+          >
+            <i
+              className={isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
+            ></i>
           </div>
         )}
 
         <ul
-          className={isOpen ? "nav-mobile_lista open" : "nav-mobile_lista"}
+          className={isOpen ? "nav_lista open" : "nav_lista"}
           hidden={!isOpen}
         >
           <li className="decoration">
             <i className="fa-solid fa-caret-up"></i>
           </li>
-          <li>
-            <Link to={"/"} onClick={handleMenuToggle} className="link">
-              Página Principal<i className="fa-solid fa-angle-right"></i>
-            </Link>
-          </li>
+          {isMobile && (
+            <li>
+              <Link to={"/"} onClick={handleMenuToggle} className="link">
+                <div className="link-title">
+                  Página Principal<i className="fa-solid fa-angle-right"></i>
+                </div>
+              </Link>
+            </li>
+          )}
 
           <li onClick={() => handleSubMenuToggle("menu1")} className="link">
-            Perfil<i className="fa-solid fa-angle-right"></i>
+            <div className="link-title">
+              Perfil<i className="fa-solid fa-angle-right"></i>
+            </div>
+            {openSubMenu === "menu1" && (
+              <ul className="nav_sub-lista">
+                {!isMobile && (
+                  <li className="decoration">
+                    <i className="fa-solid fa-caret-up"></i>
+                  </li>
+                )}
+                <li>
+                  <Link
+                    to={"perfil/emi"}
+                    className="link"
+                    onClick={handleMenuToggle}
+                  >
+                    <div className="link-title">
+                      Emi<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={"perfil/bonnie"}
+                    className="link"
+                    onClick={handleMenuToggle}
+                  >
+                    <div className="link-title">
+                      Bonnie<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+              </ul>
+            )}
           </li>
-          {openSubMenu === "menu1" && (
-            <ul className="nav-mobile_sub-lista">
-              <li>
-                <Link
-                  to={"perfil/emi"}
-                  className="link"
-                  onClick={handleMenuToggle}
-                >
-                  Emi<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"perfil/bonnie"}
-                  className="link"
-                  onClick={handleMenuToggle}
-                >
-                  Bonnie<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-            </ul>
-          )}
 
           <li onClick={() => handleSubMenuToggle("menu2")} className="link">
-            Wiki<i className="fa-solid fa-angle-right"></i>
+            <div className="link-title">
+              Wiki<i className="fa-solid fa-angle-right"></i>
+            </div>
+            {openSubMenu === "menu2" && (
+              <ul className="nav_sub-lista">
+                {!isMobile && (
+                  <li className="decoration">
+                    <i className="fa-solid fa-caret-up"></i>
+                  </li>
+                )}
+                <li>
+                  <Link
+                    to={"wiki/us-series"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Us the series<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={"wiki/moonshadow-series"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Moonshadow<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+              </ul>
+            )}
           </li>
-          {openSubMenu === "menu2" && (
-            <ul className="nav-mobile_sub-lista">
-              <li>
-                <Link
-                  to={"wiki/us-series"}
-                  onClick={handleMenuToggle}
-                  className="link"
-                >
-                  Us the series<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"wiki/moonshadow-series"}
-                  onClick={handleMenuToggle}
-                  className="link"
-                >
-                  Moonshadow<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-            </ul>
-          )}
 
           <li onClick={() => handleSubMenuToggle("menu3")} className="link">
-            Trabalhos<i className="fa-solid fa-angle-right"></i>
+            <div className="link-title">
+              Trabalhos<i className="fa-solid fa-angle-right"></i>
+            </div>
+            {openSubMenu === "menu3" && (
+              <ul className="nav_sub-lista">
+                {!isMobile && (
+                  <li className="decoration">
+                    <i className="fa-solid fa-caret-up"></i>
+                  </li>
+                )}
+                <li>
+                  <Link
+                    to={"trabalhos/discografia"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Discografia<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={"trabalhos/filmografia"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Filmografia<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={"trabalhos/entrevistas-e-sessoes-de-fotos"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Entrevistas/Photoshoots
+                      <i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+              </ul>
+            )}
           </li>
-          {openSubMenu === "menu3" && (
-            <ul className="nav-mobile_sub-lista">
-              <li>
-                <Link
-                  to={"trabalhos/discografia"}
-                  onClick={handleMenuToggle}
-                  className="link"
-                >
-                  Discografia<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"trabalhos/filmografia"}
-                  onClick={handleMenuToggle}
-                  className="link"
-                >
-                  Filmografia<i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={"trabalhos/entrevistas-e-sessoes-de-fotos"}
-                  onClick={handleMenuToggle}
-                  className="link"
-                >
-                  Entrevistas/Photoshoots
-                  <i className="fa-solid fa-angle-right"></i>
-                </Link>
-              </li>
-            </ul>
-          )}
 
           <li>
             <Link to={"galeria"} onClick={handleMenuToggle} className="link">
-              Galeria<i className="fa-solid fa-angle-right"></i>
+              <div className="link-title">
+                Galeria{isMobile && <i className="fa-solid fa-angle-right"></i>}
+              </div>
             </Link>
           </li>
         </ul>
