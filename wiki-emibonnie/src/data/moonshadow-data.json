@@ -1,19 +1,24 @@
 {
   "slug": "moonshadow-series",
-  "titulo_da_pagina": "Moonshadow",
-  "desc_completa": "Prevista para lançar ainda em 2026. <a href='#emi'>Emi Thasorn</a> e <a href='#bonnie'>Bonnie Pattraphus</a> protagonizam ao lado de Film Rachanun, a nova série anunciada durante o evento de lineup <em>GMMTV2026: Magic Vibes Maximized</em>, <strong>Moonshadow</strong>. Uma série tailandesa de drama româtico entre mulheres (Girls Love - GL).",
-  "desc_tecnica": "Lançada pela produtora GMMTV e baseada na novel tailandesa <em>'Moonshadow' เงาใต้พระจันทร์ (Ngao Tai Phrajan)</em> escrita por Flower of Memory <em>(ดอกไม้แห่งความทรงจำ)</em>, a série é dirigida por Fon Kanittha Kwunyoo.",
-  "imagem_capa": "/img/ms_posters/pilot-poster-oficial.jpg",
-  "details": [
-    { "title": "Nº de episódios", "desc": "..." },
-    { "title": "Duração média", "desc": "..." },
-    { "title": "Exibição", "desc": "Youtube GMMTV" },
-    { "title": "Primeira exibição", "desc": "Não anunciado" },
-    { "title": "Última exibição", "desc": "..." },
-    { "title": "Classificação", "desc": "..." },
-    { "title": "Idioma original", "desc": "Tailandês" }
-  ],
+
   "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "title": "Moonshadow",
+      "desc_completa": "Prevista para lançar ainda em 2026. <a href='#emi'>Emi Thasorn</a> e <a href='#bonnie'>Bonnie Pattraphus</a> protagonizam ao lado de Film Rachanun, a nova série anunciada durante o evento de lineup <em>GMMTV2026: Magic Vibes Maximized</em>, <strong>Moonshadow</strong>. Uma série tailandesa de drama româtico entre mulheres (Girls Love - GL).",
+      "desc_tecnica": "Lançada pela produtora GMMTV e baseada na novel tailandesa <em>'Moonshadow' เงาใต้พระจันทร์ (Ngao Tai Phrajan)</em> escrita por Flower of Memory <em>(ดอกไม้แห่งความทรงจำ)</em>, a série é dirigida por Fon Kanittha Kwunyoo.",
+      "imagem_capa": "/img/ms_posters/pilot-poster-oficial.jpg",
+      "details": [
+        { "title": "Nº de episódios", "desc": "..." },
+        { "title": "Duração média", "desc": "..." },
+        { "title": "Exibição", "desc": "Youtube GMMTV" },
+        { "title": "Primeira exibição", "desc": "Não anunciado" },
+        { "title": "Última exibição", "desc": "..." },
+        { "title": "Classificação", "desc": "..." },
+        { "title": "Idioma original", "desc": "Tailandês" }
+      ]
+    },
     {
       "type": "texto_e_url",
       "id": "sinopse",
