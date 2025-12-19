@@ -340,6 +340,7 @@ hr {
   .indice-btn {
     background-color: transparent;
     box-shadow: none;
+    padding: 0;
   }
 
   .indice {
@@ -355,12 +356,15 @@ hr {
     border-left: 2px solid var(--destaque-bonnie);
   }
 
-  .indice-btn {
-    padding: 0;
+  .indice li a:hover {
+    text-decoration: none;
+    color: var(--destaque-emi);
+    transition: all 0.3s ease-in-out;
   }
 
   .indice .indice-title {
     color: var(--destaque-emi);
+    cursor: pointer;
   }
 
   .indice hr {
