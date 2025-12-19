@@ -39,8 +39,10 @@ export default function Wiki() {
           </table>
         </aside>
 
-        <p dangerouslySetInnerHTML={{ __html: pageData.desc_completa }} />
-        <p dangerouslySetInnerHTML={{ __html: pageData.desc_tecnica }} />
+        <div className="text-content">
+          <p dangerouslySetInnerHTML={{ __html: pageData.desc_completa }} />
+          <p dangerouslySetInnerHTML={{ __html: pageData.desc_tecnica }} />
+        </div>
         <hr />
       </section>
       <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>

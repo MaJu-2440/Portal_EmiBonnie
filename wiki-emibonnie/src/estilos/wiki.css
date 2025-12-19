@@ -28,6 +28,7 @@ h1 {
   border: 2px solid var(--destaque-bonnie);
   border-radius: 8px;
   background-color: var(--background-dark);
+  width: 350px;
 }
 
 #principal {
@@ -118,6 +119,7 @@ a:hover {
 }
 
 .indice {
+  display: none;
   position: fixed;
   top: 30%;
   right: 3.5rem;
@@ -177,6 +179,7 @@ a:hover {
 }
 
 .indice.ativo.open {
+  display: block;
   animation: fadeInScale 0.3s ease-out forwards; /* 'forwards' mantém o estado final */
 }
 
@@ -276,4 +279,56 @@ hr {
   border: 1px solid var(--destaque-bonnie);
   padding: 0.5rem;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #principal {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas:
+      "title title"
+      "text details"
+      "text details"
+      "hr hr";
+  }
+  #principal h1 {
+    grid-area: title;
+    text-align: left;
+  }
+
+  #principal .details_content {
+    grid-area: details;
+  }
+
+  #principal .text-content {
+    grid-area: text;
+  }
+
+  #principal hr {
+    grid-area: hr;
+  }
+
+  .details_content {
+    width: 250px;
+  }
+
+  section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .episodio_container {
+    flex-direction: row-reverse;
+  }
+
+  .episodio_container .episodio_poster {
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .episodio_container .episodio_poster img {
+    height: 100%;
+    width: auto;
+  }
 }
