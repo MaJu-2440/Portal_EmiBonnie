@@ -42,6 +42,10 @@
   color: var(--texto);
 }
 
+.carrossel-item {
+  height: 440px;
+}
+
 .carrossel-item .img {
   /* ALTURA FIXA: O segredo! */
   height: 320px;
@@ -112,11 +116,12 @@
   .galeria .controles {
     margin: 0 auto;
     width: 100%;
+    max-width: 800px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .carrossel-item {
-    height: 440px;
+  section.galeria {
+    max-width: 1200px;
   }
 }
