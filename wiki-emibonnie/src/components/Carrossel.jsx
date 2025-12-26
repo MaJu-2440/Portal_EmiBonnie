@@ -14,7 +14,7 @@ export default function Carrossel({ fotos }) {
       navigation={{ clickable: true }}
       autoplay={{
         delay: 10000, // tempo entre slides (ms)
-        disableOnInteraction: false, // continua mesmo após interação
+        disableOnInteraction: true, // continua mesmo após interação
       }}
       style={{ width: "100%" }}
     >

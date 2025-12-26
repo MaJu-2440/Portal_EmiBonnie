@@ -1,10 +1,14 @@
 .lista-secoes {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 .secao-carrossel {
-  margin: 1.5rem auto;
+  margin: 0;
   width: 100%;
 }
 
@@ -51,13 +55,10 @@
   border-radius: 8px;
 }
 
-.carrossel-item .legenda {
-  padding-left: 1rem;
-}
-
+.carrossel-item .legenda,
 .carrossel-item .creditos {
-  padding-bottom: 1rem;
   padding-left: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .botoes-filtro {
@@ -99,5 +100,23 @@
 @media screen and (min-width: 512px) {
   .secao-carrossel {
     max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  section.galeria {
+    max-width: max-content;
+  }
+
+  .galeria .controles {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .carrossel-item {
+    height: 440px;
   }
 }
