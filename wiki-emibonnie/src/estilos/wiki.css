@@ -371,3 +371,21 @@ hr {
     border: 1px solid var(--destaque-bonnie);
   }
 }
+
+@media screen and (min-width: 1280px) {
+  section {
+    max-width: 700px;
+  }
+
+  section#hero {
+    grid-template-columns: 1fr 300px;
+  }
+
+  .details_content {
+    width: 300px;
+  }
+
+  .indice {
+    align-self: self-start;
+  }
+}
