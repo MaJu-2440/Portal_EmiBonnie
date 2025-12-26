@@ -49,7 +49,7 @@ export default function SectionRenderer({ section, indiceList }) {
         </section>
       );
 
-    case "texto_e_url":
+    case "trailer":
       return (
         <section id={section.id}>
           <h2>
@@ -58,11 +58,15 @@ export default function SectionRenderer({ section, indiceList }) {
           </h2>
           <div className="toggle-div">
             <p dangerouslySetInnerHTML={{ __html: section.desc }} />
-            <div className="btn">
-              <a href={section.url} target="_blank" rel="noopener noreferrer">
-                Assista ao trailer
-              </a>
-            </div>
+
+            <iframe
+              src={section.url}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
           <hr />
         </section>

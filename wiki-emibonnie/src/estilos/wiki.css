@@ -213,31 +213,6 @@ hr {
   border-top: 1px solid var(--destaque-bonnie);
 }
 
-.btn {
-  background: var(--destaque-bonnie);
-  padding: 0.8rem 1.2rem;
-  width: fit-content;
-  border-radius: 36px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  margin-top: 1rem;
-
-  a {
-    color: var(--texto);
-    font-weight: 600;
-  }
-}
-
-.btn:hover {
-  background: var(--destaque-emi);
-
-  a {
-    color: var(--background-dark);
-    text-decoration: none;
-  }
-}
-
 .episodio_container {
   display: flex;
   flex-direction: column;
@@ -280,6 +255,15 @@ hr {
   border: 1px solid var(--destaque-bonnie);
   padding: 0.5rem;
   text-align: center;
+}
+
+#sinopse p {
+  margin-bottom: 1rem;
+}
+
+#sinopse iframe {
+  width: 100%;
+  height: 215px;
 }
 
 @media screen and (min-width: 768px) {
@@ -370,6 +354,11 @@ hr {
   .indice hr {
     border: 1px solid var(--destaque-bonnie);
   }
+
+  #sinopse iframe {
+    width: 100%;
+    height: 345px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -387,5 +376,10 @@ hr {
 
   .indice {
     align-self: self-start;
+  }
+
+  #sinopse iframe {
+    width: 100%;
+    height: 415px;
   }
 }
