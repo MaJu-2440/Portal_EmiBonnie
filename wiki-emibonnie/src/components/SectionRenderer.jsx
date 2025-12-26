@@ -1,6 +1,7 @@
 import React from "react";
 import CardEpisodes from "./CardEpisodes";
 import Indice from "../components/Indice";
+import { Link } from "react-router-dom";
 
 export default function SectionRenderer({ section, indiceList }) {
   const divToggle = (event) => {
@@ -62,11 +63,27 @@ export default function SectionRenderer({ section, indiceList }) {
             <iframe
               src={section.url}
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
+          </div>
+          <hr />
+        </section>
+      );
+
+    case "galeria":
+      return (
+        <section id={section.id}>
+          <h2>
+            {section.title}
+            <i className="fa-solid fa-angle-up" onClick={divToggle}></i>
+          </h2>
+          <div className="toggle-div">
+            <div className="btn">
+              <Link to={section.link}>Veja a galeria!</Link>
+            </div>
           </div>
           <hr />
         </section>

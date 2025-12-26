@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import fotosData from "../data/galeria.json";
 import "../estilos/Galeria.css";
 import Carrossel from "../components/Carrossel.jsx";
+import { useParams } from "react-router-dom";
 
 export default function Galeria() {
-  const [filtroAtivo, setFiltroAtivo] = useState("todos"); // 'us', 'moonshadow', 'revistas', 'entrevistas'
+  const { filtro } = useParams();
+  const [filtroAtivo, setFiltroAtivo] = useState(filtro || "todos"); // 'us', 'moonshadow', 'revistas', 'entrevistas'
   const [busca, setBusca] = useState(""); // O que digitar na barra
 
   // 1. PRIMEIRO FILTRO: O Projeto (Aba Superior)
@@ -58,27 +60,31 @@ export default function Galeria() {
     });
   });
 
-  function ativaBotaoFiltro(tipo) {
-    return (e) => {
-      setFiltroAtivo(tipo);
-      const btns = document.querySelectorAll(".botoes-filtro button");
+  useEffect(() => {
+    if (filtro) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setFiltroAtivo(filtro);
+    }
+  }, [filtro]);
 
-      btns.forEach((btn) => {
-        btn.removeAttribute("selected");
-      });
-
-      e.target.setAttribute("selected", true);
-    };
-  }
+  const filtroBtns = ["todos", "us", "moonshadow"];
 
   return (
     <section key="galeria" className="galeria">
       {/* CONTROLES */}
       <div className="controles">
         <div className="botoes-filtro">
-          <button onClick={ativaBotaoFiltro("todos")}>Todos</button>
-          <button onClick={ativaBotaoFiltro("us")}>Us The Series</button>
-          <button onClick={ativaBotaoFiltro("moonshadow")}>Moonshadow</button>
+          {filtroBtns.map((filtro) => {
+            return (
+              <button
+                key={filtro}
+                onClick={() => setFiltroAtivo(filtro)}
+                className={filtroAtivo === filtro ? "active" : ""}
+              >
+                {filtro.toUpperCase()}
+              </button>
+            );
+          })}
         </div>
 
         <input

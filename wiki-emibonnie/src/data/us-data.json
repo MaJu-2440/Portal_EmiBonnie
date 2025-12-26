@@ -118,6 +118,12 @@
       ]
     },
     {
+      "type": "galeria",
+      "id": "galeria-us",
+      "title": "Galeria",
+      "link": "/galeria/us"
+    },
+    {
       "type": "lista_de_elenco",
       "id": "elenco",
       "title": "Elenco",

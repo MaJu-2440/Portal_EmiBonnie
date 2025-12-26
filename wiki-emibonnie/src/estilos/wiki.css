@@ -266,6 +266,30 @@ hr {
   height: 215px;
 }
 
+.btn {
+  background: var(--destaque-bonnie);
+  padding: 0.8rem 1.2rem;
+  width: fit-content;
+  border-radius: 36px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  a {
+    color: var(--texto);
+    font-weight: 600;
+  }
+}
+
+.btn:hover {
+  background: var(--destaque-emi);
+
+  a {
+    color: var(--background-dark);
+    text-decoration: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #hero {
     position: relative;

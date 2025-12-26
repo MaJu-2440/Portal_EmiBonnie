@@ -19,7 +19,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "galeria",
+        path: "galeria/:filtro",
         element: <Galeria />,
       },
       {

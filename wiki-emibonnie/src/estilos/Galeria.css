@@ -74,11 +74,12 @@
   padding: 0.5rem 1rem;
   background-color: var(--destaque-bonnie);
   font-size: 1rem;
+  font-weight: bold;
   color: var(--texto);
   cursor: pointer;
 }
 
-.botoes-filtro button[selected] {
+.botoes-filtro button.active {
   background-color: var(--background-dark-transparente);
   border: 2px solid var(--destaque-emi);
 }

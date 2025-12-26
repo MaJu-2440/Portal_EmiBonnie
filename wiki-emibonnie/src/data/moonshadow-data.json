@@ -33,6 +33,12 @@
       "episodios": []
     },
     {
+      "type": "galeria",
+      "id": "galeria-ms",
+      "title": "Galeria",
+      "link": "/galeria/moonshadow"
+    },
+    {
       "type": "lista_de_elenco",
       "id": "elenco",
       "title": "Elenco",

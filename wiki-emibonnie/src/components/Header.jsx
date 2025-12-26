@@ -192,7 +192,11 @@ function Header() {
           </li>
 
           <li>
-            <Link to={"galeria"} onClick={handleMenuToggle} className="link">
+            <Link
+              to={"galeria/todos"}
+              onClick={handleMenuToggle}
+              className="link"
+            >
               <div className="link-title">
                 Galeria{isMobile && <i className="fa-solid fa-angle-right"></i>}
               </div>
