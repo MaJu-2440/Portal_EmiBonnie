@@ -28,20 +28,22 @@ export default function Wiki() {
   }, []);
 
   return (
-    <section className="content_container">
-      <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
-        {pageData.sections.map((section, index) => {
-          return (
-            <SectionRenderer
-              key={index}
-              indiceList={indiceList}
-              section={section}
-            />
-          );
-        })}
-      </ErrorBoundary>
-      {isMobile && <Indice indiceList={indiceList} />}
+    <div>
+      <section className="content_container">
+        <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
+          {pageData.sections.map((section, index) => {
+            return (
+              <SectionRenderer
+                key={index}
+                indiceList={indiceList}
+                section={section}
+              />
+            );
+          })}
+        </ErrorBoundary>
+        {isMobile && <Indice indiceList={indiceList} />}
+      </section>
       <ScrollBtn />
-    </section>
+    </div>
   );
 }
