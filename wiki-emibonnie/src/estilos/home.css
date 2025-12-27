@@ -35,7 +35,7 @@
 }
 
 .home-container a:hover {
-  color: var(--destaque-secundario);
+  color: var(--destaque-primario);
 }
 
 @media screen and (min-width: 820px) {
