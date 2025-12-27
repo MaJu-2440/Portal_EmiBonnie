@@ -9,16 +9,16 @@
 }
 
 :root {
-  --destaque-bonnie: #9307bb;
-  --destaque-emi: #ff9d00;
+  --destaque-primario: #9307bb;
+  --destaque-secundario: #ff9d00;
   --background-dark: #0e0e0e;
   --background-dark-transparente: #0e0e0e76;
   --background-sombra: #333333;
   --texto: #f5f5f5;
   --gradiente-destaque: linear-gradient(
     90deg,
-    var(--destaque-bonnie) 0%,
-    var(--destaque-emi) 100%
+    var(--destaque-primario) 0%,
+    var(--destaque-secundario) 100%
   );
   --gradiente-destaque-escuro: linear-gradient(
     90deg,
@@ -29,22 +29,15 @@
 }
 
 body {
-  background: var(--gradiente-destaque);
+  background: var(--background-dark);
   color: var(--texto);
   font-size: 1rem;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
 
-main {
-  background: linear-gradient(
-    var(--background-dark-transparente) 0%,
-    var(--background-dark) 100vh
-  );
-}
-
 .scrollTop-btn {
-  background-color: var(--destaque-bonnie);
+  background-color: var(--destaque-principal);
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
   border-radius: 18px;
@@ -57,4 +50,11 @@ main {
   right: 1rem;
   z-index: 10;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  background: var(--destaque-secundario);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
 }

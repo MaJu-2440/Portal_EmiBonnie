@@ -1,18 +1,17 @@
-.home-container header {
-  background: var(--gradiente-destaque-escuro);
+.home-container {
+  background-image: url(img/bg_img/capa-home_mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-main {
+.home-container .home-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 3rem 1rem;
 
   min-height: 100vh;
-
-  background-image: url(img/bg_img/capa-home_mobile.png);
-  background-position: center;
-  background-size: cover;
 }
 
 .home-container h1 {
@@ -35,12 +34,23 @@ main {
   color: var(--texto);
 }
 
-.home-container a:hover,
-.nav-desktop_lista details ul a:hover {
-  color: var(--destaque-emi);
+.home-container a:hover {
+  color: var(--destaque-secundario);
 }
 
-.home-container .nav-desktop_lista a:hover,
-.home-container .nav-desktop_lista summary:hover {
-  color: var(--background-dark);
+@media screen and (min-width: 820px) {
+  .home-container .home-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-container {
+    background-image: url(img/bg_img/capa-home_desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }

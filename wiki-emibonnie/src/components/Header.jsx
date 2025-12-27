@@ -2,8 +2,9 @@ import React from "react"; // (Opcional nas versões novas, mas bom pra garantir
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import icon from "../assets/icon-emibonnie__white.png";
+import { styleMap } from "../data/styleMap.jsx";
 
-function Header() {
+function Header({ tipo }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -31,8 +32,14 @@ function Header() {
     setOpenSubMenu(openSubMenu === id ? null : id);
   };
 
+  const style = styleMap[tipo] || {};
+
   return (
-    <header>
+    <header
+      style={{
+        backgroundColor: `var(${style.primaryColor})`,
+      }}
+    >
       <div className="logo">
         <Link to={"/"}>
           <img src={icon} alt="Logo Portal EmiBonnie" />
