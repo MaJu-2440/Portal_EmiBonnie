@@ -1,5 +1,5 @@
 header {
-  background: var(--destaque-bonnie);
+  background: var(--destaque-primario);
 }
 
 header a,
@@ -10,7 +10,7 @@ header details summary {
 
 header a:hover,
 header details summary:hover {
-  color: var(--destaque-emi);
+  color: var(--destaque-secundario);
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 .details_content {
-  border: 2px solid var(--destaque-bonnie);
+  border: 2px solid var(--destaque-primario);
   border-radius: 8px;
   background-color: var(--background-dark);
   width: 350px;
@@ -56,11 +56,11 @@ h1 {
   text-align: center;
   padding: 1rem 0;
   margin-bottom: 1rem;
-  background: var(--destaque-bonnie);
+  background: var(--destaque-primario);
 }
 
 .info_series {
-  border: 1px solid var(--destaque-bonnie);
+  border: 1px solid var(--destaque-primario);
   font-size: 0.8rem;
   text-align: left;
   width: 100%;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .info_series tr {
-  border-bottom: 1px solid var(--destaque-bonnie);
+  border-bottom: 1px solid var(--destaque-primario);
 }
 
 .info_series td,
@@ -77,17 +77,17 @@ h1 {
 }
 
 a {
-  color: var(--destaque-emi);
+  color: var(--destaque-secundario);
 }
 
 a:hover {
   text-decoration: underline;
-  color: var(--destaque-bonnie);
+  color: var(--destaque-primario);
 }
 
 .indice-btn {
   background: var(--background-sombra);
-  color: var(--destaque-emi);
+  color: var(--destaque-secundario);
   padding: 0.6rem 0.8rem;
   border-radius: 50% 0 0 50%;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
@@ -210,7 +210,7 @@ section h2 {
 
 hr {
   border: none;
-  border-top: 1px solid var(--destaque-bonnie);
+  border-top: 1px solid var(--destaque-primario);
 }
 
 .episodio_container {
@@ -247,12 +247,12 @@ hr {
 }
 
 .tabela_trilha thead {
-  background: var(--destaque-bonnie);
+  background: var(--destaque-primario);
 }
 
 .tabela_trilha th,
 .tabela_trilha td {
-  border: 1px solid var(--destaque-bonnie);
+  border: 1px solid var(--destaque-primario);
   padding: 0.5rem;
   text-align: center;
 }
@@ -267,7 +267,7 @@ hr {
 }
 
 .btn {
-  background: var(--destaque-bonnie);
+  background: var(--destaque-primario);
   padding: 0.8rem 1.2rem;
   width: fit-content;
   border-radius: 36px;
@@ -282,7 +282,7 @@ hr {
 }
 
 .btn:hover {
-  background: var(--destaque-emi);
+  background: var(--destaque-secundario);
 
   a {
     color: var(--background-dark);
@@ -361,22 +361,22 @@ hr {
     grid-area: indice;
     align-self: self-end;
     background-color: var(--background-dark-transparente);
-    border-left: 2px solid var(--destaque-bonnie);
+    border-left: 2px solid var(--destaque-primario);
   }
 
   .indice li a:hover {
     text-decoration: none;
-    color: var(--destaque-emi);
+    color: var(--destaque-secundario);
     transition: all 0.3s ease-in-out;
   }
 
   .indice .indice-title {
-    color: var(--destaque-emi);
+    color: var(--destaque-secundario);
     cursor: pointer;
   }
 
   .indice hr {
-    border: 1px solid var(--destaque-bonnie);
+    border: 1px solid var(--destaque-primario);
   }
 
   #sinopse iframe {

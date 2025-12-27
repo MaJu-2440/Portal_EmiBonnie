@@ -37,7 +37,7 @@ body {
 }
 
 .scrollTop-btn {
-  background-color: var(--destaque-principal);
+  background-color: var(--destaque-primario);
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
   border-radius: 18px;
