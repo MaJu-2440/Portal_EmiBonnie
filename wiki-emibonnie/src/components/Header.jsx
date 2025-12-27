@@ -37,7 +37,7 @@ function Header({ tipo }) {
   return (
     <header
       style={{
-        backgroundColor: `var(${style.primaryColor})`,
+        backgroundColor: `${style.primaryColor}`,
       }}
     >
       <div className="logo">

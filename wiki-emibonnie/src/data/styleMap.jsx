@@ -2,14 +2,14 @@ import React from "react";
 
 export const styleMap = {
   default: {
-    primaryColor: "--destaque-primario",
+    primaryColor: "#9307bb",
+    secondaryColor: "#ff9d00",
+  },
+  "us-series": {
+    primaryColor: "#eee000",
     secondaryColor: "--destaque-secundario",
   },
-  us: {
-    primaryColor: "--destaque-primario",
-    secondaryColor: "--destaque-secundario",
-  },
-  moonshadow: {
+  "moonshadow-series": {
     primaryColor: "--destaque-primario",
     secondaryColor: "--destaque-secundario",
   },

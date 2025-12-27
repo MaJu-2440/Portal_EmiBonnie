@@ -76,7 +76,7 @@
   border: none;
   border-radius: 8px;
   padding: 0.5rem 1rem;
-  background-color: var(--destaque-bonnie);
+  background-color: var(--destaque-primario);
   font-size: 1rem;
   font-weight: bold;
   color: var(--texto);
@@ -85,21 +85,21 @@
 
 .botoes-filtro button.active {
   background-color: var(--background-dark-transparente);
-  border: 2px solid var(--destaque-emi);
+  border: 2px solid var(--destaque-secundario);
 }
 
 .controles input {
   width: 100%;
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  border: 2px solid var(--destaque-bonnie);
+  border: 2px solid var(--destaque-primario);
   background-color: var(--background-dark-transparente);
   color: var(--texto);
   font-size: 1rem;
 }
 
 .controle input:focus {
-  border: 2px solid var(--destaque-emi);
+  border: 2px solid var(--destaque-secundario);
 }
 
 @media screen and (min-width: 512px) {
