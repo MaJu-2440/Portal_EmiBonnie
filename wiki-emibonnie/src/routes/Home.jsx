@@ -3,29 +3,28 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home-container">
       <h1>Portal EmiBonnie</h1>
-      <small>(nome provisório)</small>
       <p>
         <strong>Atenção:</strong> Este é um projeto não-oficial, feito de fã
         para fãs. O site e seu conteúdo não possuem nenhuma afiliação com a
         GMMTV, as artistas ou qualquer instituição oficial.
       </p>
+      <br />
       <p>
         Este projeto é um fansite dedicado a centralizar informações, notícias e
-        mídias sobre as atrizes tailandesas Thasorn Klinnium (Emi) e Pattraphus
-        Borattasuwan (Bonnie), e seus trabalhos, com atual foco na série "US the
-        Series".
+        mídias sobre as atrizes tailandesas Emi Thasorn e Bonnie Pattraphus, e
+        seus trabalhos.
       </p>
+      <br />
       <p>
-        O principal objetivo é criar um espaço completo e organizado para a
-        comunidade de fãs.
+        O principal objetivo é criar um espaço completo e organizado de consulta
+        para a comunidade de fãs.
       </p>
       <br />
       <h4>Status: Em desenvolvimento...</h4>
       <br />
-
-      <p>Páginas acessáveis:</p>
+      <h4>Páginas acessáveis:</h4>
       <ul>
         <li>
           <Link to={"/"}>Página principal</Link>
@@ -39,7 +38,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link to={"/galeria"}>Galeria</Link>
+          <Link to={"/galeria/todos"}>Galeria</Link>
         </li>
       </ul>
       <br />
