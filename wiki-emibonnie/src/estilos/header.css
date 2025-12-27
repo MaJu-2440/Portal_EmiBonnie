@@ -124,6 +124,10 @@ header .logo img {
   justify-content: space-between;
 }
 
+.nav_sub-lista li {
+  margin-left: 1rem;
+}
+
 .nav_sub-lista .link {
   display: flex;
   justify-content: space-between;
