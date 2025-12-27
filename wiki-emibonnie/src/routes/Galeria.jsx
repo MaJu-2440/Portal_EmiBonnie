@@ -4,6 +4,7 @@ import fotosData from "../data/galeria.json";
 import "../estilos/Galeria.css";
 import Carrossel from "../components/Carrossel.jsx";
 import { useParams } from "react-router-dom";
+import ScrollBtn from "../components/ScrollBtn.jsx";
 
 export default function Galeria() {
   const { filtro } = useParams();
@@ -110,6 +111,7 @@ export default function Galeria() {
         {/* Feedback se a busca não achar nada */}
         {secoesOrdenadas.length === 0 && <p>Nada encontrado.</p>}
       </div>
+      <ScrollBtn />
     </section>
   );
 }

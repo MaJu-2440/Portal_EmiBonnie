@@ -5,6 +5,7 @@ import usData from "../data/us-data.json";
 import moonshadowData from "../data/moonshadow-data.json";
 import SectionRenderer from "../components/SectionRenderer";
 import Indice from "../components/Indice";
+import ScrollBtn from "../components/ScrollBtn.jsx";
 
 const bancoDeDados = [usData, moonshadowData];
 
@@ -40,6 +41,7 @@ export default function Wiki() {
         })}
       </ErrorBoundary>
       {isMobile && <Indice indiceList={indiceList} />}
+      <ScrollBtn />
     </section>
   );
 }
