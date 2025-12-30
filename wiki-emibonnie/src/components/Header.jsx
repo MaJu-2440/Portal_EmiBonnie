@@ -1,5 +1,5 @@
 import React from "react"; // (Opcional nas versões novas, mas bom pra garantir)
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import icon from "../assets/icon-emibonnie__white.png";
 
@@ -10,9 +10,10 @@ function Header() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-      if (window.innerWidth >= 768) {
-        setIsOpen(true);
+      const mobile = window.innerWidth < 768;
+      setIsMobile(mobile);
+      if (mobile) {
+        setIsOpen(false);
       }
     };
 
@@ -30,6 +31,21 @@ function Header() {
     // se já estiver aberto, fecha; senão abre o novo
     setOpenSubMenu(openSubMenu === id ? null : id);
   };
+
+  //Indice fecha quando clica fora dele
+  const navRef = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        navRef.current &&
+        !navRef.current.contains(event.target) // se clicou fora
+      ) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <header>
@@ -52,6 +68,7 @@ function Header() {
         )}
 
         <ul
+          ref={navRef}
           className={isOpen ? "nav_lista open" : "nav_lista"}
           hidden={!isOpen}
         >

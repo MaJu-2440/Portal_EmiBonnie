@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function Indice({ indiceList }) {
   const [isIndiceOpen, setIndiceOpen] = useState(false);
@@ -7,16 +7,33 @@ export default function Indice({ indiceList }) {
     setIndiceOpen(!isIndiceOpen);
   };
 
+  // indice fecha quando
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-      if (window.innerWidth >= 768) {
-        setIndiceOpen(true);
+      const mobile = window.innerWidth < 768;
+      setIsMobile(mobile);
+      if (mobile) {
+        setIndiceOpen(false);
       }
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  //Indice fecha quando clica fora dele
+  const indiceRef = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        indiceRef.current &&
+        !indiceRef.current.contains(event.target) // se clicou fora
+      ) {
+        setIndiceOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   if (!Array.isArray(indiceList)) return null;
@@ -31,7 +48,10 @@ export default function Indice({ indiceList }) {
         )}
       </div>
 
-      <nav className={isIndiceOpen ? "indice ativo open" : "indice ativo"}>
+      <nav
+        ref={indiceRef}
+        className={isIndiceOpen ? "indice ativo open" : "indice ativo"}
+      >
         <h2>Índice</h2>
         <ol>
           {indiceList.map(({ title, id }) => {
