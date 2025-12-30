@@ -1,5 +1,5 @@
 .home-container {
-  background-image: url(img/bg_img/capa-home_mobile.png);
+  background-image: url(/img/bg_img/capa-home_mobile.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@
 }
 
 .home-container h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 1;
   font-family: var(--font-title);
   margin-bottom: 2rem;
@@ -38,7 +38,7 @@
   color: var(--destaque-primario);
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 768px) {
   .home-container .home-content {
     max-width: 600px;
     margin: 0 auto;
@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 1024px) {
   .home-container {
-    background-image: url(img/bg_img/capa-home_desktop.png);
+    background-image: url(/img/bg_img/capa-home_desktop.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
