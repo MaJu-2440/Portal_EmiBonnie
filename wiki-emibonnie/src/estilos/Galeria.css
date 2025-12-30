@@ -51,6 +51,7 @@ section.galeria {
   padding: 0 0.5rem;
   background: var(--background-dark-transparente);
   border-radius: 8px;
+  backdrop-filter: blur(5px);
 }
 
 .carrossel-item .img {
