@@ -2,15 +2,24 @@ import React from "react";
 
 export const styleMap = {
   default: {
-    primaryColor: "#9307bb",
-    secondaryColor: "#ff9d00",
+    "--destaque-primario": "#9307bb",
+    "--destaque-secundario": "#ff9d00",
+    "--background-image-mobile": "url(/img/bg_img/capa-home_mobile.png)",
+    "--background-image-tablet": "url(/img/bg_img/capa-home_desktop.png)",
+    "--background-image-desktop": "url(/img/bg_img/capa-home_desktop.png)",
   },
   "us-series": {
-    primaryColor: "#eee000",
-    secondaryColor: "--destaque-secundario",
+    "--destaque-primario": "#7f624e",
+    "--destaque-secundario": "#FA7DA8",
+    "--background-image-mobile": "url(/img/bg_img/us-bg_mobile.png)",
+    "--background-image-tablet": "url(/img/bg_img/us-bg_tablet.png)",
+    "--background-image-desktop": "url(/img/bg_img/us-bg_desktop.png)",
   },
   "moonshadow-series": {
-    primaryColor: "--destaque-primario",
-    secondaryColor: "--destaque-secundario",
+    "--destaque-primario": "#1E2F43",
+    "--destaque-secundario": "#e5d2a4",
+    "--background-image-mobile": "url(/img/bg_img/ms-bg_mobile.png)",
+    "--background-image-tablet": "url(/img/bg_img/ms-bg_tablet.png)",
+    "--background-image-desktop": "url(/img/bg_img/ms-bg_desktop.png)",
   },
 };

@@ -1,3 +1,7 @@
+section.galeria {
+  padding: 2rem 1rem;
+}
+
 .lista-secoes {
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +48,9 @@
 
 .carrossel-item {
   height: 440px;
+  padding: 0 0.5rem;
+  background: var(--background-dark-transparente);
+  border-radius: 8px;
 }
 
 .carrossel-item .img {
@@ -54,15 +61,8 @@
   object-fit: contain; /* Garante que a foto apareça inteira */
 }
 
-.swiper {
-  background: var(--background-dark-transparente);
-  border-radius: 8px;
-}
-
-.carrossel-item .legenda,
-.carrossel-item .creditos {
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
+.carrossel-item .carrossel-item_content {
+  padding: 1rem;
 }
 
 .botoes-filtro {

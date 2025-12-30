@@ -4,21 +4,25 @@ import Footer from "./components/Footer.jsx";
 import { Outlet } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { styleMap } from "./data/styleMap.jsx";
 
 function App() {
   const { slug } = useParams();
-  const [tipo, setTipo] = useState(slug || "default");
-
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setTipo(slug);
+    const styles = styleMap[slug] || styleMap.default;
+    const root = document.documentElement;
+
+    Object.entries(styles).forEach(([key, value]) => {
+      root.style.setProperty(key, value);
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
   return (
     <div className="app-container">
       <ScrollToTop />
-      <Header tipo={tipo || "default"} />
+      <Header />
       <main>
         <Outlet />
       </main>

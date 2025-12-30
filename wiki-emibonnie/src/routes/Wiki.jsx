@@ -28,7 +28,7 @@ export default function Wiki() {
   }, []);
 
   return (
-    <div>
+    <div className="wiki_container">
       <section className="content_container">
         <ErrorBoundary fallback={<div>Ops... Algo deu errado!</div>}>
           {pageData.sections.map((section, index) => {

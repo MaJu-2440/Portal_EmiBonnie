@@ -24,8 +24,10 @@ export default function Carrossel({ fotos }) {
             {/* O segredo: Altura fixa, largura automática */}
 
             <img src={foto.url} className="img" alt={foto.legenda} />
-            <p className="legenda">{foto.legenda}</p>
-            <span className="creditos">{foto.creditos}</span>
+            <div className="carrossel-item_content">
+              <p className="legenda">{foto.legenda}</p>
+              <span className="creditos">{foto.creditos}</span>
+            </div>
           </div>
         </SwiperSlide>
       ))}

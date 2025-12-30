@@ -1,21 +1,5 @@
-header {
-  background: var(--destaque-primario);
-}
-
-header a,
-header details summary {
-  color: var(--texto);
-  font-weight: 500;
-}
-
-header a:hover,
-header details summary:hover {
-  color: var(--destaque-secundario);
-  text-decoration: none;
-}
-
-header .logo a:hover {
-  color: var(--texto);
+.wiki_container {
+  padding: 2rem 1rem;
 }
 
 h1 {
@@ -27,8 +11,8 @@ h1 {
 .details_content {
   border: 2px solid var(--destaque-primario);
   border-radius: 8px;
-  background-color: var(--background-dark);
-  width: 350px;
+  background-color: var(--background-dark-transparente);
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -48,7 +32,21 @@ h1 {
   margin: 0 auto;
 }
 
-.poster_series img {
+.poster_series-desktop {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.series-title {
+  background: var(--destaque-primario);
+  text-align: center;
+  width: 100%;
+  padding: 0.3rem 0;
+  font-weight: bold;
+}
+
+.poster_series img,
+.poster_series-desktop img {
   width: 100%;
 }
 
@@ -82,7 +80,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: var(--destaque-primario);
 }
 
 .indice-btn {
@@ -244,6 +241,7 @@ hr {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.8rem;
+  background: var(--background-dark-transparente);
 }
 
 .tabela_trilha thead {
@@ -382,6 +380,14 @@ hr {
   #sinopse iframe {
     width: 100%;
     height: 345px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content_container {
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: var(--background-dark-transparente);
   }
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import CardEpisodes from "./CardEpisodes";
 import Indice from "../components/Indice";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 export default function SectionRenderer({ section, indiceList }) {
   const divToggle = (event) => {
@@ -11,6 +12,15 @@ export default function SectionRenderer({ section, indiceList }) {
     contentDiv.toggleAttribute("hidden");
   };
 
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   switch (section.type) {
     case "hero":
       return (
@@ -18,7 +28,11 @@ export default function SectionRenderer({ section, indiceList }) {
           <h1>{section.title}</h1>
 
           <aside className="details_content">
-            <figure className="poster_series">
+            {!isMobile && <div className="series-title">{section.title}</div>}
+
+            <figure
+              className={isMobile ? "poster_series" : "poster_series-desktop"}
+            >
               <img
                 src={section.imagem_capa}
                 alt={"Capa de " + section.titulo_da_pagina}
