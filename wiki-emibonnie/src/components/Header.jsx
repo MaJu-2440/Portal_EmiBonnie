@@ -172,6 +172,17 @@ function Header() {
                 )}
                 <li>
                   <Link
+                    to={"trabalhos/todos"}
+                    onClick={handleMenuToggle}
+                    className="link"
+                  >
+                    <div className="link-title">
+                      Todos<i className="fa-solid fa-angle-right"></i>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to={"trabalhos/discografia"}
                     onClick={handleMenuToggle}
                     className="link"
@@ -194,7 +205,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to={"trabalhos/entrevistas-e-sessoes-de-fotos"}
+                    to={"trabalhos/entrevistas-e-revistas"}
                     onClick={handleMenuToggle}
                     className="link"
                   >

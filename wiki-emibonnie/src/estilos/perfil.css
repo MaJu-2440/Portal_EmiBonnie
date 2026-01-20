@@ -1,0 +1,9 @@
+.perfil-container {
+    padding: 2rem 1rem;
+}
+
+.trabalhos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

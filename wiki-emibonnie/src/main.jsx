@@ -6,6 +6,8 @@ import App from "./App.jsx";
 import Wiki from "./routes/Wiki.jsx";
 import Home from "./routes/Home.jsx";
 import Galeria from "./routes/Galeria.jsx";
+import Perfil from "./routes/Perfil.jsx";
+import Trabalhos from "./routes/Trabalhos.jsx";
 import ErrorPage from "./routes/ErrorPage.jsx";
 
 const router = createBrowserRouter([
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: "wiki/:slug",
         element: <Wiki />,
+      },
+      {
+        path: "perfil/:nome",
+        element: <Perfil />,
+      },
+      {
+        path: "trabalhos/:tipo",
+        element: <Trabalhos />,
       },
     ],
   },
