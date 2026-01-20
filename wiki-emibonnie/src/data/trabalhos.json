@@ -1,0 +1,81 @@
+[
+  {
+    "titulo": "DoubleBam - เข้าใจได้ (It's OK)",
+    "tipo": "mv",
+    "ano": 2019,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/emY7M9-52EE?si=9lJ2D180px-p9gUF",
+    "capa": "capa-mv-itsok.jpg",
+    "detalhes": {
+      "url_embed": "https://www.youtube.com/embed/emY7M9-52EE?si=9lJ2D180px-p9gUF"
+    }
+  },
+  {
+    "titulo": "Why R U? - EP6",
+    "tipo": "serie",
+    "ano": 2020,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/6WUd4dYjXxU?si=ofve14bTaI7O8K3o",
+    "capa": "capa-bl-whyru.jpg"
+  },
+  {
+    "titulo": "O Anel Subconsciente EP: a Benção Disfarçada",
+    "tipo": "serie",
+    "ano": 2020,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://www.thaipbs.or.th/program/Wongwaen/watch/5eqD5E",
+    "capa": "capa-serie-anel.jpg",
+    "detalhes": {
+      "papel": "June",
+      "legendas": "Não contém legendas em pt-br"
+    }
+  },
+  {
+    "titulo": "Show me Love GrandTV",
+    "tipo": "serie",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtube.com/playlist?list=PLSB5811DpUTGrRZS-E6cDjmpGY99rGUUq&si=2QoA3gHfyBelJyj8",
+    "capa": "capa-serie-showmelove.jpg"
+  },
+  {
+    "titulo": "GMMTV LIVE HOUSE - Primeira Live House EmiBonnie e Mark",
+    "tipo": "tv-show",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "video",
+    "url": "https://www.youtube.com/live/hknWfsn8v6o?si=tQ3qfpMhRaOxktEW&t=1453",
+    "capa": "capa-tvshow-livehouse3.jpg",
+    "detalhes": {
+      "data_especifica": "28 de janeiro",
+      "url_embed": "https://www.youtube.com/embed/hknWfsn8v6o?si=tQ3qfpMhRaOxktEW&amp;start=1453"
+    }
+  },
+  {
+    "titulo": "Novata do Ano - Mint Awards 2025",
+    "tipo": "premio",
+    "ano": 2025,
+    "artistas": ["bonnie"],
+    "categoria": "info",
+    "url": null,
+    "capa": "capa-premio-novatamint2025.jpg"
+  },
+  {
+    "titulo": "KAZZ MAGAZINE issue.207 (Cover A)",
+    "tipo": "revista",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "galeria/revistas?kazz-magazine-A",
+    "capa": "capa-revista-kazza.jpg",
+    "detalhes": {
+      "data_especifica": "Janeiro",
+      "hashtag": "#KAZZxUS",
+      "video_relacionado": "https://youtu.be/h1r8CxHJnnc?si=fH-a65SgU3U8bIAh"
+    }
+  }
+]

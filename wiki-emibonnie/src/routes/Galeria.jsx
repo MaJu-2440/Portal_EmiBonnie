@@ -68,7 +68,7 @@ export default function Galeria() {
     }
   }, [filtro]);
 
-  const filtroBtns = ["todos", "us", "moonshadow"];
+  const filtroBtns = ["todos", "us", "moonshadow", "revistas"];
 
   return (
     <section key="galeria" className="galeria">
