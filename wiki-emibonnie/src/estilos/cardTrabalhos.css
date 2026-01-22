@@ -9,6 +9,22 @@
     grid-template-rows:  2fr auto;
 }
 
+.card-trabalho_links {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.card-trabalho_links .link-externo {
+    display: inline;
+    background: transparent;
+    border: 2px solid var(--destaque-primario);
+}
+
+.card-trabalho_links .link-externo:hover {
+    border: 2px solid var(--destaque-secundario);
+}
+
 .card-trabalho img {
     height: 100%;
     width: 100%;

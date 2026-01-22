@@ -26,12 +26,18 @@ export default function CardTrabalhos({ item }) {
           </span>
         )}
         {item.detalhes?.hashtag && <span>{item.detalhes.hashtag}</span>}
-        {item.categoria === "video" && (
+        
+        <div className="card-trabalho_links">
+          {item.categoria === "video" && item.url && (
           <a href={item.url} target="_blank">
             Ver Mais
           </a>
         )}
         {item.categoria === "galeria" && <Link to={item.url}>Ver Galeria</Link>}
+        {item.detalhes?.link_artigo && <a className="link-externo" href={item.detalhes.link_artigo} target="_blank">Artigo</a>}
+        {item.detalhes?.link_video && <a className="link-externo" href={item.detalhes.link_video} target="_blank">Vídeo Relacionado</a>}
+        {item.detalhes?.link_wiki && <Link className="link-externo" to={item.detalhes.link_wiki}>Ver Wiki</Link>}
+        </div>
       </div>
     </div>
   );
