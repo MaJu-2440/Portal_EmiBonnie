@@ -1,15 +1,158 @@
 [
   {
+    "titulo": "Capa digital ELLE Thailand - Dezembro issue",
+    "tipo": "revista",
+    "projeto_id": "elle-thailand-december-2025",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=elle-thailand-december-2025",
+    "capa": "capa-revista-ellethdecember.jpg",
+    "detalhes": {
+      "hashtag": "#ELLEDigitalCover "
+    }
+  },
+  {
+    "titulo": "WWD Thailand - Novembro issue",
+    "tipo": "revista",
+    "projeto_id": "wwd-thailand-november-2025",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=wwd-thailand-november-2025",
+    "capa": "capa-revista-wwdnovember.jpg",
+    "detalhes": {
+      "hashtag": " #WWDThailandNov2025",
+      "link_artigo": "https://wwdthailand.com/monthly/amy-thasorn-klinneam-shares-her-journey-from-film-student-to-rising-thai-actress-a-story-of-growth-confidence-and-creativity/"
+    }
+  },
+  {
+    "titulo": "ELLE Thailand - Setembro issue",
+    "tipo": "revista",
+    "projeto_id": "elle-thailand-september-2025",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=elle-thailand-september-2025",
+    "capa": "capa-revista-ellethseptember.jpg",
+    "detalhes": {
+      "hashtag": " #ELLEAskMeAnything",
+      "link_artigo": " https://ellethailand.com/emi-thasorn-covergirl-september-2025-interview/",
+      "link_video": "https://youtu.be/mt8fbz_Sx6E?si=w7c9pcG0HDYYOf5w"
+    }
+  },
+  {
+    "titulo": "Harper's Bazaar Thailand - Junho",
+    "tipo": "revista",
+    "projeto_id": "harper-bazaar-thailand-june-2025",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=harper-bazaar-thailand-june-2025",
+    "capa": "capa-revista-harpersjune.jpg"
+  },
+  {
+    "titulo": "Mint Magazine - Vol.27 Artigo, Mint Debut - Abril",
+    "tipo": "revista",
+    "projeto_id": "mint-magazine-april-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=mint-magazine-april-2025",
+    "capa": "capa-revista-mintdebut.jpg",
+    "detalhes": {
+      "hashtag": "#EmiBonniexMintDebut",
+      "link_artigo": "https://www.mintmagth.com/people/interview-emi-bonnie-mint-debut-mintvol27"
+    }
+  },
+  {
+    "titulo": "ELLE Thailand - Artigo, ELLE Crush - Março",
+    "tipo": "revista",
+    "projeto_id": "elle-thailand-march-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=elle-thailand-march-2025",
+    "capa": "capa-revista-ellecrush.jpg",
+    "detalhes": {
+      "hashtag": "#ELLECrushxEmiBonnie",
+      "link_artigo": "https://ellethailand.com/emi-bonnie-elle-crush-march-2025-interview/"
+    }
+  },
+  {
+    "titulo": "MANGU - Março issue.298",
+    "tipo": "revista",
+    "projeto_id": "mangu-march-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=mangu-march-2025",
+    "capa": "capa-revista-mangu.jpg",
+    "detalhes": {
+      "link_artigo": "https://atmangu.com/cn/article/1907#book/26"
+    }
+  },
+  {
+    "titulo": "All Magazine - Março issue.11",
+    "tipo": "revista",
+    "projeto_id": "all-magazine-march-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=all-magazine-march-2025",
+    "capa": "capa-revista-allmagazine.jpg",
+    "detalhes": {
+      "hashtag": "#AllMagxEmiBonnie"
+    }
+  },
+  {
+    "titulo": "L'Officiel Thailand Plus - Fevereiro",
+    "tipo": "revista",
+    "projeto_id": "lofficiel-thailand-february-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=lofficiel-thailand-february-2025",
+    "capa": "capa-revista-lofficiel.jpg",
+    "detalhes": {
+      "hashtag": "#LOfficielThailand",
+      "link_artigo": "https://lofficielthailand.com/2025/02/get-to-know-emi-and-beonnie/"
+    }
+  },
+  {
+    "titulo": "KAZZ MAGAZINE - Janeiro issue.207 Cover B",
+    "tipo": "revista",
+    "projeto_id": "kazzb-magazine-january-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=kazzb-magazine-january-2025",
+    "capa": "capa-revista-kazzb.jpg",
+    "detalhes": {
+      "hashtag": "#KAZZxUS"
+    }
+  },
+  {
+    "titulo": "KAZZ MAGAZINE - Janeiro issue.207 Cover A",
+    "tipo": "revista",
+    "projeto_id": "kazza-magazine-january-2025",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "galeria",
+    "url": "/galeria/revistas?projeto_id=kazza-magazine-january-2025",
+    "capa": "capa-revista-kazza.jpg",
+    "detalhes": {
+      "hashtag": "#KAZZxUS"
+    }
+  },
+  {
     "titulo": "DoubleBam - เข้าใจได้ (It's OK)",
     "tipo": "mv",
     "ano": 2019,
     "artistas": ["emi"],
     "categoria": "video",
     "url": "https://youtu.be/emY7M9-52EE?si=9lJ2D180px-p9gUF",
-    "capa": "capa-mv-itsok.jpg",
-    "detalhes": {
-      "url_embed": "https://www.youtube.com/embed/emY7M9-52EE?si=9lJ2D180px-p9gUF"
-    }
+    "capa": "capa-mv-itsok.jpg"
   },
   {
     "titulo": "Why R U? - EP6",
@@ -18,7 +161,10 @@
     "artistas": ["emi"],
     "categoria": "video",
     "url": "https://youtu.be/6WUd4dYjXxU?si=ofve14bTaI7O8K3o",
-    "capa": "capa-bl-whyru.jpg"
+    "capa": "capa-serie-whyru.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br"
+    }
   },
   {
     "titulo": "O Anel Subconsciente EP: a Benção Disfarçada",
@@ -30,11 +176,154 @@
     "capa": "capa-serie-anel.jpg",
     "detalhes": {
       "papel": "June",
-      "legendas": "Não contém legendas em pt-br"
+      "legendas": "Contém legendas em inglês"
     }
   },
   {
-    "titulo": "Show me Love GrandTV",
+    "titulo": "ยอมฉันยอม - Rose Village",
+    "tipo": "mv",
+    "ano": 2020,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": null,
+    "capa": "capa-mv-rosevillage.jpg",
+    "detalhes": {
+      "legendas": "Link não encontrado :("
+    }
+  },
+  {
+    "titulo": "Garota de Fora temporada 2 - Netflix",
+    "tipo": "serie",
+    "ano": 2021,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/sWfWBJSUZKc?si=fxHmiLyJLvX1XQfT",
+    "capa": "capa-serie-garotadefora.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Nana"
+    }
+  },
+  {
+    "titulo": "Segredos nas Paredes - Netflix",
+    "tipo": "filme",
+    "ano": 2021,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/GebnaF9aLtg?si=5dnozE6DHsC7RSbH",
+    "capa": "capa-serie-wholetruth.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Paew"
+    }
+  },
+  {
+    "titulo": "PAKBUNG - เรื่องสั้น (Short story)",
+    "tipo": "mv",
+    "ano": 2021,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/x_XN1-mf4uo?si=xEvMKbbxXGkthR_x",
+    "capa": "capa-mv-shortstory.jpg"
+  },
+  {
+    "titulo": "A Escola Amaldiçoada - Netflix",
+    "tipo": "serie",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/Ai-MUEjMvR0?si=eK9UW9gDSvJMTcNM",
+    "capa": "capa-serie-schooltales.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Aim-Orn"
+    }
+  },
+  {
+    "titulo": "609 Bedtime Story WeTV",
+    "tipo": "serie",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/pt3lglfhHsg?si=ea-Ey_7rCdrAK4pr",
+    "capa": "capa-serie-bedtime.jpg",
+    "detalhes": {
+      "legendas": "Não contém legendas em pt-br",
+      "papel": "Mint"
+    }
+  },
+  {
+    "titulo": "Closer by LiFE - อลิซ",
+    "tipo": "musical",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": null,
+    "capa": "capa-musical-closer.jpg",
+    "detalhes": {
+      "legendas": "Link não encontrado :("
+    }
+  },
+  {
+    "titulo": "จำ - BOMB AT TRACK Feat. พัด Zweed n' Roll",
+    "tipo": "mv",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/gsa8gbeyefk?si=XPfFI2gK-Q3NJjac",
+    "capa": "capa-mv-bomb.jpg"
+  },
+  {
+    "titulo": "NESCAFÉ Street Café - NESCAFÉ Thailand",
+    "tipo": "anuncio",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/ZxQ0aB8D7Cs?si=iqgjhZjQsTtSWEZ5",
+    "capa": "capa-anuncio-nescafe.jpg"
+  },
+  {
+    "titulo": "The Pizza Company",
+    "tipo": "anuncio",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/pgFK2Rft4rc?si=o2PkzeB_TtEoUwOA",
+    "capa": "capa-anuncio-pizza.jpg"
+  },
+  {
+    "titulo": "ORA Good cat GT - GWM",
+    "tipo": "anuncio",
+    "ano": 2022,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/Ws6AhzFTo9I?si=hhqd9PDbrNphXBeV",
+    "capa": "capa-anuncio-gwm.jpg"
+  },
+  {
+    "titulo": "Onne.project",
+    "tipo": "ensaio",
+    "ano": 2022,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": "https://www.instagram.com/p/ClqfCi4y6fE/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    "capa": "capa-ensaio-oneproject.jpg"
+  },
+  {
+    "titulo": "Delete - Netflix",
+    "tipo": "serie",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/puRsFNyXUsA?si=ytvsoyyJxGc6fve3",
+    "capa": "capa-serie-delete.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Thong"
+    }
+  },
+  {
+    "titulo": "Show me Love - GrandTV",
     "tipo": "serie",
     "ano": 2023,
     "artistas": ["emi"],
@@ -43,39 +332,382 @@
     "capa": "capa-serie-showmelove.jpg"
   },
   {
-    "titulo": "GMMTV LIVE HOUSE - Primeira Live House EmiBonnie e Mark",
-    "tipo": "tv-show",
+    "titulo": "One Night Stand - Change2561",
+    "tipo": "serie",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/5QFDBjfPIIw?si=1l3a4o_yN63KC30H",
+    "capa": "capa-serie-onenight.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês"
+    }
+  },
+  {
+    "titulo": "Last Twilight - GMMTV",
+    "tipo": "serie",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtube.com/playlist?list=PLszepnkojZI6WHRUbXqh_x0MpChCqkquA&si=3AICXK5lfYFus0jL",
+    "capa": "capa-serie-lasttwilight.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Pla"
+    }
+  },
+  {
+    "titulo": "หุ่นพยนต์  Efígie de Phayant - Five Star Movies",
+    "tipo": "filme",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/87gML3l9fvA?si=Tw2M-XbKNUzVU_ux",
+    "capa": "capa-filme-efigie.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "Meena"
+    }
+  },
+  {
+    "titulo": "Misunderstood - BOOM BOOM CASH",
+    "tipo": "mv",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": " https://youtu.be/gmcKaQMWf4A?si=36hAzLrye9Cz_ccb",
+    "capa": "capa-mv-misunderstood.jpg"
+  },
+  {
+    "titulo": "Please Try Again - NANON",
+    "tipo": "mv",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": " https://youtu.be/dMDf3RQ6bwQ?si=3zzSFub6gFkDnMyQ",
+    "capa": "capa-mv-pleasetryagain.jpg"
+  },
+  {
+    "titulo": "Here I am - Ost. Faceless Love",
+    "tipo": "musica",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/03FECDOzXeM?si=c3FP6AblccApBmR1",
+    "capa": "capa-musica-hereiam.jpg"
+  },
+  {
+    "titulo": "ตามรอยความดี (Seguindo o Caminho da Bondade) - vários artistas",
+    "tipo": "musica",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/W1_Kicdzqnc?si=m8g_NhFUm9BjmG-F",
+    "capa": "capa-musica-caminhodabondade.jpg"
+  },
+  {
+    "titulo": "Lazada Thailand",
+    "tipo": "anuncio",
+    "ano": 2023,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/0yqSgjBa7Gs?si=OK-U-k5kHKO1V8xL",
+    "capa": "capa-anuncio-lazada.jpg"
+  },
+  {
+    "titulo": "Twentywendy",
+    "tipo": "anuncio",
+    "ano": 2023,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": null,
+    "capa": "capa-anuncio-twentywendy.jpg"
+  },
+  {
+    "titulo": "Intern in My Heart - WeTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/UH1cGslrSNg?si=--HpFeR8bQ7eItXI",
+    "capa": "capa-serie-interninmyheart.jpg",
+    "detalhes": {
+      "legendas": "Não contém legendas no youtube",
+      "papel": "Nana"
+    }
+  },
+  {
+    "titulo": "Beauty Newbie - GMMTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/ihw-EJd-kt4?si=i2i-KQQmBKJDj0xT",
+    "capa": "capa-serie-beautynewbie.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "Ann"
+    }
+  },
+  {
+    "titulo": "Wandee Goodday - GMMTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/KAC6UgVxles?si=fg6ZiQdcvp5wQtG9",
+    "capa": "capa-serie-wandeegoodday.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Kwan"
+    }
+  },
+  {
+    "titulo": "The Rebound - Viu",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/WDz1SittvxU?si=-AiGuuyku5P1oox2",
+    "capa": "capa-serie-rebound.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "Lin"
+    }
+  },
+  {
+    "titulo": "The Trainee - GMMTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/nSVsbgeZ_tc?si=tCgGeeyeteEAz0kl",
+    "capa": "capa-serie-trainee.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Ink"
+    }
+  },
+  {
+    "titulo": "Perfect 10 Liners - GMMTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/bbiPjsgdKjU?si=1m9tg4Yza2BTk5jZ",
+    "capa": "capa-serie-perfect10liners.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Yeepun"
+    }
+  },
+  {
+    "titulo": "High School Frenemy - GMMTV",
+    "tipo": "serie",
+    "ano": 2024,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/z0Svp4enGDc?si=HQB_PWhigzj76yJy",
+    "capa": "capa-serie-highschoolfrenemy.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Peeta"
+    }
+  },
+  {
+    "titulo": "Achilles Curse - Major Group",
+    "tipo": "filme",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/hrDugpLwyUg?si=qQquVCnrunhqcsbg",
+    "capa": "capa-filme-achillescurse.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "San"
+    }
+  },
+  {
+    "titulo": "Focus - Ost. Beauty Newbie",
+    "tipo": "musica",
+    "ano": 2024,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/2loMjjP-skQ?si=Z6vL3rpEuMrIP1jk",
+    "capa": "capa-musica-focus.jpg"
+  },
+  {
+    "titulo": "Candidate - FOURTH",
+    "tipo": "mv",
+    "ano": 2024,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/4hXNXb6o7y8?si=1xAEt4hC47Boj150",
+    "capa": "capa-mv-candidate.jpg"
+  },
+  {
+    "titulo": "Us - GMMTV",
+    "tipo": "serie",
     "ano": 2025,
     "artistas": ["emi", "bonnie"],
     "categoria": "video",
-    "url": "https://www.youtube.com/live/hknWfsn8v6o?si=tQ3qfpMhRaOxktEW&t=1453",
-    "capa": "capa-tvshow-livehouse3.jpg",
+    "url": "https://youtu.be/E2KFC2etiWc?si=p4cJcKmPTOw2xt8v",
+    "capa": "capa-serie-us.jpg",
     "detalhes": {
-      "data_especifica": "28 de janeiro",
-      "url_embed": "https://www.youtube.com/embed/hknWfsn8v6o?si=tQ3qfpMhRaOxktEW&amp;start=1453"
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Pam e Dokrak",
+      "link_wiki": "/wiki/us-series"
     }
   },
   {
-    "titulo": "Novata do Ano - Mint Awards 2025",
-    "tipo": "premio",
+    "titulo": "Break Up Service EP4 - GMMTV",
+    "tipo": "serie",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/vPUlrLut-YY?si=gTE0oTcnwP0gDgNI",
+    "capa": "capa-serie-breakupservice.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "Baimon"
+    }
+  },
+  {
+    "titulo": "MouseTH - TrueCJ",
+    "tipo": "serie",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/X9RHAV_DVFo?si=jLiwKwh8l11uuXiL",
+    "capa": "capa-serie-mouseth.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em inglês",
+      "papel": "Picha"
+    }
+  },
+  {
+    "titulo": "Friendshit Forever - GMMTV",
+    "tipo": "serie",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/Zt2ZDx1qD40?si=3o0acnEDpOFs5MMm",
+    "capa": "capa-serie-friendshit.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Tulip"
+    }
+  },
+  {
+    "titulo": "Me and Thee - GMMTV",
+    "tipo": "serie",
     "ano": 2025,
     "artistas": ["bonnie"],
-    "categoria": "info",
-    "url": null,
-    "capa": "capa-premio-novatamint2025.jpg"
+    "categoria": "video",
+    "url": "https://youtu.be/PXqpISTPse8?si=1hk5Fp4qOQYsJ4X8",
+    "capa": "capa-serie-meandthee.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Lookplub"
+    }
   },
   {
-    "titulo": "KAZZ MAGAZINE issue.207 (Cover A)",
-    "tipo": "revista",
+    "titulo": "Burnout Syndrome - GMMTV",
+    "tipo": "serie",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/iqtE21HQ-KU?si=NHEhwtEGsZJbHvoo",
+    "capa": "capa-serie-burnoutsyndrome.jpg",
+    "detalhes": {
+      "legendas": "Contém legendas em pt-br",
+      "papel": "Ing"
+    }
+  },
+  {
+    "titulo": "Moonshadow - GMMTV",
+    "tipo": "serie",
+    "ano": 2026,
+    "artistas": ["emi","bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/LMKBoo8bvaw?si=B1b5Q82QQzy4VaCG",
+    "capa": "capa-serie-moonshadow.jpg",
+    "detalhes": {
+      "legendas": "*Previsto para estrear em meados de 2026",
+      "papel": "Chan e Key",
+      "link_wiki": "/wiki/moonshadow-series"
+    }
+  },
+  {
+    "titulo": "More Than Words Ost.Us - Emi Thasorn",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/ID_pd9Ni3nk?si=_7wypK9R05nu2Ba-",
+    "capa": "capa-musica-morethanwords.jpg"
+  },
+  {
+    "titulo": "Between Us Ost.Us - Bonnie Pattraphus",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/BG_yN4HCr44?si=afmu6IYJCMXaD2PX",
+    "capa": "capa-musica-betweenus.jpg"
+  },
+  {
+    "titulo": "Kissin' Out of Dream Ost.Us - Emi Thasorn, Bonnie Pattraphus",
+    "tipo": "musica",
     "ano": 2025,
     "artistas": ["emi", "bonnie"],
-    "categoria": "galeria",
-    "url": "galeria/revistas?kazz-magazine-A",
-    "capa": "capa-revista-kazza.jpg",
-    "detalhes": {
-      "data_especifica": "Janeiro",
-      "hashtag": "#KAZZxUS",
-      "video_relacionado": "https://youtu.be/h1r8CxHJnnc?si=fH-a65SgU3U8bIAh"
-    }
+    "categoria": "video",
+    "url": "https://youtu.be/YF30_ksQ8qg?si=pbiv0KrbmEi6FRa-",
+    "capa": "capa-musica-kissinoutofdream.jpg"
+  },
+  {
+    "titulo": "First Love Ost.My Precious - JAOYING-ACARE x EMI-BONNIE",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/5vm7Wl5Af94?si=ofFz4RI_J3Ixr-nC",
+    "capa": "capa-musica-firstlove.jpg"
+  },
+  {
+    "titulo": "Blooming Blossom - NamtanFilm, MilkLove, EmiBonnie, JuneMewnich, ViewMim",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["emi", "bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/uBI4Gh595sc?si=mQOnpr7RCmC4OMtC",
+    "capa": "capa-musica-bloomingblossom.jpg"
+  },
+  {
+    "titulo": "Hide Ost.Hide & Sis - Aye Sarunchana, Emi Thasorn",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/TEdxkK9XqDM?si=FoHJsoTR2p-kOewp",
+    "capa": "capa-musica-hide.jpg"
+  },
+  {
+    "titulo": "No More Tears Ost.Friendshit Forever - Emi Thasorn",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["emi"],
+    "categoria": "video",
+    "url": "https://youtu.be/pgzaWboZUSg?si=TgTE_2StaGqHMqnO",
+    "capa": "capa-musica-nomoretears.jpg"
+  },
+  {
+    "titulo": "Love Language Ost.Cat For Cash - Bonnie Pattraphus",
+    "tipo": "musica",
+    "ano": 2025,
+    "artistas": ["bonnie"],
+    "categoria": "video",
+    "url": "https://youtu.be/CIv2LZx6hZ4?si=bA_mY3FQG8rErzsb",
+    "capa": "capa-musica-lovelanguage.jpg"
   }
 ]
