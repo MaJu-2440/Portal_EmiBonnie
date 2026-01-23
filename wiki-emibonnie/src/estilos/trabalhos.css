@@ -1,0 +1,23 @@
+.trabalhos-container {
+    padding: 1rem;
+}
+
+.trabalhos-container h1 {
+    margin: 1rem auto 0;
+    font-size: 2.8rem;
+}
+
+.secao-trabalhos {
+    margin: 2rem 0;
+}
+
+.secao-trabalhos h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.secao-trabalhos .tipo-trabalho {
+ font-size: 2rem;
+ margin-bottom: 1rem;
+}

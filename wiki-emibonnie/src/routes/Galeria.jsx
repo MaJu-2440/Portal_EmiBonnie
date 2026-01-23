@@ -3,7 +3,7 @@ import { useState } from "react";
 import fotosData from "../data/galeria.json";
 import "../estilos/Galeria.css";
 import Carrossel from "../components/Carrossel.jsx";
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import ScrollBtn from "../components/ScrollBtn.jsx";
 
 export default function Galeria() {
@@ -11,26 +11,38 @@ export default function Galeria() {
   const [filtroAtivo, setFiltroAtivo] = useState(filtro || "todos"); // 'us', 'moonshadow', 'revistas', 'entrevistas'
   const [busca, setBusca] = useState(""); // O que digitar na barra
 
+  const [searchParams, setSearchParams] = useSearchParams();
+  const projetoId = searchParams.get("projeto_id");
+
+  const limparTudo = () => {
+    setSearchParams({});
+    setBusca("");
+    setFiltroAtivo("todos");
+  };
+
   // 1. PRIMEIRO FILTRO: O Projeto (Aba Superior)
   // Pega só o que é de "Us", ou só "Revistas"
   const fotosDoProjeto = fotosData.filter(
-    (foto) => foto.projeto === filtroAtivo
+    (foto) => foto.projeto === filtroAtivo,
   );
 
   // 2. SEGUNDO FILTRO: A Barra de Pesquisa
   // Se tiver algo escrito, filtra pela legenda. Se não, passa tudo.
+
   const fotosDaBusca =
-    filtroAtivo === "todos"
-      ? fotosData.filter(
-          (foto) =>
-            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
-            foto.tipo.toLowerCase().includes(busca.toLowerCase())
-        )
-      : fotosDoProjeto.filter(
-          (foto) =>
-            foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
-            foto.tipo.toLowerCase().includes(busca.toLowerCase())
-        );
+    projetoId && filtroAtivo === "revistas"
+      ? fotosDoProjeto.filter((foto) => foto.projeto_id === projetoId)
+      : filtroAtivo === "todos"
+        ? fotosData.filter(
+            (foto) =>
+              foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+              foto.titulo.toLowerCase().includes(busca.toLowerCase()),
+          )
+        : fotosDoProjeto.filter(
+            (foto) =>
+              foto.legenda.toLowerCase().includes(busca.toLowerCase()) ||
+              foto.titulo.toLowerCase().includes(busca.toLowerCase()),
+          );
 
   // 3. AGRUPAMENTO (O Pulo do Gato)
   // Vamos transformar a lista solta em um Objeto de Grupos
@@ -39,8 +51,8 @@ export default function Galeria() {
 
   fotosDaBusca.forEach((foto) => {
     // Define o nome do grupo.
-    // Se for episódio, usa "Episódio X". Se não tiver ep, usa o "tipo" (ex: Poster).
-    const nomeGrupo = foto.tipo.toUpperCase();
+    // Se for episódio, usa "Episódio X". Se não tiver ep, usa o "titulo" (ex: Poster).
+    const nomeGrupo = foto.titulo.toUpperCase();
 
     // Se a gaveta não existe, cria ela
     if (!grupos[nomeGrupo]) {
@@ -92,7 +104,14 @@ export default function Galeria() {
           type="text"
           placeholder="Pesquisar..."
           onChange={(e) => setBusca(e.target.value)}
+          value={busca}
         />
+
+        {(projetoId || busca || filtroAtivo !== "todos") && (
+          <button onClick={limparTudo} className="btn-limpar">
+            Limpar filtros <i className="fa-solid fa-x"></i>
+          </button>
+        )}
       </div>
 
       {/* LISTA DE CARROSSÉIS */}

@@ -20,6 +20,7 @@ section.galeria {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .carrossel-scroll {
@@ -82,11 +83,31 @@ section.galeria {
   font-weight: bold;
   color: var(--texto);
   cursor: pointer;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.botoes-filtro button:hover, .btn-limpar:hover {
+  transform: translateY(-3px);
 }
 
 .botoes-filtro button.active {
   background-color: var(--background-dark-transparente);
   border: 2px solid var(--destaque-secundario);
+}
+
+.btn-limpar {
+  padding: 0.5rem 1rem;
+  background: var(--background-dark-transparente);
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 2px solid var(--destaque-secundario);
+  color: var(--texto);
+  cursor: pointer;
+  transition: transform 0.2s;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+
 }
 
 .controles input {
