@@ -109,7 +109,7 @@ export default function Galeria() {
 
         {(projetoId || busca || filtroAtivo !== "todos") && (
           <button onClick={limparTudo} className="btn-limpar">
-            Limpar filtros <i className="fa-solid fa-x"></i>
+            Limpar filtros <i className="fa-solid fa-trash"></i>
           </button>
         )}
       </div>
