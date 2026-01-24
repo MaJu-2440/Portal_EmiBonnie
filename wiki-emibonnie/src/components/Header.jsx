@@ -170,17 +170,7 @@ function Header() {
                     <i className="fa-solid fa-caret-up"></i>
                   </li>
                 )}
-                <li>
-                  <Link
-                    to={"trabalhos/todos"}
-                    onClick={handleMenuToggle}
-                    className="link"
-                  >
-                    <div className="link-title">
-                      Todos<i className="fa-solid fa-angle-right"></i>
-                    </div>
-                  </Link>
-                </li>
+
                 <li>
                   <Link
                     to={"trabalhos/discografia"}

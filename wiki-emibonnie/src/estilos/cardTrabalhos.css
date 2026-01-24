@@ -2,6 +2,7 @@
     background: var(--background-dark-transparente);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 1rem;
+    margin: 1rem auto;
     border-radius: 16px;
     width: 100%;
 
