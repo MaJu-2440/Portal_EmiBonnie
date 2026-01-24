@@ -54,52 +54,73 @@ function Trabalhos() {
 
   return (
     <div className="trabalhos-container">
-      <h1>
-        {filtroTipo === "entrevistas-e-revistas"
-          ? "REVISTAS E ENTREVISTAS"
-          : filtroTipo.toUpperCase()}
-      </h1>
-
-      <div className="secao-trabalhos">
-        {trabalhosEmConjunto.length > 0 && <h2>Emi&Bonnie</h2>}
-        <div>
-          {tiposTrabalhosFiltrados.map((item) => {
-            return secaoTrabalhos({
-              titulo: item.toUpperCase(),
-              lista: trabalhosEmConjunto.filter(
-                (trabalho) => trabalho.tipo === item,
-              ),
-            });
-          })}
-        </div>
+      <div
+        className="capa-trabalhos capa-trabalhos_emibonnie"
+        aria-label="Capa da Seção de Trabalhos Conjuntos de Emi e Bonnie"
+      >
+        <h1>
+          {filtroTipo === "entrevistas-e-revistas"
+            ? "REVISTAS E ENTREVISTAS"
+            : filtroTipo.toUpperCase()}
+        </h1>
       </div>
 
       <div className="secao-trabalhos">
-        {trabalhosSoloEmi.length > 0 && <h2>Emi Solo</h2>}
-        <div>
-          {tiposTrabalhosFiltrados.map((item) => {
-            return secaoTrabalhos({
-              titulo: item.toUpperCase(),
-              lista: trabalhosSoloEmi.filter(
-                (trabalho) => trabalho.tipo === item,
-              ),
-            });
-          })}
-        </div>
+        {trabalhosEmConjunto.length > 0 && (
+          <div>
+            {tiposTrabalhosFiltrados.map((item) => {
+              return secaoTrabalhos({
+                titulo: item.toUpperCase(),
+                lista: trabalhosEmConjunto.filter(
+                  (trabalho) => trabalho.tipo === item,
+                ),
+              });
+            })}
+          </div>
+        )}
       </div>
 
+      {trabalhosSoloEmi.length > 0 && (
+        <div
+          className="capa-trabalhos capa-trabalhos_emi"
+          aria-label="Capa da Seção de Trabalhos Solo de Emi"
+        ></div>
+      )}
+
       <div className="secao-trabalhos">
-        {trabalhosSoloBonnie.length > 0 && <h2>Bonnie Solo</h2>}
-        <div>
-          {tiposTrabalhosFiltrados.map((item) => {
-            return secaoTrabalhos({
-              titulo: item.toUpperCase(),
-              lista: trabalhosSoloBonnie.filter(
-                (trabalho) => trabalho.tipo === item,
-              ),
-            });
-          })}
-        </div>
+        {trabalhosSoloEmi.length > 0 && (
+          <div>
+            {tiposTrabalhosFiltrados.map((item) => {
+              return secaoTrabalhos({
+                titulo: item.toUpperCase(),
+                lista: trabalhosSoloEmi.filter(
+                  (trabalho) => trabalho.tipo === item,
+                ),
+              });
+            })}
+          </div>
+        )}
+      </div>
+      {trabalhosSoloBonnie.length > 0 && (
+        <div
+          className="capa-trabalhos capa-trabalhos_bonnie"
+          aria-label="Capa da Seção de Trabalhos Solo de Bonnie"
+        ></div>
+      )}
+
+      <div className="secao-trabalhos">
+        {trabalhosSoloBonnie.length > 0 && (
+          <div>
+            {tiposTrabalhosFiltrados.map((item) => {
+              return secaoTrabalhos({
+                titulo: item.toUpperCase(),
+                lista: trabalhosSoloBonnie.filter(
+                  (trabalho) => trabalho.tipo === item,
+                ),
+              });
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
