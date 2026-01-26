@@ -47,7 +47,7 @@ section.galeria {
   color: var(--texto);
 }
 
-.carrossel-item {
+.swiper {
   height: 440px;
   padding: 0 0.5rem;
   background: var(--background-dark-transparente);
@@ -125,26 +125,31 @@ gap: .5rem
   border: 2px solid var(--destaque-secundario);
 }
 
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 768px) {
   .secao-carrossel {
-    max-width: 350px;
+    width: 100%;
+  }
+
+  .swiper {
+    height: 480px;
+  }
+
+  .carrossel-item {
+    padding: 1rem;
   }
 }
 
 @media screen and (min-width: 820px) {
-  section.galeria {
-    max-width: 800px;
-  }
-
   .galeria .controles {
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  section.galeria {
-    max-width: 1200px;
-  }
+@media screen and (min-width: 1024px) {
+ section .galeria {
+  max-width: none;
+  width: 100%
+ }
 }

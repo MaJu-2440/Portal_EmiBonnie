@@ -17,6 +17,16 @@ export default function Carrossel({ fotos }) {
         disableOnInteraction: true, // continua mesmo após interação
       }}
       style={{ width: "100%" }}
+      breakpoints={{
+        820: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 5,
+        },
+      }}
+      centeredSlides={true}
     >
       {fotos.map((foto) => (
         <SwiperSlide>
