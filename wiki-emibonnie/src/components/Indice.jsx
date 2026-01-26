@@ -23,11 +23,14 @@ export default function Indice({ indiceList }) {
 
   //Indice fecha quando clica fora dele
   const indiceRef = useRef(null);
+  const indiceBtnRef = useRef(null);
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
         indiceRef.current &&
-        !indiceRef.current.contains(event.target) // se clicou fora
+        !indiceRef.current.contains(event.target) &&
+        indiceBtnRef.current &&
+        !indiceBtnRef.current.contains(event.target) // se clicou fora
       ) {
         setIndiceOpen(false);
       }
@@ -39,7 +42,7 @@ export default function Indice({ indiceList }) {
   if (!Array.isArray(indiceList)) return null;
 
   return isMobile ? (
-    <div className="indice-btn" title="Índice">
+    <div ref={indiceBtnRef} className="indice-btn" title="Índice">
       <div className={isIndiceOpen ? "indice-icons toggle" : "indice-icons"}>
         {isIndiceOpen ? (
           <i className="fa-solid fa-xmark" onClick={handleIndice}></i>

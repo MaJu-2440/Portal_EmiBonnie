@@ -4,16 +4,20 @@ import { Link } from "react-router-dom";
 import icon from "../assets/icon-emibonnie__white.png";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setisMenuOpen] = useState(false);
 
+  const handleMenuToggle = () => {
+    setisMenuOpen(!isMenuOpen);
+  };
+
+  // desabilita menu mobile ao redimensionar
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
   useEffect(() => {
     const handleResize = () => {
       const mobile = window.innerWidth < 768;
       setIsMobile(mobile);
       if (mobile) {
-        setIsOpen(false);
+        setisMenuOpen(false);
       }
     };
 
@@ -21,31 +25,34 @@ function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleMenuToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const [openSubMenu, setOpenSubMenu] = useState(null); // guarda o submenu aberto
-
+  // Menu submenu toggle
+  const [openSubMenu, setOpenSubMenu] = useState(null);
   const handleSubMenuToggle = (id) => {
-    // se já estiver aberto, fecha; senão abre o novo
     setOpenSubMenu(openSubMenu === id ? null : id);
   };
 
   //Indice fecha quando clica fora dele
   const navRef = useRef(null);
+  const menuButtonRef = useRef(null);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
         navRef.current &&
-        !navRef.current.contains(event.target) // se clicou fora
+        !navRef.current.contains(event.target) &&
+        menuButtonRef.current &&
+        !menuButtonRef.current.contains(event.target)
       ) {
-        setIsOpen(false);
+        setisMenuOpen(false);
       }
     };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+      return () =>
+        document.removeEventListener("mousedown", handleClickOutside);
+    }
+  }, [isMenuOpen]);
 
   return (
     <header>
@@ -58,19 +65,20 @@ function Header() {
       <nav className="nav">
         {isMobile && (
           <div
-            className={isOpen ? "nav-icons toggle" : "nav-icons"}
+            ref={menuButtonRef}
+            className={isMenuOpen ? "nav-icons toggle" : "nav-icons"}
             onClick={handleMenuToggle}
           >
             <i
-              className={isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
+              className={isMenuOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
             ></i>
           </div>
         )}
 
         <ul
           ref={navRef}
-          className={isOpen ? "nav_lista open" : "nav_lista"}
-          hidden={!isOpen}
+          className={isMenuOpen ? "nav_lista open" : "nav_lista"}
+          hidden={!isMenuOpen}
         >
           <li className="decoration">
             <i className="fa-solid fa-caret-up"></i>
