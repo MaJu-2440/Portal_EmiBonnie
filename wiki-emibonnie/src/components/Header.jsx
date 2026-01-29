@@ -208,7 +208,7 @@ function Header() {
                     className="link"
                   >
                     <div className="link-title">
-                      Entrevistas/Photoshoots
+                      Entrevistas e Revistas
                       <i className="fa-solid fa-angle-right"></i>
                     </div>
                   </Link>
