@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import dados from "../data/trabalhos.json";
 import { useParams } from "react-router-dom";
 import CardTrabalhos from "../components/CardTrabalhos.jsx";
+import ScrollBtn from "../components/ScrollBtn.jsx";
 
 function Trabalhos() {
   const { tipo } = useParams();
@@ -36,6 +37,7 @@ function Trabalhos() {
       (item) =>
         item.artistas.includes("emi") && item.artistas.includes("bonnie"),
     )
+    .reverse()
     .sort((a, b) => b.ano - a.ano);
 
   const trabalhosSoloEmi = trabalhosFiltrados
@@ -43,6 +45,7 @@ function Trabalhos() {
       (item) =>
         item.artistas.includes("emi") && !item.artistas.includes("bonnie"),
     )
+    .reverse()
     .sort((a, b) => b.ano - a.ano);
 
   const trabalhosSoloBonnie = trabalhosFiltrados
@@ -50,6 +53,7 @@ function Trabalhos() {
       (item) =>
         item.artistas.includes("bonnie") && !item.artistas.includes("emi"),
     )
+    .reverse()
     .sort((a, b) => b.ano - a.ano);
 
   return (
@@ -138,6 +142,7 @@ function Trabalhos() {
             return <CardTrabalhos item={trabalho} />;
           })}
         </div>
+        <ScrollBtn />
       </div>
     );
   }
