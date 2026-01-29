@@ -163,7 +163,8 @@
     "url": "https://youtu.be/6WUd4dYjXxU?si=ofve14bTaI7O8K3o",
     "capa": "capa-serie-whyru.jpg",
     "detalhes": {
-      "legendas": "Contém legendas em pt-br"
+      "legendas": "Contém legendas em pt-br",
+      "papel": "participação especial"
     }
   },
   {
@@ -175,7 +176,7 @@
     "url": "https://www.thaipbs.or.th/program/Wongwaen/watch/5eqD5E",
     "capa": "capa-serie-anel.jpg",
     "detalhes": {
-      "papel": "June",
+      "papel": "June - participação especial",
       "legendas": "Contém legendas em inglês"
     }
   },
@@ -201,7 +202,7 @@
     "capa": "capa-serie-garotadefora.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Nana"
+      "papel": "Nana - personagem secundária"
     }
   },
   {
@@ -214,7 +215,7 @@
     "capa": "capa-serie-wholetruth.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Paew"
+      "papel": "Paew - personagem secundária"
     }
   },
   {
@@ -236,7 +237,7 @@
     "capa": "capa-serie-schooltales.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Aim-Orn"
+      "papel": "Aim-Orn - personagem principal"
     }
   },
   {
@@ -249,7 +250,7 @@
     "capa": "capa-serie-bedtime.jpg",
     "detalhes": {
       "legendas": "Não contém legendas em pt-br",
-      "papel": "Mint"
+      "papel": "Mint - personagem secundária"
     }
   },
   {
@@ -319,17 +320,20 @@
     "capa": "capa-serie-delete.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Thong"
+      "papel": "Thong - participação especial"
     }
   },
   {
-    "titulo": "Show me Love - GrandTV",
+    "titulo": "Show me Love EP.1 - GrandTV",
     "tipo": "serie",
     "ano": 2023,
     "artistas": ["emi"],
     "categoria": "video",
     "url": "https://youtube.com/playlist?list=PLSB5811DpUTGrRZS-E6cDjmpGY99rGUUq&si=2QoA3gHfyBelJyj8",
-    "capa": "capa-serie-showmelove.jpg"
+    "capa": "capa-serie-showmelove.jpg",
+    "detalhes": {
+      "papel": "Beaty Queen - participação especial"
+    }
   },
   {
     "titulo": "One Night Stand - Change2561",
@@ -340,7 +344,8 @@
     "url": "https://youtu.be/5QFDBjfPIIw?si=1l3a4o_yN63KC30H",
     "capa": "capa-serie-onenight.jpg",
     "detalhes": {
-      "legendas": "Contém legendas em inglês"
+      "legendas": "Contém legendas em inglês",
+      "papel": "participação especial"
     }
   },
   {
@@ -353,7 +358,7 @@
     "capa": "capa-serie-lasttwilight.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Pla"
+      "papel": "Pla - personagem secundária"
     }
   },
   {
@@ -366,7 +371,7 @@
     "capa": "capa-filme-efigie.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "Meena"
+      "papel": "Meena - personagem secundária"
     }
   },
   {
@@ -433,7 +438,7 @@
     "capa": "capa-serie-interninmyheart.jpg",
     "detalhes": {
       "legendas": "Não contém legendas no youtube",
-      "papel": "Nana"
+      "papel": "Nana - participação especial"
     }
   },
   {
@@ -446,7 +451,7 @@
     "capa": "capa-serie-beautynewbie.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "Ann"
+      "papel": "Ann - personagem secundária"
     }
   },
   {
@@ -459,7 +464,7 @@
     "capa": "capa-serie-wandeegoodday.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Kwan"
+      "papel": "Kwan - personagem secundária"
     }
   },
   {
@@ -472,7 +477,7 @@
     "capa": "capa-serie-rebound.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "Lin"
+      "papel": "Lin - personagem secundária"
     }
   },
   {
@@ -485,7 +490,7 @@
     "capa": "capa-serie-trainee.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Ink"
+      "papel": "Ink - personagem secundária"
     }
   },
   {
@@ -498,7 +503,7 @@
     "capa": "capa-serie-perfect10liners.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Yeepun"
+      "papel": "Yeepun - personagem secundária"
     }
   },
   {
@@ -511,7 +516,7 @@
     "capa": "capa-serie-highschoolfrenemy.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Peeta"
+      "papel": "Peeta - personagem secundária"
     }
   },
   {
@@ -524,7 +529,7 @@
     "capa": "capa-filme-achillescurse.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "San"
+      "papel": "San - personagem secundária"
     }
   },
   {
@@ -555,7 +560,7 @@
     "capa": "capa-serie-us.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Pam e Dokrak",
+      "papel": "Pam e Dokrak - personagens principais",
       "link_wiki": "/wiki/us-series"
     }
   },
@@ -569,7 +574,7 @@
     "capa": "capa-serie-breakupservice.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "Baimon"
+      "papel": "Baimon - participação especial"
     }
   },
   {
@@ -582,7 +587,7 @@
     "capa": "capa-serie-mouseth.jpg",
     "detalhes": {
       "legendas": "Contém legendas em inglês",
-      "papel": "Picha"
+      "papel": "Picha - personagem principal"
     }
   },
   {
@@ -595,7 +600,7 @@
     "capa": "capa-serie-friendshit.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Tulip"
+      "papel": "Tulip - personagem principal"
     }
   },
   {
@@ -608,7 +613,7 @@
     "capa": "capa-serie-meandthee.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Lookplub"
+      "papel": "Lookplub - personagem secundária"
     }
   },
   {
@@ -621,20 +626,20 @@
     "capa": "capa-serie-burnoutsyndrome.jpg",
     "detalhes": {
       "legendas": "Contém legendas em pt-br",
-      "papel": "Ing"
+      "papel": "Ing - personagem secundária"
     }
   },
   {
     "titulo": "Moonshadow - GMMTV",
     "tipo": "serie",
     "ano": 2026,
-    "artistas": ["emi","bonnie"],
+    "artistas": ["emi", "bonnie"],
     "categoria": "video",
     "url": "https://youtu.be/LMKBoo8bvaw?si=B1b5Q82QQzy4VaCG",
     "capa": "capa-serie-moonshadow.jpg",
     "detalhes": {
       "legendas": "*Previsto para estrear em meados de 2026",
-      "papel": "Chan e Key",
+      "papel": "Chan e Key - personagens principais",
       "link_wiki": "/wiki/moonshadow-series"
     }
   },

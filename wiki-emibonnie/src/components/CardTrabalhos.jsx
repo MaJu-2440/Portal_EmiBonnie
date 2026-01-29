@@ -17,9 +17,9 @@ export default function CardTrabalhos({ item }) {
           {item.artistas.map((artista) => (
             <span>{artista.charAt(0).toUpperCase() + artista.slice(1)} </span>
           ))}
+          {item.detalhes?.papel && <span>como {item.detalhes.papel}</span>}
         </div>
 
-        {item.detalhes?.papel && <span>como {item.detalhes.papel}</span>}
         {item.detalhes?.legendas && (
           <span
             className="card-detalhe"
