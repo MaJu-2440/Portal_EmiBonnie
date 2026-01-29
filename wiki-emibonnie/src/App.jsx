@@ -8,16 +8,17 @@ import { useEffect } from "react";
 import { styleMap } from "./data/styleMap.jsx";
 
 function App() {
-  const { slug } = useParams();
+  const { slug, nome } = useParams();
   useEffect(() => {
-    const styles = styleMap[slug] || styleMap.default;
+    const styles = styleMap[slug || nome] || styleMap.default;
     const root = document.documentElement;
 
     Object.entries(styles).forEach(([key, value]) => {
       root.style.setProperty(key, value);
+      console.log(`Entrada é: ${slug || nome}`);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, [slug || nome]);
 
   return (
     <div className="app-container">

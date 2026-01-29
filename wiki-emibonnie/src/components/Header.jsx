@@ -106,7 +106,7 @@ function Header() {
                 )}
                 <li>
                   <Link
-                    to={"perfil/emi"}
+                    to={"perfil/emi-thasorn"}
                     className="link"
                     onClick={handleMenuToggle}
                   >
@@ -117,7 +117,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to={"perfil/bonnie"}
+                    to={"perfil/bonnie-pattraphus"}
                     className="link"
                     onClick={handleMenuToggle}
                   >

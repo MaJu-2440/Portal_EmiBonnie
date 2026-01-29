@@ -22,4 +22,18 @@ export const styleMap = {
     "--background-image-tablet": "url(/img/bg_img/ms-bg_tablet.png)",
     "--background-image-desktop": "url(/img/bg_img/ms-bg_desktop.png)",
   },
+  "emi-thasorn": {
+    "--destaque-primario": "#a86800",
+    "--destaque-secundario": "#ff9d00",
+    "--background-image-mobile": "url(/img/bg_img/ms-bg_mobile.png)",
+    "--background-image-tablet": "url(/img/bg_img/ms-bg_tablet.png)",
+    "--background-image-desktop": "url(/img/bg_img/ms-bg_desktop.png)",
+  },
+  "bonnie-pattraphus": {
+    "--destaque-primario": "#9307bb",
+    "--destaque-secundario": "#cd66e9",
+    "--background-image-mobile": "url(/img/bg_img/ms-bg_mobile.png)",
+    "--background-image-tablet": "url(/img/bg_img/ms-bg_tablet.png)",
+    "--background-image-desktop": "url(/img/bg_img/ms-bg_desktop.png)",
+  },
 };
