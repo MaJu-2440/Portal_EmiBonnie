@@ -58,6 +58,10 @@
     transform: translateY(-5px);
 }
 
+.card-detalhe {
+    font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
     .card-trabalho {
         grid-template-columns: 1fr 1.5fr;

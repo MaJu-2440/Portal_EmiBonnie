@@ -1,3 +1,9 @@
+.trabalhos-container .filtro-pesquisa {
+    padding: 2rem 1rem;
+
+    position: relative;
+}
+
 .capa-trabalhos {
     width: 100%;
     height: 200px;
@@ -9,7 +15,6 @@
 
 .capa-trabalhos_emibonnie {
     background-image: url('/img/bg_img/capa-trabalhos-emibonnie-mobile.png');
-    background-position: top;
     height: 280px;
 }
 .capa-trabalhos_emi {
@@ -23,7 +28,7 @@
     padding-top: 2rem;
     text-align: center;
     line-height: 1;
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
 .secao-trabalhos {
@@ -41,10 +46,42 @@
  margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 540px) {
-.capa-trabalhos_emibonnie {
-    background-position: 0 -80px;
+.filtro-pesquisa {
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
 }
+
+.nav-btns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--background-dark-transparente);
+}
+
+.nav-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--destaque-secundario);
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+    border: 2px solid var(--destaque-primario);
+    transform: translateY(-2px);
+}
+
+.nenhum-trabalho {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -54,9 +91,6 @@
         margin: 0 auto;
     }
 
-    .capa-trabalhos_emibonnie {
-        background-position: 0 -100px;
-    }
 }
 
 @media screen and (min-width: 1024px) and (min-height: 600px) {    
@@ -66,5 +100,9 @@
 
     .capa-trabalhos_emi {
         max-width: 500px;
+    }
+
+    .capa-trabalhos {
+        height: 200px;
     }
 }

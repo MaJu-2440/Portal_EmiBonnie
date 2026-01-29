@@ -8,6 +8,11 @@ import ScrollBtn from "../components/ScrollBtn.jsx";
 function Trabalhos() {
   const { tipo } = useParams();
   const [filtroTipo, setFiltroTipo] = useState(tipo || "todos");
+  const [busca, setBusca] = useState(""); // O que digitar na barra
+
+  const limparTudo = () => {
+    setBusca("");
+  };
 
   useEffect(() => {
     setFiltroTipo(tipo);
@@ -32,7 +37,15 @@ function Trabalhos() {
     }
   });
 
-  const trabalhosEmConjunto = trabalhosFiltrados
+  const trabalhosDaBusca = busca
+    ? trabalhosFiltrados.filter(
+        (item) =>
+          item.titulo.toLowerCase().includes(busca.toLowerCase()) ||
+          item.tipo.toLowerCase().includes(busca.toLowerCase()),
+      )
+    : trabalhosFiltrados;
+
+  const trabalhosEmConjunto = trabalhosDaBusca
     .filter(
       (item) =>
         item.artistas.includes("emi") && item.artistas.includes("bonnie"),
@@ -40,7 +53,7 @@ function Trabalhos() {
     .reverse()
     .sort((a, b) => b.ano - a.ano);
 
-  const trabalhosSoloEmi = trabalhosFiltrados
+  const trabalhosSoloEmi = trabalhosDaBusca
     .filter(
       (item) =>
         item.artistas.includes("emi") && !item.artistas.includes("bonnie"),
@@ -48,7 +61,7 @@ function Trabalhos() {
     .reverse()
     .sort((a, b) => b.ano - a.ano);
 
-  const trabalhosSoloBonnie = trabalhosFiltrados
+  const trabalhosSoloBonnie = trabalhosDaBusca
     .filter(
       (item) =>
         item.artistas.includes("bonnie") && !item.artistas.includes("emi"),
@@ -58,16 +71,50 @@ function Trabalhos() {
 
   return (
     <div className="trabalhos-container">
-      <div
-        className="capa-trabalhos capa-trabalhos_emibonnie"
-        aria-label="Capa da Seção de Trabalhos Conjuntos de Emi e Bonnie"
-      >
-        <h1>
-          {filtroTipo === "entrevistas-e-revistas"
-            ? "REVISTAS E ENTREVISTAS"
-            : filtroTipo.toUpperCase()}
-        </h1>
+      <div className="controles filtro-pesquisa">
+        <div className="nav-btns">
+          <a className="nav-btn" href="#trabalhosEmiBonnie">
+            Emi&Bonnie
+          </a>
+          <a className="nav-btn" href="#trabalhosEmi">
+            Emi
+          </a>
+          <a className="nav-btn" href="#trabalhosBonnie">
+            Bonnie
+          </a>
+        </div>
+        <input
+          name="busca"
+          type="text"
+          placeholder="Pesquisar..."
+          onChange={(e) => setBusca(e.target.value)}
+          value={busca}
+        />
+        {busca !== "" && (
+          <button onClick={limparTudo} className="btn-limpar">
+            Limpar filtros <i className="fa-solid fa-trash"></i>
+          </button>
+        )}
       </div>
+      <h1>
+        {filtroTipo === "entrevistas-e-revistas"
+          ? "REVISTAS E ENTREVISTAS"
+          : filtroTipo.toUpperCase()}
+      </h1>
+
+      {trabalhosEmConjunto.length === 0 &&
+        trabalhosSoloEmi.length === 0 &&
+        trabalhosSoloBonnie.length === 0 && (
+          <p className="nenhum-trabalho">Nenhum trabalho encontrado.</p>
+        )}
+
+      {trabalhosEmConjunto.length > 0 && (
+        <div
+          id="trabalhosEmiBonnie"
+          className="capa-trabalhos capa-trabalhos_emibonnie"
+          aria-label="Capa da Seção de Trabalhos Conjuntos de Emi e Bonnie"
+        ></div>
+      )}
 
       <div className="secao-trabalhos">
         {trabalhosEmConjunto.length > 0 && (
@@ -86,6 +133,7 @@ function Trabalhos() {
 
       {trabalhosSoloEmi.length > 0 && (
         <div
+          id="trabalhosEmi"
           className="capa-trabalhos capa-trabalhos_emi"
           aria-label="Capa da Seção de Trabalhos Solo de Emi"
         ></div>
@@ -107,6 +155,7 @@ function Trabalhos() {
       </div>
       {trabalhosSoloBonnie.length > 0 && (
         <div
+          id="trabalhosBonnie"
           className="capa-trabalhos capa-trabalhos_bonnie"
           aria-label="Capa da Seção de Trabalhos Solo de Bonnie"
         ></div>
