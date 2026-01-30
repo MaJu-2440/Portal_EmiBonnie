@@ -1,4 +1,89 @@
-.perfil-container {
-    padding: 2rem 1rem;
+.perfil-container .hero img{
+    width: 100%;
 }
 
+.perfil-container .hero .hero_descricao {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.perfil-container .perfil_redes-sociais {
+    padding-left: .6rem;
+}
+
+.perfil-container .perfil_redes-sociais a {
+    background-color: var(--destaque-primario);
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 1rem .4rem;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    color: var(---texto);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    display: inline-block;
+}
+
+.perfil-container .perfil_redes-sociais a:hover {
+    background-color: var(--destaque-secundario);
+    transform: scale(1.1);
+}
+
+.perfil-container section:not(.hero) {
+    padding: 1rem;
+}
+
+.perfil-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    line-height: 1;
+}
+
+.perfil-container h2 span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.perfil-container .perfil-lista {
+    list-style: none;
+    margin: 1rem;
+}
+
+.perfil-container .perfil-lista li {
+    font-size: 1.4rem;
+}
+
+.perfil-container .perfil-trabalhos_secao h3 {
+    margin-top: 1.5rem;
+}
+
+.perfil-container .perfil-trabalhos_secao ul {
+    margin: 0 1rem;
+}
+
+.perfil-container .perfil-trabalhos_secao ul li a {
+    color: var(---texto);
+    transition: all 0.3s;
+}
+
+.perfil-container .perfil-trabalhos_secao a span {
+    text-decoration: underline;
+}
+
+.perfil-container .perfil-trabalhos_secao ul li a:hover {
+    color: var(--destaque-secundario);
+    text-decoration: underline;
+}
+
+.perfil-container .perfil-footer {
+    text-align: center;
+}
+
+.perfil-container .perfil-footer h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}

@@ -15,25 +15,28 @@ function Trabalhos() {
   };
 
   useEffect(() => {
-    setFiltroTipo(tipo);
+    setFiltroTipo(tipo || "todos");
   }, [tipo]);
 
   var tiposTrabalhosFiltrados = [];
   const trabalhosFiltrados = dados.filter((item) => {
-    if (filtroTipo == "entrevistas-e-revistas") {
+    if (filtroTipo === "entrevistas-e-revistas") {
       tiposTrabalhosFiltrados = ["entrevista", "revista"];
       return tiposTrabalhosFiltrados.includes(item.tipo);
-    } else if (filtroTipo == "discografia") {
+    } else if (filtroTipo === "discografia") {
       tiposTrabalhosFiltrados = ["musica", "musical"];
       return tiposTrabalhosFiltrados.includes(item.tipo);
-    } else if (filtroTipo == "filmografia") {
+    } else if (filtroTipo === "filmografia") {
       tiposTrabalhosFiltrados = ["filme", "serie", "mv"];
       return tiposTrabalhosFiltrados.includes(item.tipo);
-    } else if (filtroTipo == "tv-shows") {
+    } else if (filtroTipo === "tv-shows") {
       tiposTrabalhosFiltrados = ["tvshow"];
       return tiposTrabalhosFiltrados.includes(item.tipo);
+    } else if (!filtroTipo || filtroTipo === "todos") {
+      tiposTrabalhosFiltrados = Array.from(new Set(dados.map((d) => d.tipo)));
+      return true;
     } else {
-      return "Nenhum trabalho encontrado";
+      return false;
     }
   });
 

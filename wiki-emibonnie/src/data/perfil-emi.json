@@ -1,0 +1,95 @@
+[
+  {
+    "id": "emi-thasorn",
+    "nome_completo": "Pattraphus Borattasuwan",
+    "nome_tailandes": "ภัทราภัสร์ โบรัชตะสุวรรณ์",
+    "apelido": "Bonnie",
+    "nascimento": "2004-01-27",
+    "nacionalidade": "Tailandesa",
+    "altura": "164cm",
+    "signo": "Aquário",
+    "ocupacao": "Atriz",
+    "bio": "Pattraphus Borattasuwan, mais conhecida como Bonnie, é uma atriz tailandesa sob a GMMTV. Iniciou sua carreira como modelo antes de estrear em 2024 na série 'High School Frenemy'. Ganhou reconhecimento internacional como Dokrak em 'Us the Series', projeto que ultrapassou 100 milhões de visualizações."
+  },
+  {
+    "educacao": {
+      "high_school": "Rajini School",
+      "universidade": "Srinakharinwirot University (SWU)",
+      "faculdade": "College of Social Communication Innovation (COSCI)",
+      "curso": "Cyber Business Management"
+    }
+  },
+  {
+    "curiosidades": {
+      "comidas": ["Morangos", "Frutos do Mar", "Salmão", "Comida Japonesa"],
+      "alergias": ["Carne", "Leite"],
+      "cores_fav": ["Roxo", "Preto", "Rosa"],
+      "hobbies": [
+        "Tocar violão",
+        "Desenhar",
+        "Cantar",
+        "Ler livros",
+        "Jogar jogos"
+      ]
+    }
+  },
+  {
+    "social": {
+      "instagram": "https://instagram.com/@beonnnie",
+      "twitter": "https://x.com/@beonnnie",
+      "tiktok": "https://tiktok.com/@beobonny"
+    }
+  },
+  {
+    "marca": {
+      "nome": "VURV THINGS",
+      "handle": "vurv.bkk",
+      "slogan": "For those still searching for the missing piece",
+      "colecao": "The Missing Piece (Since 2025)"
+    }
+  },
+  {
+    "premios": [
+      {
+        "titulo": "Novata do Ano - Mint Awards",
+        "ano": 2025,
+        "tipo": "premio",
+        "artistas": ["bonnie"],
+        "capa": "capa-premio-novatamint2025.jpg",
+        "detalhes": {
+          "hashtag": "#MchoiceMintAwards2025xEmiBonnie"
+        }
+      },
+      {
+        "titulo": "Howe Ícone em Ascensão - Howe Award",
+        "tipo": "premio",
+        "ano": 2025,
+        "artistas": ["bonnie"],
+        "capa": "capa-premio-bonnierisingiconhowe2025.jpg",
+        "detalhes": {
+          "hashtag": "#HOWEAWARDS2025xEmiBonnie"
+        }
+      },
+      {
+        "titulo": "1º lugar Hitz do Mês (outubro)",
+        "tipo": "premio",
+        "ano": 2025,
+        "artistas": ["emi", "bonnie"],
+        "capa": "capa-premio-hitzthailand2025.jpg",
+        "detalhes": {
+          "hashtag": "#HITZThailand #HITZofTheMonth #EmiBonnie"
+        }
+      },
+      {
+        "titulo": "Tailândia anuncia a personalidade do ano",
+        "tipo": "premio",
+        "ano": 2025,
+        "artistas": ["bonnie"],
+        "capa": "capa-premio-bonniethailandperson2025.jpg",
+        "detalhes": {
+          "hashtag": "#PersonOfTheYearAwards2025 #emibonnie"
+        }
+      }
+    ]
+  }
+]

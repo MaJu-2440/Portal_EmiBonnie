@@ -15,7 +15,6 @@ function App() {
 
     Object.entries(styles).forEach(([key, value]) => {
       root.style.setProperty(key, value);
-      console.log(`Entrada é: ${slug || nome}`);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug || nome]);

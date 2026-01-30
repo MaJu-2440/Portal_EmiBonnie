@@ -31,8 +31,8 @@ export const styleMap = {
   },
   "bonnie-pattraphus": {
     "--destaque-primario": "#9307bb",
-    "--destaque-secundario": "#cd66e9",
-    "--background-image-mobile": "url(/img/bg_img/ms-bg_mobile.png)",
+    "--destaque-secundario": "#730991",
+    "--background-image-mobile": "url(/img/bg_img/bonnie-bg_mobile.png)",
     "--background-image-tablet": "url(/img/bg_img/ms-bg_tablet.png)",
     "--background-image-desktop": "url(/img/bg_img/ms-bg_desktop.png)",
   },

@@ -148,6 +148,7 @@
   {
     "titulo": "DoubleBam - เข้าใจได้ (It's OK)",
     "tipo": "mv",
+    "projeto_id": "doublebam-itsok-2019",
     "ano": 2019,
     "artistas": ["emi"],
     "categoria": "video",
@@ -157,6 +158,7 @@
   {
     "titulo": "Why R U? - EP6",
     "tipo": "serie",
+    "projeto_id": "why-ru-series-2020",
     "ano": 2020,
     "artistas": ["emi"],
     "categoria": "video",
@@ -170,6 +172,7 @@
   {
     "titulo": "O Anel Subconsciente EP: a Benção Disfarçada",
     "tipo": "serie",
+    "projeto_id": "anel-subconsciente-series-2020",
     "ano": 2020,
     "artistas": ["emi"],
     "categoria": "video",
@@ -183,6 +186,7 @@
   {
     "titulo": "ยอมฉันยอม - Rose Village",
     "tipo": "mv",
+    "projeto_id": "rose-village-2020",
     "ano": 2020,
     "artistas": ["emi"],
     "categoria": "video",
@@ -195,6 +199,7 @@
   {
     "titulo": "Garota de Fora temporada 2 - Netflix",
     "tipo": "serie",
+    "projeto_id": "garota-de-fora-season2-netflix-2021",
     "ano": 2021,
     "artistas": ["emi"],
     "categoria": "video",
@@ -207,6 +212,7 @@
   },
   {
     "titulo": "Segredos nas Paredes - Netflix",
+    "projeto_id": "segredos-nas-paredes-netflix-2021",
     "tipo": "filme",
     "ano": 2021,
     "artistas": ["emi"],
@@ -219,6 +225,7 @@
     }
   },
   {
+    "projeto_id": "pakbung-shortstory-2021",
     "titulo": "PAKBUNG - เรื่องสั้น (Short story)",
     "tipo": "mv",
     "ano": 2021,
@@ -228,6 +235,7 @@
     "capa": "capa-mv-shortstory.jpg"
   },
   {
+    "projeto_id": "escola-amaldicoada-netflix-2022",
     "titulo": "A Escola Amaldiçoada - Netflix",
     "tipo": "serie",
     "ano": 2022,
@@ -241,6 +249,7 @@
     }
   },
   {
+    "projeto_id": "bedtime-story-wetv-2022",
     "titulo": "609 Bedtime Story WeTV",
     "tipo": "serie",
     "ano": 2022,
@@ -254,6 +263,7 @@
     }
   },
   {
+    "projeto_id": "closer-by-life-2022",
     "titulo": "Closer by LiFE - อลิซ",
     "tipo": "musical",
     "ano": 2022,
@@ -266,6 +276,7 @@
     }
   },
   {
+    "projeto_id": "bomb-at-track-2022",
     "titulo": "จำ - BOMB AT TRACK Feat. พัด Zweed n' Roll",
     "tipo": "mv",
     "ano": 2022,
@@ -313,6 +324,7 @@
   {
     "titulo": "Delete - Netflix",
     "tipo": "serie",
+    "projeto_id": "delete-netflix-2023",
     "ano": 2023,
     "artistas": ["emi"],
     "categoria": "video",
@@ -326,6 +338,7 @@
   {
     "titulo": "Show me Love EP.1 - GrandTV",
     "tipo": "serie",
+    "projeto_id": "show-me-love-grandtv-2023",
     "ano": 2023,
     "artistas": ["emi"],
     "categoria": "video",
@@ -337,6 +350,7 @@
   },
   {
     "titulo": "One Night Stand - Change2561",
+    "projeto_id": "one-night-stand-change2561-2023",
     "tipo": "serie",
     "ano": 2023,
     "artistas": ["emi"],
@@ -350,6 +364,7 @@
   },
   {
     "titulo": "Last Twilight - GMMTV",
+    "projeto_id": "last-twilight-gmmtv-2023",
     "tipo": "serie",
     "ano": 2023,
     "artistas": ["emi"],
@@ -362,6 +377,7 @@
     }
   },
   {
+    "projeto_id": "efigie-phayant-2023",
     "titulo": "หุ่นพยนต์  Efígie de Phayant - Five Star Movies",
     "tipo": "filme",
     "ano": 2023,
@@ -375,6 +391,7 @@
     }
   },
   {
+    "projeto_id": "misunderstood-boom-boom-cash-2023",
     "titulo": "Misunderstood - BOOM BOOM CASH",
     "tipo": "mv",
     "ano": 2023,
@@ -384,6 +401,7 @@
     "capa": "capa-mv-misunderstood.jpg"
   },
   {
+    "projeto_id": "please-try-again-nanon-2023",
     "titulo": "Please Try Again - NANON",
     "tipo": "mv",
     "ano": 2023,
@@ -393,6 +411,7 @@
     "capa": "capa-mv-pleasetryagain.jpg"
   },
   {
+    "projeto_id": "here-i-am-faceless-love-2023",
     "titulo": "Here I am - Ost. Faceless Love",
     "tipo": "musica",
     "ano": 2023,
@@ -402,6 +421,7 @@
     "capa": "capa-musica-hereiam.jpg"
   },
   {
+    "projeto_id": "caminho-da-bondade-2023",
     "titulo": "ตามรอยความดี (Seguindo o Caminho da Bondade) - vários artistas",
     "tipo": "musica",
     "ano": 2023,
@@ -431,6 +451,7 @@
   {
     "titulo": "Intern in My Heart - WeTV",
     "tipo": "serie",
+    "projeto_id": "intern-in-my-heart-wetv-2024",
     "ano": 2024,
     "artistas": ["emi"],
     "categoria": "video",
@@ -444,6 +465,7 @@
   {
     "titulo": "Beauty Newbie - GMMTV",
     "tipo": "serie",
+    "projeto_id": "beauty-newbie-gmmtv-2024",
     "ano": 2024,
     "artistas": ["emi"],
     "categoria": "video",
@@ -456,6 +478,7 @@
   },
   {
     "titulo": "Wandee Goodday - GMMTV",
+    "projeto_id": "wandee-goodday-gmmtv-2024",
     "tipo": "serie",
     "ano": 2024,
     "artistas": ["emi"],
@@ -469,6 +492,7 @@
   },
   {
     "titulo": "The Rebound - Viu",
+    "projeto_id": "the-rebound-viu-2024",
     "tipo": "serie",
     "ano": 2024,
     "artistas": ["emi"],
@@ -482,6 +506,7 @@
   },
   {
     "titulo": "The Trainee - GMMTV",
+    "projeto_id": "the-trainee-gmmtv-2024",
     "tipo": "serie",
     "ano": 2024,
     "artistas": ["emi"],
@@ -494,6 +519,7 @@
     }
   },
   {
+    "projeto_id": "perfect-10-liners-gmmtv-2024",
     "titulo": "Perfect 10 Liners - GMMTV",
     "tipo": "serie",
     "ano": 2024,
@@ -507,6 +533,7 @@
     }
   },
   {
+    "projeto_id": "high-school-frenemy-gmmtv-2024",
     "titulo": "High School Frenemy - GMMTV",
     "tipo": "serie",
     "ano": 2024,
@@ -520,6 +547,7 @@
     }
   },
   {
+    "projeto_id": "achilles-curse-major-group-2024",
     "titulo": "Achilles Curse - Major Group",
     "tipo": "filme",
     "ano": 2024,
@@ -533,6 +561,7 @@
     }
   },
   {
+    "projeto_id": "focus-beauty-newbie-2024",
     "titulo": "Focus - Ost. Beauty Newbie",
     "tipo": "musica",
     "ano": 2024,
@@ -542,6 +571,7 @@
     "capa": "capa-musica-focus.jpg"
   },
   {
+    "projeto_id": "candidate-fourth-2024",
     "titulo": "Candidate - FOURTH",
     "tipo": "mv",
     "ano": 2024,
@@ -553,6 +583,7 @@
   {
     "titulo": "Us - GMMTV",
     "tipo": "serie",
+    "projeto_id": "us-gmmtv-2025",
     "ano": 2025,
     "artistas": ["emi", "bonnie"],
     "categoria": "video",
@@ -567,6 +598,7 @@
   {
     "titulo": "Break Up Service EP4 - GMMTV",
     "tipo": "serie",
+    "projeto_id": "break-up-service-gmmtv-2025",
     "ano": 2025,
     "artistas": ["emi"],
     "categoria": "video",
@@ -579,6 +611,7 @@
   },
   {
     "titulo": "MouseTH - TrueCJ",
+    "projeto_id": "mouseth-truecj-2025",
     "tipo": "serie",
     "ano": 2025,
     "artistas": ["emi"],
@@ -592,6 +625,7 @@
   },
   {
     "titulo": "Friendshit Forever - GMMTV",
+    "projeto_id": "friendshit-forever-gmmtv-2025",
     "tipo": "serie",
     "ano": 2025,
     "artistas": ["emi"],
@@ -604,6 +638,7 @@
     }
   },
   {
+    "projeto_id": "me-and-thee-gmmtv-2025",
     "titulo": "Me and Thee - GMMTV",
     "tipo": "serie",
     "ano": 2025,
@@ -617,6 +652,7 @@
     }
   },
   {
+    "projeto_id": "burnout-syndrome-gmmtv-2025",
     "titulo": "Burnout Syndrome - GMMTV",
     "tipo": "serie",
     "ano": 2025,
@@ -630,6 +666,7 @@
     }
   },
   {
+    "projeto_id": "moonshadow-gmmtv-2026",
     "titulo": "Moonshadow - GMMTV",
     "tipo": "serie",
     "ano": 2026,
@@ -644,6 +681,7 @@
     }
   },
   {
+    "projeto_id": "more-than-words-ost-us-2025",
     "titulo": "More Than Words Ost.Us - Emi Thasorn",
     "tipo": "musica",
     "ano": 2025,
@@ -653,6 +691,7 @@
     "capa": "capa-musica-morethanwords.jpg"
   },
   {
+    "projeto_id": "between-us-ost-us-2025",
     "titulo": "Between Us Ost.Us - Bonnie Pattraphus",
     "tipo": "musica",
     "ano": 2025,
@@ -662,6 +701,7 @@
     "capa": "capa-musica-betweenus.jpg"
   },
   {
+    "projeto_id": "kissin-out-of-dream-ost-us-2025",
     "titulo": "Kissin' Out of Dream Ost.Us - Emi Thasorn, Bonnie Pattraphus",
     "tipo": "musica",
     "ano": 2025,
@@ -671,6 +711,7 @@
     "capa": "capa-musica-kissinoutofdream.jpg"
   },
   {
+    "projeto_id": "first-love-my-precious-2025",
     "titulo": "First Love Ost.My Precious - JAOYING-ACARE x EMI-BONNIE",
     "tipo": "musica",
     "ano": 2025,
@@ -680,6 +721,7 @@
     "capa": "capa-musica-firstlove.jpg"
   },
   {
+    "projeto_id": "blooming-blossom-2025",
     "titulo": "Blooming Blossom - NamtanFilm, MilkLove, EmiBonnie, JuneMewnich, ViewMim",
     "tipo": "musica",
     "ano": 2025,
@@ -689,6 +731,7 @@
     "capa": "capa-musica-bloomingblossom.jpg"
   },
   {
+    "projeto_id": "hide-hide-sis-2025",
     "titulo": "Hide Ost.Hide & Sis - Aye Sarunchana, Emi Thasorn",
     "tipo": "musica",
     "ano": 2025,
@@ -698,6 +741,7 @@
     "capa": "capa-musica-hide.jpg"
   },
   {
+    "projeto_id": "no-more-tears-friendshit-forever-2025",
     "titulo": "No More Tears Ost.Friendshit Forever - Emi Thasorn",
     "tipo": "musica",
     "ano": 2025,
@@ -708,6 +752,7 @@
   },
   {
     "titulo": "Love Language Ost.Cat For Cash - Bonnie Pattraphus",
+    "projeto_id": "love-language-cat-for-cash-2025",
     "tipo": "musica",
     "ano": 2025,
     "artistas": ["bonnie"],
