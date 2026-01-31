@@ -1,76 +1,90 @@
 {
   "id": "emi-thasorn",
   "title": "Perfil",
-  "nome_completo": "Pattraphus Borattasuwan",
-  "nome_tailandes": "ภัทราภัสร์ โบรัชตะสุวรรณ์",
-  "apelido": "Bonnie",
-  "nascimento": "2004-01-27",
+  "nome_completo": "Thasorn Klinnium",
+  "nome_tailandes": "เอมี่ ทสร กลิ่นเนียม",
+  "apelido": "Emi",
+  "nascimento": "1998-04-25",
   "nacionalidade": "Tailandesa",
-  "altura": "164cm",
-  "signo": "Aquário",
+  "altura": "165cm",
+  "signo": "Touro",
   "ocupacao": "Atriz",
   "bio": "<p>Pattraphus Borattasuwan, mais conhecida como Bonnie, é uma atriz tailandesa sob a GMMTV. Iniciou sua carreira como modelo antes de estrear em 2024 na série <i>'High School Frenemy'</i> interpretando <i>Peeta</i>. Ganhou enorme reconhecimento internacional ao assumir o papel de <i>Dokrak</i> ao lado de Emi Thasorn no GL (girls love) que passou a marca de 100 milhões de visualizações no youtube, <i>Us the Series</i>.</p><br/><p>Recebeu seu primeiro prêmio em 2025 como <i>Novata do Ano</i> pela Mint Awards e hoje soma mais de 1.6 milhão e seguidores em suas redes sociais.</p>",
   "educacao": {
-    "high_school": "Rajini School",
-    "universidade": "Srinakharinwirot University (SWU)",
-    "faculdade": "College of Social Communication Innovation (COSCI)",
-    "curso": "Cyber Business Management"
+    "high_school": "Nawamintharachinuthid Horwang Nonthaburi School",
+    "universidade": "Faculdade de Informação e Comunicação - Silpakorn University",
+    "curso": null
   },
 
   "curiosidades": {
     "title": "Curiosidades",
-    "comidas": "Morangos, Frutos do Mar, Salmão, Comida Japonesa",
-    "alergias": "Carne, Leite",
-    "cores_fav": "Roxo, Preto, Rosa",
-    "hobbies": "Tocar violão, Desenhar, Cantar, Ler livros, Jogar jogos"
+    "comidas": "Macarrão com ovo e carne de porco/frango, Comida japonesa, Chá Fuji, Morangos",
+    "alergias": "Frutas amarelas e frutos do mar",
+    "cores_fav": "Cores quentes, laranja, vermelho, amarelo, preto",
+    "hobbies": "Modelar e dormir o dia inteiro em dias off",
+    "mais_curiosidades": "Emi coleciona maquiagem e produtos de skincare, além de fotocards fanmade da Bonnie. Seus filmes favoritos são The Notebook, Pretty Woman, Nothing Hill e Closer. E seu genêro musical favorito engloba músicas em inglês, Thai pop, e Thai Country"
   },
   "social": {
-    "nome": "Bonnie",
-    "instagram": "https://instagram.com/beonnnie",
-    "twitter": "https://x.com/@beonnnie",
-    "tiktok": "https://tiktok.com/@beobonny"
+    "nome": "#emiamily",
+    "instagram": "https://instagram.com/emiamily",
+    "twitter": "https://x.com/@emiamily",
+    "tiktok": "https://tiktok.com/@emiamily"
   },
   "fanbase": [
     {
-      "nome": "Bonnie Official TH",
-      "instagram": "https://instagram.com/bonnieofficialth",
-      "twitter": "https://x.com/@bonnieofficial_",
-      "tiktok": "https://tiktok.com/@bonnieofficialth"
+      "nome": "Emi Thasorn Official",
+      "instagram": "https://instagram.com/emithasorn_official",
+      "twitter": "https://x.com/@thasornofficial",
+      "tiktok": "https://tiktok.com/@thasornofficial"
     },
     {
-      "nome": "Bonnie's Home",
-      "instagram": "https://instagram.com/beonnnieteamsup",
-      "twitter": "https://x.com/@beonnnieteamsup",
-      "tiktok": "https://tiktok.com/@beonnnieteam"
+      "nome": "Emi Thasorn Style",
+      "instagram": "https://instagram.com/emithasornstyle",
+      "twitter": "https://x.com/@emithsornstyle",
+      "tiktok": "https://tiktok.com/@emithasornstyle"
+    },
+    {
+      "nome": "Emi Compcard",
+      "instagram": "https://instagram.com/emi.compcard"
     }
   ],
   "marca": {
-    "nome": "VURV THINGS",
-    "handle": "@vurv.bkk",
-    "slogan": "For those still searching for the missing piece",
-    "colecao": "The Missing Piece (Since 2025)",
-    "instagram": "https://instagram.com/vurv.bkk",
-    "twitter": "https://x.com/@vurvbkk"
+    "nome": "IMMANOTHER",
+    "handle": "#immanother",
+    "slogan": "Are you ready for ANOTHER?",
+    "colecao": ["Faded (2025)", "IMM JEANS 001 (2026)"],
+    "instagram": "https://instagram.com/imm.another",
+    "twitter": "https://x.com/@imm_another"
   },
   "premios": [
     {
-      "titulo": "Novata do Ano - Mint Awards",
+      "titulo": "Revelação Feminina do Ano - KAZZ AWARDs",
       "ano": 2025,
       "tipo": "premio",
-      "artistas": ["bonnie"],
-      "capa": "capa-premio-novatamint2025.jpg",
+      "artistas": ["emi"],
+      "capa": "capa-premio-risingfemalekazz2025.jpg",
       "detalhes": {
-        "hashtag": "#MchoiceMintAwards2025xEmiBonnie"
+        "hashtag": "#KAZZAWARDS2025 #emiamily"
+      }
+    },
+    {
+      "titulo": "Melhor Trilha Sonora de Série do Ano - JTMN",
+      "tipo": "premio",
+      "ano": 2025,
+      "artistas": ["emi"],
+      "capa": "capa-premio-yseriessoundtrack2025.jpg",
+      "detalhes": {
+        "hashtag": "#JOOXTOPMUSICNIGHTxEmi"
       }
     },
     {
       "titulo": "Howe Ícone em Ascensão - Howe Award",
       "tipo": "premio",
       "ano": 2025,
-      "artistas": ["bonnie"],
-      "capa": "capa-premio-bonnierisingiconhowe2025.jpg",
+      "artistas": ["emi", "bonnie"],
+      "capa": "capa-premio-emirisingiconhowe2025.jpg",
       "detalhes": {
-        "hashtag": "#HOWEAWARDS2025xEmiBonnie"
+        "hashtag": "#HITZThailand #HITZofTheMonth #EmiBonnie"
       }
     },
     {
@@ -84,11 +98,11 @@
       }
     },
     {
-      "titulo": "Tailândia anuncia a personalidade do ano",
+      "titulo": "Prêmio de Cultura e Entretenimento",
       "tipo": "premio",
       "ano": 2025,
-      "artistas": ["bonnie"],
-      "capa": "capa-premio-bonniethailandperson2025.jpg",
+      "artistas": ["emi"],
+      "capa": "capa-premio-emithailandperson2025.jpg",
       "detalhes": {
         "hashtag": "#PersonOfTheYearAwards2025 #emibonnie"
       }

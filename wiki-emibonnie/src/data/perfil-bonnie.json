@@ -12,8 +12,7 @@
   "bio": "<p>Pattraphus Borattasuwan, mais conhecida como Bonnie, é uma atriz tailandesa sob a GMMTV. Iniciou sua carreira como modelo antes de estrear em 2024 na série <i>'High School Frenemy'</i> interpretando <i>Peeta</i>. Ganhou enorme reconhecimento internacional ao assumir o papel de <i>Dokrak</i> ao lado de Emi Thasorn no GL (girls love) que passou a marca de 100 milhões de visualizações no youtube, <i>Us the Series</i>.</p><br/><p>Recebeu seu primeiro prêmio em 2025 como <i>Novata do Ano</i> pela Mint Awards e hoje soma mais de 1.6 milhão e seguidores em suas redes sociais.</p>",
   "educacao": {
     "high_school": "Rajini School",
-    "universidade": "Srinakharinwirot University (SWU)",
-    "faculdade": "College of Social Communication Innovation (COSCI)",
+    "universidade": "College of Social Communication Innovation (COSCI) - Srinakharinwirot University (SWU)",
     "curso": "Cyber Business Management"
   },
 
@@ -22,10 +21,13 @@
     "comidas": "Morangos, Frutos do Mar, Salmão, Comida Japonesa",
     "alergias": "Carne, Leite",
     "cores_fav": "Roxo, Preto, Rosa",
-    "hobbies": "Tocar violão, Desenhar, Cantar, Ler livros, Jogar jogos"
+    "hobbies": "Tocar violão, Desenhar, Cantar, Ler livros, Jogar jogos",
+    "mais_curiosidades": [
+      "Bonnie coleciona livros e cores, não tem uma comida específica como preferida (come de tudo) e seus gêneros favoritos de música são Indie, Slow Tempo e Indie Rock."
+    ]
   },
   "social": {
-    "nome": "Bonnie",
+    "nome": "#beonnnie",
     "instagram": "https://instagram.com/beonnnie",
     "twitter": "https://x.com/@beonnnie",
     "tiktok": "https://tiktok.com/@beobonny"
@@ -46,9 +48,9 @@
   ],
   "marca": {
     "nome": "VURV THINGS",
-    "handle": "@vurv.bkk",
+    "handle": "#vurvbkk",
     "slogan": "For those still searching for the missing piece",
-    "colecao": "The Missing Piece (Since 2025)",
+    "colecao": ["The Missing Piece (Since 2025)"],
     "instagram": "https://instagram.com/vurv.bkk",
     "twitter": "https://x.com/@vurvbkk"
   },

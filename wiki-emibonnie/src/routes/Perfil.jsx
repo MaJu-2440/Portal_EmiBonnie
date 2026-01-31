@@ -18,8 +18,9 @@ function Perfil() {
   }, [nome]);
 
   const perfilData = dados.find((d) => d.id === perfilAtivo);
-  const premios = dados.find((d) => d.premios)?.premios || [];
-  const premiosFiltrados = premios.filter((t) => t.tipo === "premio");
+  const premiosFiltrados = perfilData.premios.filter(
+    (t) => t.tipo === "premio",
+  );
 
   // Extrai a primeira parte do ID (emi ou bonnie)
   const artistaNome = perfilAtivo?.split("-")[0];
@@ -152,12 +153,15 @@ function Perfil() {
       >
         <h2>Curiosidades</h2>
         <ul className="perfil-lista">
+          <li>{perfilData.curiosidades?.mais_curiosidades}</li>
+          <br />
           <li>
             <strong>Comidas Favoritas:</strong>{" "}
             {perfilData.curiosidades?.comidas}
           </li>
           <li>
-            <strong>Alergias:</strong> {perfilData.curiosidades?.alergias}
+            <strong>Alergias/não gosta:</strong>{" "}
+            {perfilData.curiosidades?.alergias}
           </li>
           <li>
             <strong>Cores Favoritas:</strong>{" "}
@@ -238,13 +242,15 @@ function Perfil() {
       </section>
 
       <section id="marca" className="perfil-marca">
-        <h2>
+        <h2 id="marca-title">
           {perfilData.marca?.nome}
           <br />
           <span>{perfilData.marca?.handle}</span>
         </h2>
         <h3>{perfilData.marca?.slogan}</h3>
-        <p>{perfilData.marca?.colecao}</p>
+        {perfilData.marca?.colecao.map((c) => {
+          return <p>{c}</p>;
+        })}
         <div className="perfil_redes-sociais marca">
           <a
             href={perfilData.marca?.instagram}
@@ -296,27 +302,33 @@ function Perfil() {
             return (
               <div className="perfil_redes-sociais">
                 <h3>{value.nome}</h3>
-                <a
-                  href={value?.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href={value?.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa-brands fa-x-twitter"></i>
-                </a>
-                <a
-                  href={value?.tiktok}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa-brands fa-tiktok"></i>
-                </a>
+                {value.instagram && (
+                  <a
+                    href={value?.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                )}
+                {value.twitter && (
+                  <a
+                    href={value?.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-x-twitter"></i>
+                  </a>
+                )}
+                {value.tiktok && (
+                  <a
+                    href={value?.tiktok}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-tiktok"></i>
+                  </a>
+                )}
               </div>
             );
           })}

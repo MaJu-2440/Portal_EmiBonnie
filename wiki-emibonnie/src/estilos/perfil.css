@@ -93,6 +93,10 @@
   margin-top: 2rem;
 }
 
+.perfil-container .perfil-marca #marca-title {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .perfil-container .hero.bonnie-pattraphus div {
     max-width: 600px;
@@ -147,5 +151,10 @@
   .perfil-container section .perfil-footer {
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .perfil-container .perfil,
+  .perfil-container .perfil-curiosidades {
+    max-width: 600px;
   }
 }
