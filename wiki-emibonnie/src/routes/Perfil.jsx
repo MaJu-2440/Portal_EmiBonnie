@@ -64,11 +64,20 @@ function Perfil() {
 
   return (
     <div className="perfil-container">
-      <section id="perfil" className="hero">
-        <img
-          src={`/img/bg_img/capa-perfil_${perfilData?.id}_mobile.png`}
-          alt="Capa Bonnie Pattraphus"
-        />
+      <section id="perfil" className={`hero ${perfilData.id}`}>
+        {isMobile && (
+          <img
+            src={`/img/bg_img/capa-perfil_${perfilData?.id}_mobile.png`}
+            alt="Capa Hero"
+          />
+        )}
+        {!isMobile && (
+          <img
+            src={`/img/bg_img/capa-perfil_${perfilData?.id}_desktop.png`}
+            alt="Capa Hero"
+          />
+        )}
+
         <div
           className="hero_descricao"
           dangerouslySetInnerHTML={{ __html: perfilData.bio }}
@@ -98,7 +107,7 @@ function Perfil() {
         </div>
       </section>
 
-      <section id="caracteristicas" className="perfil">
+      <section id="caracteristicas" className={`perfil ${perfilData.id}`}>
         <h2>Características</h2>
         <ul className="perfil-lista">
           <li>
@@ -137,7 +146,10 @@ function Perfil() {
         </ul>
       </section>
 
-      <section id="curiosidades" className="perfil-curiosidades">
+      <section
+        id="curiosidades"
+        className={`perfil-curiosidades ${perfilData.id}`}
+      >
         <h2>Curiosidades</h2>
         <ul className="perfil-lista">
           <li>
@@ -158,17 +170,15 @@ function Perfil() {
       </section>
 
       <section id="premios" className="perfil-premios">
-        <div className="secao-premios">
-          <h2 className="tipo-trabalho">Prêmios</h2>
-          <div className="premios-card-container">
-            {premiosFiltrados.map((premio) => {
-              return <CardTrabalhos item={premio} />;
-            })}
-          </div>
+        <h2 className="tipo-trabalho">Prêmios</h2>
+        <div className="premios-card-container">
+          {premiosFiltrados.map((premio) => {
+            return <CardTrabalhos item={premio} />;
+          })}
         </div>
       </section>
 
-      <section id="trabalhos" className="perfil-trabalhos">
+      <section id="trabalhos" className={`perfil-trabalhos ${perfilData.id}`}>
         <h2>Trabalhos</h2>
 
         <div className="perfil-trabalhos_secao">
@@ -254,10 +264,10 @@ function Perfil() {
       </section>
 
       <section id="redes-sociais" className="perfil-footer">
-        <h2>Acompanhe muito mais nas redes sociais!</h2>
+        <h2>Acompanhe nas redes sociais!</h2>
 
         <h3>{perfilData.social?.nome}</h3>
-        <div className="perfil_redes-sociais fanbase">
+        <div className="perfil_redes-sociais">
           <a
             href={perfilData.social?.instagram}
             target="_blank"
@@ -281,30 +291,36 @@ function Perfil() {
           </a>
         </div>
 
-        {Object.values(perfilData.fanbase).map((value) => {
-          return (
-            <div className="perfil_redes-sociais">
-              <h3>{value.nome}</h3>
-              <a
-                href={value?.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                href={value?.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-x-twitter"></i>
-              </a>
-              <a href={value?.tiktok} target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-tiktok"></i>
-              </a>
-            </div>
-          );
-        })}
+        <div className="perfil_redes-sociais_container fanbase">
+          {Object.values(perfilData.fanbase).map((value) => {
+            return (
+              <div className="perfil_redes-sociais">
+                <h3>{value.nome}</h3>
+                <a
+                  href={value?.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href={value?.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href={value?.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-tiktok"></i>
+                </a>
+              </div>
+            );
+          })}
+        </div>
       </section>
       {isMobile && <Indice indiceList={indiceList} />}
 

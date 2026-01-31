@@ -1,89 +1,151 @@
-.perfil-container .hero img{
-    width: 100%;
+.perfil-container .hero img {
+  width: 100%;
 }
 
 .perfil-container .hero .hero_descricao {
-    font-size: 1.2rem;
-    padding: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 .perfil-container .perfil_redes-sociais {
-    padding-left: .6rem;
+  padding-left: 0.6rem;
 }
 
 .perfil-container .perfil_redes-sociais a {
-    background-color: var(--destaque-primario);
-    font-size: 2rem;
-    border-radius: 50%;
-    margin: 1rem .4rem;
-    width: 52px;
-    height: 52px;
-    text-align: center;
-    color: var(---texto);
-    cursor: pointer;
-    transition: all ease-in-out 0.3s;
-    display: inline-block;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+  background-color: var(--destaque-primario);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  margin: 1rem 0.4rem;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  align-content: center;
+  color: var(---texto);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  display: inline-block;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .perfil-container .perfil_redes-sociais a:hover {
-    background-color: var(--destaque-secundario);
-    transform: scale(1.1);
+  background-color: var(--destaque-secundario);
+  transform: scale(1.1);
 }
 
 .perfil-container section:not(.hero) {
-    padding: 1rem;
+  padding: 1rem 1rem 3rem;
 }
 
 .perfil-container section h2 {
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 2rem 0;
-    line-height: 1;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  line-height: 1;
 }
 
 .perfil-container h2 span {
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-transform: lowercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: lowercase;
 }
 
 .perfil-container .perfil-lista {
-    list-style: none;
+  list-style: none;
 }
 
 .perfil-container .perfil-lista li {
-    font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .perfil-container .perfil-trabalhos_secao h3 {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .perfil-container .perfil-trabalhos_secao ul {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .perfil-container .perfil-trabalhos_secao ul li a {
-    color: var(---texto);
-    transition: all 0.3s;
+  color: var(---texto);
+  transition: all 0.3s;
 }
 
 .perfil-container .perfil-trabalhos_secao a span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .perfil-container .perfil-trabalhos_secao ul li a:hover {
-    color: var(--destaque-secundario);
-    text-decoration: underline;
+  color: var(--destaque-primario);
+  text-decoration: underline;
 }
 
 .perfil-container .perfil-footer {
-    text-align: center;
+  padding-bottom: 2rem;
+}
+
+.perfil-container .perfil-footer h2 {
+  text-align: left;
 }
 
 .perfil-container .perfil-footer h3 {
-    font-size: 1.8rem;
-    margin-top: 2rem;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .perfil-container .hero.bonnie-pattraphus div {
+    max-width: 600px;
+    text-align: end;
+    margin: 0 1rem 0 auto;
+  }
+
+  .perfil-container .hero.emi-thasorn div {
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto 0 1rem;
+  }
+
+  .perfil-container section:not(.hero) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
+  }
+
+  .perfil-container section.perfil-premios,
+  .perfil-container section.perfil-marca,
+  .perfil-container section.perfil-footer {
+    align-items: center;
+  }
+
+  .perfil-container .premios-card-container {
+    max-width: 600px;
+  }
+
+  .perfil-container section:not(.hero) h2 {
+    text-align: left;
+  }
+
+  .perfil-container .perfil-footer .perfil_redes-sociais {
+    padding: 0;
+  }
+
+  .perfil-container .perfil_redes-sociais_container.fanbase {
+    display: flex;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .perfil-container section:not(.hero) {
+    margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .perfil-container section .perfil-footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
