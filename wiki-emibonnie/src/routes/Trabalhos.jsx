@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import dados from "../data/trabalhos.json";
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import CardTrabalhos from "../components/CardTrabalhos.jsx";
 import ScrollBtn from "../components/ScrollBtn.jsx";
 
@@ -10,8 +10,12 @@ function Trabalhos() {
   const [filtroTipo, setFiltroTipo] = useState(tipo || "todos");
   const [busca, setBusca] = useState(""); // O que digitar na barra
 
+  const [searchParams, setSearchParams] = useSearchParams();
+  const projetoId = searchParams.get("projeto_id");
+
   const limparTudo = () => {
     setBusca("");
+    setSearchParams({});
   };
 
   useEffect(() => {
@@ -40,13 +44,15 @@ function Trabalhos() {
     }
   });
 
-  const trabalhosDaBusca = busca
-    ? trabalhosFiltrados.filter(
-        (item) =>
-          item.titulo.toLowerCase().includes(busca.toLowerCase()) ||
-          item.tipo.toLowerCase().includes(busca.toLowerCase()),
-      )
-    : trabalhosFiltrados;
+  const trabalhosDaBusca = projetoId
+    ? trabalhosFiltrados.filter((item) => item.projeto_id === projetoId)
+    : busca
+      ? trabalhosFiltrados.filter(
+          (item) =>
+            item.titulo.toLowerCase().includes(busca.toLowerCase()) ||
+            item.tipo.toLowerCase().includes(busca.toLowerCase()),
+        )
+      : trabalhosFiltrados;
 
   const trabalhosEmConjunto = trabalhosDaBusca
     .filter(
@@ -93,7 +99,7 @@ function Trabalhos() {
           onChange={(e) => setBusca(e.target.value)}
           value={busca}
         />
-        {busca !== "" && (
+        {(busca || projetoId) !== "" && (
           <button onClick={limparTudo} className="btn-limpar">
             Limpar filtros <i className="fa-solid fa-trash"></i>
           </button>

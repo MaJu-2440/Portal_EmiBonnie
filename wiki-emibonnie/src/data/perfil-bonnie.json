@@ -1,97 +1,97 @@
-[
-  {
-    "id": "bonnie-pattraphus",
-    "nome_completo": "Pattraphus Borattasuwan",
-    "nome_tailandes": "ภัทราภัสร์ โบรัชตะสุวรรณ์",
-    "apelido": "Bonnie",
-    "nascimento": "2004-01-27",
-    "nacionalidade": "Tailandesa",
-    "altura": "164cm",
-    "signo": "Aquário",
-    "ocupacao": "Atriz",
-    "bio": "<p>Pattraphus Borattasuwan, mais conhecida como Bonnie, é uma atriz tailandesa sob a GMMTV. Iniciou sua carreira como modelo antes de estrear em 2024 na série <i>'High School Frenemy'</i> interpretando <i>Peeta</i>. Ganhou enorme reconhecimento internacional ao assumir o papel de <i>Dokrak</i> ao lado de Emi Thasorn no GL (girls love) que passou a marca de 100 milhões de visualizações no youtube, <i>Us the Series</i>.</p><br/><p>Recebeu seu primeiro prêmio em 2025 como <i>Novata do Ano</i> pela Mint Awards e hoje soma mais de 1.6 milhão e seguidores em suas redes sociais.</p>",
-    "educacao": {
-      "high_school": "Rajini School",
-      "universidade": "Srinakharinwirot University (SWU)",
-      "faculdade": "College of Social Communication Innovation (COSCI)",
-      "curso": "Cyber Business Management"
-    },
+{
+  "id": "bonnie-pattraphus",
+  "title": "Perfil",
+  "nome_completo": "Pattraphus Borattasuwan",
+  "nome_tailandes": "ภัทราภัสร์ โบรัชตะสุวรรณ์",
+  "apelido": "Bonnie",
+  "nascimento": "2004-01-27",
+  "nacionalidade": "Tailandesa",
+  "altura": "164cm",
+  "signo": "Aquário",
+  "ocupacao": "Atriz",
+  "bio": "<p>Pattraphus Borattasuwan, mais conhecida como Bonnie, é uma atriz tailandesa sob a GMMTV. Iniciou sua carreira como modelo antes de estrear em 2024 na série <i>'High School Frenemy'</i> interpretando <i>Peeta</i>. Ganhou enorme reconhecimento internacional ao assumir o papel de <i>Dokrak</i> ao lado de Emi Thasorn no GL (girls love) que passou a marca de 100 milhões de visualizações no youtube, <i>Us the Series</i>.</p><br/><p>Recebeu seu primeiro prêmio em 2025 como <i>Novata do Ano</i> pela Mint Awards e hoje soma mais de 1.6 milhão e seguidores em suas redes sociais.</p>",
+  "educacao": {
+    "high_school": "Rajini School",
+    "universidade": "Srinakharinwirot University (SWU)",
+    "faculdade": "College of Social Communication Innovation (COSCI)",
+    "curso": "Cyber Business Management"
+  },
 
-    "curiosidades": {
-      "comidas": "Morangos, Frutos do Mar, Salmão, Comida Japonesa",
-      "alergias": "Carne, Leite",
-      "cores_fav": "Roxo, Preto, Rosa",
-      "hobbies": "Tocar violão, Desenhar, Cantar, Ler livros, Jogar jogos"
+  "curiosidades": {
+    "title": "Curiosidades",
+    "comidas": "Morangos, Frutos do Mar, Salmão, Comida Japonesa",
+    "alergias": "Carne, Leite",
+    "cores_fav": "Roxo, Preto, Rosa",
+    "hobbies": "Tocar violão, Desenhar, Cantar, Ler livros, Jogar jogos"
+  },
+  "social": {
+    "nome": "Bonnie",
+    "instagram": "https://instagram.com/beonnnie",
+    "twitter": "https://x.com/@beonnnie",
+    "tiktok": "https://tiktok.com/@beobonny"
+  },
+  "fanbase": [
+    {
+      "nome": "Bonnie Official TH",
+      "instagram": "https://instagram.com/bonnieofficialth",
+      "twitter": "https://x.com/@bonnieofficial_",
+      "tiktok": "https://tiktok.com/@bonnieofficialth"
     },
-    "social": {
-      "nome": "Bonnie",
-      "instagram": "https://instagram.com/beonnnie",
-      "twitter": "https://x.com/@beonnnie",
-      "tiktok": "https://tiktok.com/@beobonny"
-    },
-    "fanbase": [
-      {
-        "nome": "Bonnie Official TH",
-        "instagram": "https://instagram.com/bonnieofficialth",
-        "twitter": "https://x.com/@bonnieofficial_",
-        "tiktok": "https://tiktok.com/@bonnieofficialth"
-      },
-      {
-        "nome": "Bonnie's Home",
-        "instagram": "https://instagram.com/beonnnieteamsup",
-        "twitter": "https://x.com/@beonnnieteamsup",
-        "tiktok": "https://tiktok.com/@beonnnieteam"
+    {
+      "nome": "Bonnie's Home",
+      "instagram": "https://instagram.com/beonnnieteamsup",
+      "twitter": "https://x.com/@beonnnieteamsup",
+      "tiktok": "https://tiktok.com/@beonnnieteam"
+    }
+  ],
+  "marca": {
+    "nome": "VURV THINGS",
+    "handle": "@vurv.bkk",
+    "slogan": "For those still searching for the missing piece",
+    "colecao": "The Missing Piece (Since 2025)",
+    "instagram": "https://instagram.com/vurv.bkk",
+    "twitter": "https://x.com/@vurvbkk"
+  },
+  "premios": [
+    {
+      "titulo": "Novata do Ano - Mint Awards",
+      "ano": 2025,
+      "tipo": "premio",
+      "artistas": ["bonnie"],
+      "capa": "capa-premio-novatamint2025.jpg",
+      "detalhes": {
+        "hashtag": "#MchoiceMintAwards2025xEmiBonnie"
       }
-    ],
-    "marca": {
-      "nome": "VURV THINGS",
-      "handle": "@vurv.bkk",
-      "slogan": "For those still searching for the missing piece",
-      "colecao": "The Missing Piece (Since 2025)",
-      "instagram": "https://instagram.com/vurv.bkk",
-      "twitter": "https://x.com/@vurvbkk"
     },
-    "premios": [
-      {
-        "titulo": "Novata do Ano - Mint Awards",
-        "ano": 2025,
-        "tipo": "premio",
-        "artistas": ["bonnie"],
-        "capa": "capa-premio-novatamint2025.jpg",
-        "detalhes": {
-          "hashtag": "#MchoiceMintAwards2025xEmiBonnie"
-        }
-      },
-      {
-        "titulo": "Howe Ícone em Ascensão - Howe Award",
-        "tipo": "premio",
-        "ano": 2025,
-        "artistas": ["bonnie"],
-        "capa": "capa-premio-bonnierisingiconhowe2025.jpg",
-        "detalhes": {
-          "hashtag": "#HOWEAWARDS2025xEmiBonnie"
-        }
-      },
-      {
-        "titulo": "1º lugar Hitz do Mês (outubro)",
-        "tipo": "premio",
-        "ano": 2025,
-        "artistas": ["emi", "bonnie"],
-        "capa": "capa-premio-hitzthailand2025.jpg",
-        "detalhes": {
-          "hashtag": "#HITZThailand #HITZofTheMonth #EmiBonnie"
-        }
-      },
-      {
-        "titulo": "Tailândia anuncia a personalidade do ano",
-        "tipo": "premio",
-        "ano": 2025,
-        "artistas": ["bonnie"],
-        "capa": "capa-premio-bonniethailandperson2025.jpg",
-        "detalhes": {
-          "hashtag": "#PersonOfTheYearAwards2025 #emibonnie"
-        }
+    {
+      "titulo": "Howe Ícone em Ascensão - Howe Award",
+      "tipo": "premio",
+      "ano": 2025,
+      "artistas": ["bonnie"],
+      "capa": "capa-premio-bonnierisingiconhowe2025.jpg",
+      "detalhes": {
+        "hashtag": "#HOWEAWARDS2025xEmiBonnie"
       }
-    ]
-  }
-]
+    },
+    {
+      "titulo": "1º lugar Hitz do Mês (outubro)",
+      "tipo": "premio",
+      "ano": 2025,
+      "artistas": ["emi", "bonnie"],
+      "capa": "capa-premio-hitzthailand2025.jpg",
+      "detalhes": {
+        "hashtag": "#HITZThailand #HITZofTheMonth #EmiBonnie"
+      }
+    },
+    {
+      "titulo": "Tailândia anuncia a personalidade do ano",
+      "tipo": "premio",
+      "ano": 2025,
+      "artistas": ["bonnie"],
+      "capa": "capa-premio-bonniethailandperson2025.jpg",
+      "detalhes": {
+        "hashtag": "#PersonOfTheYearAwards2025 #emibonnie"
+      }
+    }
+  ]
+}

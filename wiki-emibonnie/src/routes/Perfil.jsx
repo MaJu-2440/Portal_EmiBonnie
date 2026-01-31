@@ -5,6 +5,7 @@ import CardTrabalhos from "../components/CardTrabalhos";
 import ScrollBtn from "../components/ScrollBtn";
 import { Link, useParams } from "react-router-dom";
 import trabalhos from "../data/trabalhos.json";
+import Indice from "../components/Indice";
 
 const dados = [perfilEmi, perfilBonnie];
 
@@ -16,19 +17,8 @@ function Perfil() {
     setPerfilAtivo(nome);
   }, [nome]);
 
-  let perfilArray = [];
-  for (let dataArray of dados) {
-    if (Array.isArray(dataArray)) {
-      const found = dataArray.find((d) => d.id === perfilAtivo);
-      if (found) {
-        perfilArray = dataArray;
-        break;
-      }
-    }
-  }
-
-  const perfilData = perfilArray.find((d) => d.id === perfilAtivo);
-  const premios = perfilArray.find((d) => d.premios)?.premios || [];
+  const perfilData = dados.find((d) => d.id === perfilAtivo);
+  const premios = dados.find((d) => d.premios)?.premios || [];
   const premiosFiltrados = premios.filter((t) => t.tipo === "premio");
 
   // Extrai a primeira parte do ID (emi ou bonnie)
@@ -48,9 +38,33 @@ function Perfil() {
 
   const revistas = trabalhosFiltrados.filter((t) => t.tipo === "revista");
 
+  const pageData = [
+    { title: "Perfil", id: "perfil" },
+    { title: "Características", id: "caracteristicas" },
+    { title: "Curiosidades", id: "curiosidades" },
+    { title: "Prêmios", id: "premios" },
+    { title: "Trabalhos", id: "trabalhos" },
+    { title: perfilData.marca?.nome, id: "marca" },
+    { title: "Redes Sociais", id: "redes-sociais" },
+  ];
+
+  const indiceList = pageData.map((section) => ({
+    title: section.title,
+    id: section.id,
+  }));
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="perfil-container">
-      <section className="hero">
+      <section id="perfil" className="hero">
         <img
           src={`/img/bg_img/capa-perfil_${perfilData?.id}_mobile.png`}
           alt="Capa Bonnie Pattraphus"
@@ -84,42 +98,66 @@ function Perfil() {
         </div>
       </section>
 
-      <section className="perfil">
+      <section id="caracteristicas" className="perfil">
         <h2>Características</h2>
         <ul className="perfil-lista">
-          <li>Apelido: {perfilData.apelido}</li>
-          <li>Nome Completo: {perfilData.nome_completo}</li>
-          <li>Nome em Tailandês: {perfilData.nome_tailandes}</li>
           <li>
-            Nascimento: {perfilData.nascimento} (
+            <strong>Apelido:</strong> {perfilData.apelido}
+          </li>
+          <li>
+            <strong>Nome Completo:</strong> {perfilData.nome_completo}
+          </li>
+          <li>
+            <strong>Nome em Tailandês:</strong> {perfilData.nome_tailandes}
+          </li>
+          <li>
+            <strong>Nascimento:</strong> {perfilData.nascimento} (
             {Math.floor(
               (new Date() - new Date(perfilData.nascimento).getTime()) /
                 3.15576e10,
             )}{" "}
             anos)
           </li>
-          <li>Altura: {perfilData.altura}</li>
-          <li>Signo: {perfilData.signo}</li>
-          <li>Ocupação: {perfilData.ocupacao}</li>
-          <li>Educação: {perfilData.educacao?.high_school}</li>
           <li>
-            Superior: {perfilData.educacao?.curso} na{" "}
+            <strong>Altura:</strong> {perfilData.altura}
+          </li>
+          <li>
+            <strong>Signo:</strong> {perfilData.signo}
+          </li>
+          <li>
+            <strong>Ocupação:</strong> {perfilData.ocupacao}
+          </li>
+          <li>
+            <strong>Educação:</strong> {perfilData.educacao?.high_school}
+          </li>
+          <li>
+            <strong>Superior:</strong> {perfilData.educacao?.curso} na{" "}
             {perfilData.educacao?.universidade}
           </li>
         </ul>
       </section>
 
-      <section className="perfil perfil-curiosidades">
+      <section id="curiosidades" className="perfil-curiosidades">
         <h2>Curiosidades</h2>
         <ul className="perfil-lista">
-          <li>Comidas Favoritas: {perfilData.curiosidades?.comidas}</li>
-          <li>Alergias: {perfilData.curiosidades?.alergias}</li>
-          <li>Cores Favoritas: {perfilData.curiosidades?.cores_fav}</li>
-          <li>Hobbies: {perfilData.curiosidades?.hobbies}</li>
+          <li>
+            <strong>Comidas Favoritas:</strong>{" "}
+            {perfilData.curiosidades?.comidas}
+          </li>
+          <li>
+            <strong>Alergias:</strong> {perfilData.curiosidades?.alergias}
+          </li>
+          <li>
+            <strong>Cores Favoritas:</strong>{" "}
+            {perfilData.curiosidades?.cores_fav}
+          </li>
+          <li>
+            <strong>Hobbies:</strong> {perfilData.curiosidades?.hobbies}
+          </li>
         </ul>
       </section>
 
-      <section className="perfil-premios">
+      <section id="premios" className="perfil-premios">
         <div className="secao-premios">
           <h2 className="tipo-trabalho">Prêmios</h2>
           <div className="premios-card-container">
@@ -130,7 +168,7 @@ function Perfil() {
         </div>
       </section>
 
-      <section className="perfil perfil-trabalhos">
+      <section id="trabalhos" className="perfil-trabalhos">
         <h2>Trabalhos</h2>
 
         <div className="perfil-trabalhos_secao">
@@ -139,7 +177,9 @@ function Perfil() {
             {filmografia.map((item) => {
               return (
                 <li key={item.projeto_id}>
-                  <Link to={item.projeto_id}>
+                  <Link
+                    to={`/trabalhos/filmografia?projeto_id=${item.projeto_id}`}
+                  >
                     {item.titulo} ({item.ano})
                   </Link>
                 </li>
@@ -150,12 +190,14 @@ function Perfil() {
 
         {discografia.length > 0 && (
           <div className="perfil-trabalhos_secao">
-            <h3>Discogradia</h3>
+            <h3>Discografia</h3>
             <ul>
               {discografia.map((item) => {
                 return (
                   <li key={item.projeto_id}>
-                    <Link to={item.projeto_id}>
+                    <Link
+                      to={`/trabalhos/discografia?projeto_id=${item.projeto_id}`}
+                    >
                       {item.titulo} ({item.ano})
                     </Link>
                   </li>
@@ -167,12 +209,14 @@ function Perfil() {
 
         {revistas.length > 0 && (
           <div className="perfil-trabalhos_secao">
-            <h3>Revistas</h3>
+            <h3>Revistas e Entrevistas</h3>
             <ul>
               {revistas.map((item) => {
                 return (
                   <li key={item.projeto_id}>
-                    <Link to={item.projeto_id}>
+                    <Link
+                      to={`/trabalhos/entrevistas-e-revistas?projeto_id=${item.projeto_id}`}
+                    >
                       {item.titulo} ({item.ano})
                     </Link>
                   </li>
@@ -183,7 +227,7 @@ function Perfil() {
         )}
       </section>
 
-      <section className="perfil perfil-marca">
+      <section id="marca" className="perfil-marca">
         <h2>
           {perfilData.marca?.nome}
           <br />
@@ -209,7 +253,7 @@ function Perfil() {
         </div>
       </section>
 
-      <section className="perfil perfil-footer">
+      <section id="redes-sociais" className="perfil-footer">
         <h2>Acompanhe muito mais nas redes sociais!</h2>
 
         <h3>{perfilData.social?.nome}</h3>
@@ -262,6 +306,7 @@ function Perfil() {
           );
         })}
       </section>
+      {isMobile && <Indice indiceList={indiceList} />}
 
       <ScrollBtn />
     </div>

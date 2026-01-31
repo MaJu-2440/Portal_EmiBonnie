@@ -23,6 +23,7 @@
     cursor: pointer;
     transition: all ease-in-out 0.3s;
     display: inline-block;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
 }
 
 .perfil-container .perfil_redes-sociais a:hover {
@@ -34,7 +35,7 @@
     padding: 1rem;
 }
 
-.perfil-container h2 {
+.perfil-container section h2 {
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
@@ -50,7 +51,6 @@
 
 .perfil-container .perfil-lista {
     list-style: none;
-    margin: 1rem;
 }
 
 .perfil-container .perfil-lista li {
