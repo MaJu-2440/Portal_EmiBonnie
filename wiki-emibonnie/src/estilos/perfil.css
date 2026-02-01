@@ -97,6 +97,10 @@
   text-align: center;
 }
 
+.perfil-container .hero_descricao a {
+  color: var(--destaque-primario);
+}
+
 @media screen and (min-width: 768px) {
   .perfil-container .hero.bonnie-pattraphus div {
     max-width: 600px;
