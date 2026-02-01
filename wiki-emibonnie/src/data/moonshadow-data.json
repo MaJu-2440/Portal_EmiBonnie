@@ -43,8 +43,16 @@
       "id": "elenco",
       "title": "Elenco",
       "elenco": [
-        { "ator": "Emi Thasorn Klinnium", "personagem": "Chan" },
-        { "ator": "Bonnie Pattraphus Borattasuwan", "personagem": "Key" },
+        {
+          "ator": "Emi Thasorn Klinnium",
+          "personagem": "Chan",
+          "link": "/perfil/emi-thasorn"
+        },
+        {
+          "ator": "Bonnie Pattraphus Borattasuwan",
+          "personagem": "Key",
+          "link": "/perfil/bonnie-pattraphus"
+        },
         { "ator": "Film Rachanun Mahawan", "personagem": "Jay" }
       ]
     },
@@ -89,10 +97,6 @@
         {
           "nome": "Post sobre Moonshadow - lezgirlstore",
           "url": "https://x.com/lezgirlstore/status/1993362017474728336"
-        },
-        {
-          "nome": "Us - MyDramaList",
-          "url": "https://mydramalist.com/738599-us/"
         }
       ]
     }

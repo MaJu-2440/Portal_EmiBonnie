@@ -153,11 +153,22 @@ export default function SectionRenderer({ section, indiceList }) {
 
           <div className="toggle-div">
             <ul className="lista">
-              {section.elenco.map((item, index) => (
-                <li key={index}>
-                  {item.ator} como {item.personagem}
-                </li>
-              ))}
+              {section.elenco.map((item, index) => {
+                if (item.link) {
+                  return (
+                    <li key={item.link}>
+                      <Link to={item.link}>{item.ator}</Link> como{" "}
+                      {item.personagem}
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li key={index}>
+                      {item.ator} como {item.personagem}
+                    </li>
+                  );
+                }
+              })}
             </ul>
           </div>
 

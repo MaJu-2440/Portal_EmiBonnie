@@ -25,7 +25,7 @@ export const styleMap = {
   "emi-thasorn": {
     "--destaque-primario": "#a86800",
     "--destaque-secundario": "#ff9d00",
-    "--background-image-mobile": "url(/img/bg_img/emi-bg_mobile.png)",
+    "--background-image-mobile": "url(/img/bg_img/emi-bg_mobile.jpg)",
     "--background-image-tablet": "url(/img/bg_img/emi-bg_tablet.jpg)",
     "--background-image-desktop": "url(/img/bg_img/emi-bg_desktop.jpg)",
   },
